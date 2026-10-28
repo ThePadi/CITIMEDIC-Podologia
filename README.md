@@ -1,46 +1,40 @@
 # Podolog CitiMedic · strona internetowa
 
-Strona gabinetu podologicznego **Podolog CitiMedic** (Gdańsk, ul. dr. Władysława Biegańskiego 10/7 oraz Straszyn, ul. Starogardzka 42, C.H. Kremer).
+Strona gabinetów podologicznych **Podolog CitiMedic** w Gdańsku (ul. dr. Władysława Biegańskiego 10/7) i w Straszynie (ul. Starogardzka 42, lok. 8, C.H. Kremer).
 
 Podgląd: **https://thepadi.github.io/CITIMEDIC-Podologia/**
 
 ## Co jest na stronie
 
-- **Interaktywna stopa** (widok paznokci i podeszwy). Pacjent klika kropkę w miejscu problemu i widzi opis, objawy oraz zabiegi z cennikiem dobrane do tego problemu.
-- **Cennik** 7 zabiegów z przyciskiem „Umów” prowadzącym do kalendarza na ZnanyLekarz.
-- **O nas** i lista specjalizacji gabinetu.
-- Sprzęt, zespół, zdjęcia gabinetu, dwa gabinety z mapami, pytania i odpowiedzi, opinie.
-- Klikalne numery telefonów, link do ZnanyLekarz i Instagrama, pasek „Zadzwoń / Umów online” na telefonie.
+- Przełącznik gabinetu Gdańsk / Straszyn. Telefon, adres, godziny i link do rezerwacji zmieniają się na całej stronie.
+- Rysunek stopy z góry, podeszwy i dłoni z numerami. Kliknięcie numeru albo pozycji z listy pokazuje opis problemu i pasujące zabiegi z cenami.
+- Cennik według kategorii, zespół, gabinet i sterylizacja, opinie, pytania i odpowiedzi, kontakt z mapą.
+- Na telefonie dolny pasek „Zadzwoń” i „Umów”.
 
 ## Struktura
 
 ```
-index.html            cała strona (HTML, CSS i JS w jednym pliku)
-assets/logo-white.svg logo na niebieskim tle
-assets/logo-blue.svg  logo na jasnym tle
-assets/favicon.svg    ikona karty przeglądarki
-assets/og-image.png   obrazek podglądu linku (Messenger, WhatsApp, SMS)
+index.html   cała strona (HTML, CSS i JS w jednym pliku)
+img/         zdjęcia gabinetu i zespołu, logo, favicon, obrazek podglądu linku
+.nojekyll    wyłącza przetwarzanie Jekyll na GitHub Pages
 ```
 
-Strona nie wymaga instalacji ani budowania. Wystarczy otworzyć `index.html` w przeglądarce.
+Strona nie wymaga instalacji ani budowania.
 
-## Dane na stronie
+## Dane
 
 | Element | Wartość |
 |---|---|
-| Kolor marki | `#3A6FB3` |
 | Telefon Gdańsk | 695 082 381 |
 | Telefon Straszyn | 727 169 899 |
-| Rezerwacja | https://www.znanylekarz.pl/placowki/podologia-citimedic |
-| Instagram | https://www.instagram.com/podologcitimedic/ |
+| Rezerwacja Gdańsk | https://booksy.com/pl-pl/134942_podolog-citimedic-hanna-grebla-gdansk_podologia_20383_gdansk |
+| Rezerwacja Straszyn | https://booksy.com/pl-pl/286056_podolog-citimedic-straszyn_podologia_20102_pomorskie |
+| ZnanyLekarz | https://www.znanylekarz.pl/placowki/podologia-citimedic |
 
-Ceny w `index.html` znajdują się w sekcji `PRICE LIST` oraz w obiekcie `SERVICES` w skrypcie (używanym przez interaktywną stopę). Przy zmianie ceny trzeba poprawić oba miejsca.
+Ceny są w skrypcie w `index.html`, w obiekcie `PRICES`. Dane gabinetów (telefon, adres, godziny) są w obiekcie `LOC`.
 
-## Przed uruchomieniem na własnej domenie
+## Przed przeniesieniem na własną domenę
 
-1. Usunąć z `<head>` linię `<meta name="robots" content="noindex, nofollow">`, żeby Google mógł zaindeksować stronę.
-2. Zdjęcia gabinetu są teraz ładowane z profilu ZnanyLekarz. Podmienić je na własne pliki w `assets/`.
-3. Zaktualizować adresy `og:url` i `og:image` na docelową domenę.
-4. Dodać plik `CNAME` z domeną i ustawić rekordy DNS.
-
-Informacje medyczne na stronie mają charakter ogólny i nie zastępują konsultacji ze specjalistą.
+1. Usunąć z `<head>` linię `<meta name="robots" content="noindex, nofollow">`.
+2. Zmienić adresy `og:url` i `og:image` na docelową domenę.
+3. Dodać plik `CNAME` z domeną i ustawić rekordy DNS.

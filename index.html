@@ -1,914 +1,1035 @@
 <!doctype html>
-<html lang="pl">
+<html lang="pl" data-loc="gd">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Podolog CitiMedic · Podolog Gdańsk i Straszyn</title>
-<meta name="description" content="Gabinet podologiczny CitiMedic w Gdańsku, ul. Biegańskiego 10/7, oraz w Straszynie. Wrastające paznokcie, grzybica, odciski, modzele, kurzajki, pękające pięty.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Podolog CitiMedic · podolog Gdańsk i&nbsp;Straszyn</title>
+<meta name="description" content="Gabinety podologiczne CitiMedic na Chełmie w Gdańsku i w Straszynie. Wrastające paznokcie, klamry, paznokcie zmienione chorobowo, odciski, pękające pięty, kurzajki. Cennik, zespół i zapisy w Booksy.">
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#3A6FB3">
-<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-<link rel="apple-touch-icon" href="assets/favicon.svg">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0b1422">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:title" content="Podolog CitiMedic · Gdańsk i Straszyn">
-<meta property="og:description" content="Wrastające paznokcie, grzybica, odciski, modzele, kurzajki, pękające pięty. Wskaż na stopie, gdzie masz problem, i zobacz dobrane zabiegi z cenami.">
-<meta property="og:image" content="https://thepadi.github.io/CITIMEDIC-Podologia/assets/og-image.png">
+<meta property="og:description" content="Gabinety podologiczne na Chełmie w Gdańsku i w Straszynie. Cennik, zespół i zapisy w Booksy.">
 <meta property="og:url" content="https://thepadi.github.io/CITIMEDIC-Podologia/">
-<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://thepadi.github.io/CITIMEDIC-Podologia/img/og.jpg">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Allura&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@600;700;800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"LocalBusiness","@id":"#gdansk","name":"Podolog CitiMedic Gdańsk","description":"Gabinet podologiczny: diagnostyka, terapia i profilaktyka chorób stóp i paznokci.","telephone":"+48695082381","priceRange":"30–420 zł","address":{"@type":"PostalAddress","streetAddress":"ul. dr. Władysława Biegańskiego 10/7","postalCode":"80-807","addressLocality":"Gdańsk","addressCountry":"PL"},"geo":{"@type":"GeoCoordinates","latitude":54.34459,"longitude":18.62306},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"21:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"10:00","closes":"16:00"}],"sameAs":["https://booksy.com/pl-pl/134942_podolog-citimedic-hanna-grebla-gdansk_podologia_20383_gdansk","https://www.znanylekarz.pl/placowki/podologia-citimedic"]},
+{"@type":"LocalBusiness","@id":"#straszyn","name":"Podolog CitiMedic Straszyn","description":"Gabinet podologiczny w C.H. Kremer w Straszynie.","telephone":"+48727169899","address":{"@type":"PostalAddress","streetAddress":"ul. Starogardzka 42, lok. 8","postalCode":"83-010","addressLocality":"Straszyn","addressCountry":"PL"},"geo":{"@type":"GeoCoordinates","latitude":54.27576,"longitude":18.58399},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"20:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"16:00"}],"sameAs":["https://booksy.com/pl-pl/286056_podolog-citimedic-straszyn_podologia_20102_pomorskie"]}
+]}
+</script>
 <style>
 :root{
-  --bg:#F5F8FC;
-  --bg-2:#E9F0F9;
-  --card:#FFFFFF;
-  --ink:#1B2B44;
-  --muted:#5A6A80;
-  --teal:#3A6FB3;
-  --teal-dark:#2C5893;
-  --teal-soft:#E3EDF8;
-  --mint:#D6E4F5;
-  --coral:#3A6FB3;
-  --coral-soft:#E3EDF8;
-  --line:#DCE5F0;
-  --radius:18px;
-  --shadow:0 18px 50px -26px rgba(27,43,68,.30);
+  --bg:#0b1422;--surface:#101c2e;--panel:#12223a;--deep:#070e19;
+  --ink:#e9eef5;--ink2:#a7b3c5;--line:#233450;
+  --acc:#8ab0f0;--acc-h:#a6c3f5;--acc-ink:#0b1422;--acc-soft:#2b4677;--acc-deep:#3a6fd0;
+  --gold:#F5B301;
+  --fd:'Gabarito',ui-sans-serif,system-ui,sans-serif;
+  --fb:'Instrument Sans',ui-sans-serif,system-ui,sans-serif;
+  --hh:64px;--mb:0px;--wrap:1180px;
+  color-scheme:dark;
 }
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--ink);font-family:Manrope,system-ui,sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--hh) + 12px);background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 var(--fb);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
 a{color:inherit}
-img{max-width:100%;display:block}
-.wrap{max-width:1240px;margin:0 auto;padding:0 20px}
-h1,h2,h3{font-family:Jost,sans-serif;font-weight:500;line-height:1.1;letter-spacing:-.01em}
-h2{font-size:clamp(32px,4.4vw,50px)}
-h3{font-size:24px}
-.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--teal)}
-.eyebrow::before{content:"";width:18px;height:2px;background:var(--coral)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 24px;border-radius:999px;font-weight:700;font-size:15px;text-decoration:none;border:0;cursor:pointer;transition:background .2s ease,box-shadow .2s ease,border-color .2s;will-change:transform}
-.btn-primary{background:var(--teal);color:#fff;box-shadow:0 12px 26px -12px rgba(58,111,179,.7)}
-.btn-primary:hover{background:var(--teal-dark)}
-.btn-ghost{background:rgba(255,255,255,.6);color:var(--ink);border:1.5px solid var(--line)}
-.btn-ghost:hover{border-color:var(--ink)}
-.btn svg{width:18px;height:18px}
+button{font:inherit;color:inherit}
+h1,h2,h3{font-family:var(--fd);font-weight:800;line-height:1.04;letter-spacing:-.018em;margin:0;color:var(--ink)}
+h2{font-size:clamp(30px,4.2vw,46px)}
+h3{font-size:21px;line-height:1.15;letter-spacing:-.01em;font-weight:700}
+p{margin:0}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+.skip{position:absolute;left:-9999px;top:8px;z-index:200;background:var(--acc);color:var(--acc-ink);padding:12px 16px;border-radius:10px}
+.skip:focus{left:12px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px;border-radius:8px}
+mark.tbc{background:none;color:inherit}
+[data-review="1"] mark.tbc{background:#FFE45C;color:#0b1422;box-shadow:0 0 0 2px #FFE45C;border-radius:3px}
 
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 22px;border-radius:14px;border:1.5px solid transparent;font:700 16px/1 var(--fd);letter-spacing:.005em;text-decoration:none;cursor:pointer;white-space:nowrap;transition:background-color .25s,border-color .25s,color .25s,transform .15s}
+.btn:active{transform:translateY(1px)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-loc{background:var(--acc);color:var(--acc-ink)}
+.btn-loc:hover{background:var(--acc-h)}
+.btn-line{background:transparent;border-color:var(--line);color:var(--ink)}
+.btn-line:hover{border-color:var(--acc);color:var(--acc)}
+.btn-sm{min-height:44px;padding:0 16px;font-size:15px;border-radius:12px}
+.lnk{display:inline-flex;align-items:center;gap:6px;min-height:44px;font:700 16px var(--fd);color:var(--acc);text-decoration:none}
+.lnk:hover{text-decoration:underline;text-underline-offset:4px}
+.lnk svg{width:18px;height:18px}
 
-/* NAV */
-header{position:sticky;top:0;z-index:50;background:var(--teal);border-bottom:1px solid transparent;transition:border-color .3s}
-header.scrolled{box-shadow:0 6px 24px -12px rgba(27,43,68,.45)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:76px;gap:16px}
-.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
-.logo-svg{display:block;height:46px;width:146px;fill:#fff}
-footer .logo-svg{fill:var(--teal);height:54px;width:171px}
-.nav-links{display:flex;gap:28px;list-style:none}
-.nav-links a{text-decoration:none;font-weight:600;font-size:15px;color:rgba(255,255,255,.82);transition:color .2s}
-.nav-links a:hover{color:#fff}
-.nav .btn{padding:11px 18px}
-.nav .btn-primary{background:#fff;color:var(--teal);box-shadow:none}
-.nav .btn-primary:hover{background:var(--teal-soft)}
-.nav-right{display:flex;align-items:center;gap:8px}
-.icon-btn{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#fff;border:1.5px solid rgba(255,255,255,.45);background:transparent;transition:border-color .2s,background .2s}
-.icon-btn:hover{border-color:#fff;background:rgba(255,255,255,.12)}
-.icon-btn svg{width:20px;height:20px}
-.icon-btn.zl{width:auto;border-radius:999px;padding:0 16px 0 13px;gap:8px;display:flex;align-items:center;font-weight:700;font-size:14px;text-decoration:none}
-@media(max-width:1100px){.icon-btn.zl{width:44px;padding:0;justify-content:center}.icon-btn.zl span{display:none}}
-.zl-link{display:inline-flex;align-items:center;gap:8px;margin-top:6px;font-weight:700;font-size:14px;color:var(--teal);text-decoration:none}
-.zl-link svg{width:18px;height:18px}
-.zl-link:hover{text-decoration:underline}
-@media(max-width:960px){.nav-links{display:none}}
-@media(max-width:420px){.nav .btn span{display:none}.nav .btn{padding:11px}}
+/* ---------- location switch ---------- */
+.sw{position:relative;display:inline-grid;grid-template-columns:1fr 1fr;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:4px;isolation:isolate}
+.sw button{position:relative;z-index:1;min-height:44px;padding:0 18px;border:0;background:none;border-radius:10px;font:700 15px var(--fd);color:var(--ink2);cursor:pointer;transition:color .3s}
+.sw button[aria-checked="true"]{color:var(--acc-ink)}
+.sw .th{position:absolute;z-index:0;top:4px;bottom:4px;left:4px;width:calc(50% - 4px);border-radius:10px;background:var(--acc);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+html[data-loc="st"] .sw .th{transform:translateX(100%)}
+.sw-lg button{min-height:50px;font-size:16px;padding:0 22px}
 
-/* HERO = FOOT FINDER */
-.hero{position:relative;padding:44px 0 90px;background:linear-gradient(180deg,var(--bg-2),var(--bg))}
+/* ---------- header ---------- */
+.hdr{position:sticky;top:0;z-index:60;background:var(--bg);border-bottom:1px solid var(--line)}
+.hdr-in{max-width:1320px;margin:0 auto;height:var(--hh);padding:0 12px 0 16px;display:flex;align-items:center;gap:18px}
+.brand{display:flex;align-items:center;min-height:44px;flex:none}
+.brand img{width:136px;height:auto}
+.tabs{display:none}
+.hdr-act{display:none}
+.burger{margin-left:auto;width:48px;height:48px;border:1px solid var(--line);border-radius:12px;background:var(--panel);display:grid;place-items:center;cursor:pointer;position:relative}
+.burger span{position:absolute;left:12px;width:22px;height:2px;border-radius:2px;background:var(--ink);transition:transform .3s cubic-bezier(.2,.8,.2,1),opacity .2s}
+.burger span:nth-child(1){top:16px}.burger span:nth-child(2){top:22px}.burger span:nth-child(3){top:28px}
+.burger[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+.burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 
-.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr) minmax(0,1.05fr);gap:28px;align-items:start}
-.hero-intro{padding-top:30px}
-.hero-intro h1{font-size:clamp(34px,3.4vw,48px);margin:16px 0 18px}
-.hero-intro h1 em{font-style:italic;color:var(--teal)}
-.hero-intro p{color:var(--muted);font-size:17px;max-width:440px}
-.hero-ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
-.hero-meta{display:flex;flex-direction:column;gap:8px;margin-top:26px;color:var(--muted);font-size:14px;font-weight:600}
-.hero-meta span{display:flex;align-items:center;gap:8px}
-.hero-meta svg{width:18px;height:18px;color:var(--teal);flex:none}
-.fade-up{opacity:0;transform:translateY(16px);animation:fadeUp .8s cubic-bezier(.2,.8,.2,1) forwards}
-@keyframes fadeUp{to{opacity:1;transform:none}}
+/* mobile menu */
+.menu{position:fixed;left:0;right:0;top:var(--hh);z-index:58;background:var(--bg);max-height:calc(100dvh - var(--hh) - var(--mb) - env(safe-area-inset-bottom));overflow-y:auto;overscroll-behavior:contain;padding:14px 20px 16px;clip-path:inset(0 0 100% 0);visibility:hidden;transition:clip-path .22s ease-in,visibility 0s linear .22s;border-bottom:1px solid var(--line)}
+.menu.open{clip-path:inset(0 0 0 0);visibility:visible;transition:clip-path .42s cubic-bezier(.2,.8,.2,1),visibility 0s}
+.menu-dim{position:fixed;inset:var(--hh) 0 0 0;z-index:57;background:rgba(0,0,0,.55);opacity:0;visibility:hidden;transition:opacity .22s,visibility 0s linear .22s}
+.menu-dim.open{opacity:1;visibility:visible;transition:opacity .3s,visibility 0s}
+.menu .sw{display:grid;width:100%;margin-bottom:10px}
+.menu-list{position:relative;list-style:none;margin:0;padding:0 0 0 22px}
+.menu-list::before{content:"";position:absolute;left:5px;top:12px;bottom:12px;width:2px;background:repeating-linear-gradient(to bottom,var(--acc) 0 6px,transparent 6px 14px);transform-origin:top;transform:scaleY(0);transition:transform .2s}
+.menu.open .menu-list::before{transform:scaleY(1);transition:transform .6s cubic-bezier(.2,.8,.2,1) .1s}
+.menu-list li{opacity:0;transform:translateY(10px)}
+.menu.open .menu-list li{opacity:1;transform:none;transition:opacity .3s ease,transform .35s cubic-bezier(.2,.8,.2,1);transition-delay:calc(80ms + var(--i) * 45ms)}
+.menu-list button{width:100%;min-height:54px;display:flex;align-items:center;justify-content:space-between;border:0;border-bottom:1px solid var(--line);background:none;padding:0 4px;font:700 21px var(--fd);text-align:left;cursor:pointer;color:var(--ink)}
+.menu-list button[aria-current="page"]{color:var(--acc)}
+.menu-list button[aria-current="page"]::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--acc)}
 
-/* FOOT */
-.foot-box{position:relative;border-radius:34px;padding:18px 12px 16px;background:var(--card);border:1px solid rgba(231,223,213,.9);box-shadow:var(--shadow)}
-.view-toggle{position:relative;display:flex;background:var(--bg-2);border-radius:999px;padding:4px;width:max-content;margin:0 auto}
-.view-toggle .pill{position:absolute;top:4px;bottom:4px;left:4px;border-radius:999px;background:var(--ink);transition:transform .45s cubic-bezier(.3,1.3,.5,1),width .45s;z-index:0}
-.view-toggle button{position:relative;z-index:1;border:0;background:transparent;font:inherit;font-weight:700;font-size:13px;color:var(--muted);padding:8px 16px;border-radius:999px;cursor:pointer;transition:color .3s}
-.view-toggle button.on{color:#fff}
-.foot-stage{position:relative;margin:6px auto 0;perspective:900px}
-.foot-svg{width:100%;height:auto;max-height:max(440px,calc(100vh - 230px));display:block;overflow:visible;margin:0 auto}
-.foot-view{transition:opacity .5s ease,transform .6s cubic-bezier(.2,.8,.2,1);transform-box:fill-box;transform-origin:center}
-.foot-view.hidden{opacity:0;transform:rotateY(70deg) scale(.92);pointer-events:none}
-.outline-draw{fill:none;stroke:#C48A70;stroke-width:1.6;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.8s .2s cubic-bezier(.6,0,.3,1) forwards}
-@keyframes draw{to{stroke-dashoffset:0}}
-.skin-in{opacity:0;animation:skinIn 1s 1.1s ease forwards}
-@keyframes skinIn{to{opacity:1}}
-.hs{cursor:pointer;outline:none}
-.hs .pop{transform-box:fill-box;transform-origin:center;transform:scale(0);animation:pop .5s cubic-bezier(.3,1.6,.5,1) forwards}
-@keyframes pop{to{transform:scale(1)}}
-.hs .ring{fill:var(--coral);opacity:.35;transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
-.hs .core{fill:var(--coral);stroke:#fff;stroke-width:2.5;transition:r .2s, fill .25s}
-.hs:hover .core,.hs:focus-visible .core{r:9.5}
-.hs.active .core{fill:var(--ink);r:10}
-.hs.active .ring{fill:var(--ink);opacity:.35}
-.hs:focus-visible .core{stroke:var(--ink)}
-@keyframes pulse{0%{transform:scale(.6);opacity:.55}100%{transform:scale(2.6);opacity:0}}
-.foot-label{text-align:center;font-family:Jost,sans-serif;font-size:24px;font-weight:600;margin:16px 0 0;line-height:1.2}
-.foot-label span{display:block;font-family:Manrope,sans-serif;font-size:13px;font-weight:700;color:var(--coral);margin-top:4px}
-.foot-hint{text-align:center;font-size:12.5px;color:var(--muted);font-weight:600;margin-top:4px}
-
-.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:22px}
-.chips-title{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);margin-top:28px}
-.chip{border:1.5px solid var(--line);background:rgba(255,255,255,.75);font:inherit;font-size:12.5px;font-weight:700;color:var(--ink);padding:7px 12px;border-radius:999px;cursor:pointer;transition:all .2s}
-.chip:hover{border-color:var(--teal);color:var(--teal)}
-.chip.on{background:var(--teal);border-color:var(--teal);color:#fff}
-
-.panel{position:relative;background:var(--card);border-radius:30px;border:1px solid var(--line);padding:30px;min-height:600px;box-shadow:var(--shadow);scroll-margin-top:90px;overflow:hidden}
-.panel-empty{min-height:530px;display:flex;flex-direction:column;justify-content:center;gap:18px}
-.panel-empty .big-dot{width:64px;height:64px;border-radius:50%;background:var(--coral-soft);display:grid;place-items:center}
-.panel-empty .big-dot i{width:20px;height:20px;border-radius:50%;background:var(--coral);animation:breathe 2s ease-in-out infinite}
-@keyframes breathe{50%{box-shadow:0 0 0 12px rgba(58,111,179,.15)}}
-.panel-empty h3{font-size:32px}
-.panel-empty p{color:var(--muted)}
-.panel-empty ol{list-style:none;display:grid;gap:10px;margin-top:6px}
-.panel-empty li{display:flex;gap:12px;align-items:center;font-weight:600;font-size:15px}
-.panel-empty li b{width:28px;height:28px;border-radius:50%;background:var(--teal-soft);color:var(--teal-dark);display:grid;place-items:center;font-size:13px;flex:none}
-.p-area{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--coral);background:var(--coral-soft);padding:6px 12px;border-radius:999px}
-.p-title{font-size:clamp(28px,3vw,36px);margin:14px 0 10px}
-.p-desc{color:var(--muted);font-size:15px}
-.p-sym{margin-top:16px;padding:14px 16px;border-radius:16px;background:var(--bg);font-size:14.5px}
-.p-sym b{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);margin-bottom:4px}
-.p-sub{margin:22px 0 10px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
-.p-list{display:grid;gap:9px}
-.p-item{display:grid;grid-template-columns:36px 1fr;gap:12px;padding:12px 14px;border-radius:16px;border:1.5px solid var(--line);align-items:start;opacity:0;transform:translateX(16px);animation:slideIn .5s cubic-bezier(.2,.8,.2,1) forwards}
-.p-item:nth-child(2){animation-delay:.08s}.p-item:nth-child(3){animation-delay:.16s}
-@keyframes slideIn{to{opacity:1;transform:none}}
-.p-item .n{width:36px;height:36px;border-radius:12px;background:var(--teal);color:#fff;display:grid;place-items:center;font-weight:800;font-size:14px}
-.p-item b{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:15.5px}
-.p-item .p-price{font-style:normal;font-weight:700;font-size:14px;color:var(--teal);white-space:nowrap}
-.p-item span{font-size:13.5px;color:var(--muted);line-height:1.5}
-.p-note{margin-top:12px;font-size:12.5px;color:var(--muted);display:flex;gap:9px;align-items:flex-start;line-height:1.5}
-.p-note svg{flex:none;width:16px;height:16px;color:var(--coral);margin-top:2px}
-.p-ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
-.panel-body{animation:fadeUp .4s ease}
-@media(max-width:1100px){
-  .hero-grid{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}
-  .hero-intro{grid-column:1/-1;display:grid;grid-template-columns:1.2fr 1fr;gap:10px 40px;align-items:end}
-  .hero-intro .chips-wrap{grid-column:2;grid-row:1/span 3}
-}
-@media(max-width:760px){
-  .hero{padding:26px 0 50px}
-  .hero-grid{grid-template-columns:1fr}
-  .hero-intro{display:contents}
-  .hero-intro>div:first-child{order:1;padding-top:10px}
-  .foot-box{order:2}
-  .hero-intro .chips-wrap{order:3;grid-column:auto;grid-row:auto}
-  .chips-wrap .chips-title{margin-top:0}
-  .panel{order:4}
-  .panel{min-height:0;padding:24px}.panel-empty{min-height:0}
-  .foot-svg{max-height:58vh}
+@media (min-width:1180px){
+  :root{--hh:78px}
+  .hdr-in{padding:0 24px;gap:22px}
+  .brand img{width:150px}
+  .burger,.menu,.menu-dim{display:none}
+  .tabs{display:flex;position:relative;gap:2px;margin:0 auto}
+  .tabs button{position:relative;min-height:46px;padding:0 13px;border:0;background:none;border-radius:10px;font:600 16px var(--fd);color:var(--ink2);cursor:pointer;white-space:nowrap}
+  .tabs button:hover{color:var(--ink);background:var(--surface)}
+  .tabs button[aria-current="page"]{color:var(--ink)}
+  .tab-ind{position:absolute;left:0;bottom:-2px;height:3px;border-radius:3px;background:var(--acc);transition:transform .32s cubic-bezier(.2,.8,.2,1),width .32s cubic-bezier(.2,.8,.2,1);pointer-events:none}
+  .hdr-act{display:flex;align-items:center;gap:10px;flex:none}
 }
 
+/* ---------- panels & transitions ---------- */
+main{overflow-x:clip}
+.panel{display:none}
+.panel.on{display:block;animation:pin .32s cubic-bezier(.2,.8,.2,1)}
+@keyframes pin{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.trail{height:2px;background:var(--acc);transform-origin:left;transform:scaleX(0);opacity:0}
+.trail.go{animation:trail .6s cubic-bezier(.2,.8,.2,1)}
+@keyframes trail{0%{transform:scaleX(0);opacity:1}70%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
+.sec{padding:44px 0}
+.sec-h{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;margin-bottom:24px}
+.sec-h p{max-width:560px;color:var(--ink2);font-size:17px}
+.lead{font-size:18px;color:var(--ink2);max-width:620px}
+.subnav{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px}
+.subnav button{min-height:44px;padding:0 16px;border-radius:12px;border:1.5px solid var(--line);background:var(--surface);font:700 15px var(--fd);color:var(--ink2);cursor:pointer;transition:border-color .25s,background-color .25s,color .25s}
+.subnav button:hover{border-color:var(--acc);color:var(--ink)}
+.subnav button[aria-selected="true"]{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.sub{display:none}
+.sub.on{display:block;animation:pin .3s cubic-bezier(.2,.8,.2,1)}
 
-
-/* SECTION */
-section{padding:90px 0}
-.section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:46px;flex-wrap:wrap}
-.section-head h2{margin-top:12px;max-width:640px}
-.section-head p{color:var(--muted);max-width:420px}
-
-/* PRICE LIST */
-.prices{background:var(--card);border:1px solid var(--line);border-radius:24px;overflow:hidden}
-.price-row{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:24px;align-items:center;padding:22px 26px;border-top:1px solid var(--line)}
-.price-row:first-child{border-top:0}
-.price-row h3{font-size:20px;font-weight:500}
-.price-row p{color:var(--muted);font-size:14.5px;margin-top:2px}
-.price{font-weight:700;font-size:16px;white-space:nowrap;color:var(--ink)}
-.price-row .btn{padding:11px 22px}
-.price-note{margin-top:16px;color:var(--muted);font-size:14px}
-@media(max-width:640px){
-  .price-row{grid-template-columns:1fr auto;gap:10px 16px;padding:18px}
-  .price-row .btn{grid-column:1/-1;justify-self:start}
+/* ---------- START ---------- */
+.hero{padding:22px 0 30px}
+.hero-g{display:grid;gap:26px}
+.hero h1{font-size:clamp(36px,7.6vw,66px);margin:18px 0 14px;max-width:11.5em}
+.hero .lead{margin-bottom:22px}
+.cta{display:flex;flex-wrap:wrap;gap:10px}
+.cta .btn{flex:1 1 auto}
+.today{display:flex;align-items:center;gap:10px;margin-top:16px;font-size:15px;color:var(--ink2);min-height:24px}
+.dot{width:10px;height:10px;border-radius:50%;background:#5d6f8c;flex:none}
+.dot.open{background:#3ccf86;box-shadow:0 0 0 4px rgba(60,207,134,.18)}
+.today b{color:var(--ink);font-weight:600}
+.photo{margin:0 8px 0 0}
+.ph-img{position:relative}
+.ph-img::before{content:"";position:absolute;inset:14px -8px -12px 14px;border-radius:26px;background:var(--acc)}
+.ph-img img{position:relative;width:100%;aspect-ratio:16/10.4;object-fit:cover;object-position:50% 30%;border-radius:24px}
+.photo figcaption{margin-top:22px;font-size:14px;color:var(--ink2)}
+.doors{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}
+.door{position:relative;display:flex;flex-direction:column;justify-content:space-between;min-height:150px;padding:18px 16px 16px;border-radius:20px;text-decoration:none;cursor:pointer;border:1px solid var(--line);text-align:left;overflow:hidden;background:var(--panel);color:var(--ink);transition:transform .2s,border-color .2s}
+.door:hover{transform:translateY(-3px);border-color:var(--acc)}
+.door b{font:800 22px/1.05 var(--fd);letter-spacing:-.01em}
+.door span{font-size:14px;line-height:1.35;margin-top:8px;color:var(--ink2)}
+.door i{position:absolute;right:14px;top:14px;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--acc-soft);color:var(--acc)}
+.door i svg{width:18px;height:18px}
+.d1{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.d1 span{color:#22324d}
+.d1 i{background:rgba(11,20,34,.12);color:var(--acc-ink)}
+.proof{background:var(--panel);border:1px solid var(--line);border-radius:28px;padding:26px 20px;margin-top:34px;display:grid;gap:18px}
+.score{display:flex;align-items:center;gap:16px}
+.score .big{font:800 64px/0.9 var(--fd);letter-spacing:-.03em}
+.stars{display:flex;gap:3px}
+.stars svg{width:20px;height:20px;fill:var(--gold)}
+.score p{font-size:15px;color:var(--ink2);margin-top:6px}
+.score p b{color:var(--ink)}
+.quotes{display:grid;gap:12px}
+.q{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:18px}
+.q p{font-size:16px}
+.q .who{margin-top:10px;font-size:14px;color:var(--ink2)}
+.q .who b{color:var(--ink);font-weight:600}
+@media (min-width:760px){.doors{grid-template-columns:repeat(4,1fr)}.quotes{grid-template-columns:1fr 1fr}}
+@media (min-width:1000px){
+  .hero{padding:46px 0 34px}
+  .hero-g{grid-template-columns:1.02fr .98fr;align-items:center;gap:56px}
+  .cta .btn{flex:0 0 auto}
+  .proof{grid-template-columns:auto 1fr;align-items:center;padding:34px 36px;gap:34px}
 }
 
-/* ABOUT */
-.about{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:start}
-.about-text h2{margin:12px 0 20px}
-.about-text p{color:var(--muted);margin-bottom:14px;max-width:640px}
-.about-spec{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:28px}
-.about-spec h3{font-size:22px;margin-bottom:16px}
-.about-spec ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
-.about-spec li{font-size:13.5px;font-weight:600;padding:7px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal-dark)}
-@media(max-width:900px){.about{grid-template-columns:1fr;gap:28px}}
+/* ---------- FINDER ---------- */
+.fd{display:grid;gap:20px}
+.fd-map{position:relative;border-radius:28px;padding:16px 16px 18px;background:radial-gradient(120% 60% at 50% 0%,#1a3156 0%,var(--panel) 55%,#0f1d33 100%);border:1px solid var(--line)}
+.views{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:14px;padding:4px}
+.views button{min-height:44px;border:0;border-radius:10px;background:none;font:700 15px var(--fd);color:var(--ink2);cursor:pointer;transition:background-color .25s,color .25s}
+.views button[aria-selected="true"]{background:var(--acc);color:var(--acc-ink)}
+.fig{position:relative;display:flex;justify-content:center;padding:10px 0 4px}
+.fig svg.ft{width:min(252px,64vw);height:auto;overflow:visible}
+.fig svg[hidden]{display:none}
+.fa{stop-color:#22385c}.fb{stop-color:#15243a}
+.ft-glow *{fill:none;stroke:var(--acc);stroke-width:5;opacity:.28}
+.ft-glow{filter:url(#fglow)}
+.ft-st *{fill:none;stroke:#86a8df;stroke-width:3.4;stroke-linejoin:round}
+.ft-fl *{stroke:none}
+.nl{fill:#2a4470;stroke:#9dbbec;stroke-width:1.3}
+.pad{fill:#2a4470;opacity:.55}
+.arch{fill:none;stroke:#86a8df;stroke-width:1.4;stroke-dasharray:2 6;stroke-linecap:round;opacity:.7}
+.mk{cursor:pointer;outline:none}
+.mk-hit{fill:transparent;cursor:pointer}
+.mk-ring{fill:none;stroke:var(--acc);stroke-width:1.4;opacity:0;transform-box:fill-box;transform-origin:center}
+.mk-b{fill:var(--bg);stroke:var(--acc);stroke-width:1.6;transition:fill .2s}
+.mk text{fill:var(--ink);font:700 13px var(--fd);text-anchor:middle;dominant-baseline:central;pointer-events:none;transition:fill .2s}
+.mk:hover .mk-b,.mk:focus-visible .mk-b{fill:var(--acc-soft)}
+.mk.on .mk-b{fill:var(--acc)}
+.mk.on text{fill:var(--acc-ink)}
+.mk.on .mk-ring{opacity:.6;animation:ring 1.8s ease-out infinite}
+@keyframes ring{0%{transform:scale(.7);opacity:.7}100%{transform:scale(1.35);opacity:0}}
+.fig-tip{text-align:center;font-size:14px;color:var(--ink2);margin-top:2px}
+.pick-l{font-size:15px;color:var(--ink2);margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:0 14px 0 8px;border-radius:12px;border:1.5px solid var(--line);background:var(--surface);font:600 15px var(--fb);color:var(--ink);cursor:pointer;text-align:left;transition:border-color .2s,background-color .2s,color .2s}
+.chip .cn{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;border:1.5px solid var(--acc);font:700 13px var(--fd);color:var(--ink)}
+.chip:hover{border-color:var(--acc)}
+.chip[aria-pressed="true"]{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.chip[aria-pressed="true"] .cn{background:var(--acc-ink);border-color:var(--acc-ink);color:var(--acc)}
+.res{margin-top:18px;border:1px solid var(--line);border-radius:24px;padding:20px 18px;background:var(--panel)}
+.res h3{font-size:26px;margin-bottom:8px}
+.res .sym{color:var(--ink2);font-size:16px}
+.res .what{margin-top:12px;font-size:16px}
+.opts{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 4px}
+.opts button{min-height:46px;padding:0 14px;border-radius:11px;border:1.5px solid var(--line);background:var(--surface);font:700 15px var(--fd);color:var(--ink2);cursor:pointer}
+.opts button[aria-pressed="true"]{border-color:var(--acc);background:var(--acc-soft);color:var(--ink)}
+.opt-l{font:600 14px var(--fb);color:var(--ink2);margin-top:14px}
+.tot{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin:14px 0 4px;padding:14px 16px;border-radius:16px;background:var(--acc-soft)}
+.tot b{font:800 34px/1 var(--fd);letter-spacing:-.02em;color:var(--ink)}
+.tot span{font-size:15px;color:#c9d6ea}
+.plist{list-style:none;margin:14px 0 0;padding:0;border-top:1px solid var(--line)}
+.plist li{display:grid;grid-template-columns:1fr auto;gap:2px 14px;padding:11px 0;border-bottom:1px solid var(--line)}
+.plist .pn{font-weight:600}
+.plist .pt{grid-column:1;font-size:14px;color:var(--ink2)}
+.plist .pp{grid-row:1/span 2;grid-column:2;align-self:center;font:700 17px var(--fd);white-space:nowrap}
+.res .more{margin-top:12px;font-size:15px;color:var(--ink2)}
+.res .more b{color:var(--ink)}
+.res .prep{margin-top:14px;padding:14px 16px;border-radius:16px;background:var(--surface);border-left:3px solid var(--acc);font-size:15px;color:var(--ink2)}
+.res .prep b{display:block;font:700 16px var(--fd);margin-bottom:4px;color:var(--ink)}
+.res .acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.res .acts .btn{flex:1 1 200px}
+.only{display:inline-block;font:700 13px var(--fb);letter-spacing:.02em;text-transform:uppercase;padding:3px 8px;border-radius:7px;background:var(--acc-soft);color:var(--acc);vertical-align:middle;margin-left:6px}
+@media (min-width:1000px){
+  .fd{grid-template-columns:400px 1fr;align-items:start;gap:34px}
+  .fd-map{position:sticky;top:calc(var(--hh) + 20px);padding:20px}
+  .fig svg.ft{width:300px}
+  .res{padding:26px 28px}
+}
 
-/* WHY */
-.why{background:var(--teal);color:#fff;border-radius:36px;margin:0 20px;padding:80px 0;position:relative;overflow:hidden}
-.why .eyebrow{color:#fff}
-.why .eyebrow::before{background:#fff}
-.why .section-head p{color:rgba(255,255,255,.85)}
-.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.why-item{border:1px solid rgba(255,255,255,.28);border-radius:var(--radius);padding:26px;transition:background .3s,border-color .3s}
-.why-item:hover{background:rgba(255,255,255,.06)}
-.why-item .ic{width:46px;height:46px;border-radius:14px;background:rgba(255,255,255,.16);display:grid;place-items:center;margin-bottom:18px}
-.why-item .ic svg{width:24px;height:24px;color:var(--mint)}
-.why-item h3{font-size:21px;margin-bottom:8px}
-.why-item p{font-size:15px;color:rgba(255,255,255,.85)}
-.team{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
-.person{display:flex;align-items:center;gap:16px;padding:18px;border-radius:var(--radius);background:rgba(255,255,255,.12)}
-.avatar{width:54px;height:54px;border-radius:50%;background:#fff;color:var(--teal);display:grid;place-items:center;font-family:Jost,sans-serif;font-weight:700;font-size:20px;flex:none}
-.person b{display:block}
-.person span{font-size:13px;color:rgba(255,255,255,.8)}
-@media(max-width:1000px){.why-grid{grid-template-columns:1fr 1fr}.team{grid-template-columns:1fr}}
-@media(max-width:600px){.why-grid{grid-template-columns:1fr}.why{margin:0 10px;border-radius:28px;padding:60px 0}}
+/* ---------- PRICE LIST ---------- */
+.pcat{margin-bottom:30px}
+.pcat h3{font-size:24px;margin-bottom:6px}
+.prow{border-bottom:1px solid var(--line)}
+.prow > summary,.prow > .ph{list-style:none;display:grid;grid-template-columns:1fr auto;gap:2px 16px;padding:14px 0;cursor:pointer}
+.prow > .ph{cursor:default}
+.prow > summary::-webkit-details-marker{display:none}
+.prow .nm{font-weight:600;font-size:16px}
+.prow .tm{grid-column:1;font-size:14px;color:var(--ink2)}
+.prow .pr{grid-row:1/span 2;grid-column:2;align-self:center;font:700 18px var(--fd);white-space:nowrap;display:flex;align-items:center;gap:10px}
+.prow summary .pr::after{content:"";width:10px;height:10px;border-right:2.5px solid var(--acc);border-bottom:2.5px solid var(--acc);transform:rotate(45deg) translateY(-3px);transition:transform .25s}
+.prow[open] summary .pr::after{transform:rotate(-135deg) translateY(-2px)}
+.prow .bd{padding:0 0 16px;font-size:15px;color:var(--ink2)}
+.prow .bd ul{list-style:none;margin:10px 0 0;padding:0}
+.prow .bd li{display:flex;justify-content:space-between;gap:14px;padding:8px 12px;border-radius:10px;background:var(--surface);margin-top:6px;color:var(--ink)}
+.prow .bd li span:last-child{font-weight:700;white-space:nowrap}
+.prow.dim .nm,.prow.dim .pr{opacity:.5}
+.pnote{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;padding:16px 18px;border-radius:18px;background:var(--panel);border:1px solid var(--line);margin-bottom:24px}
+.pnote p{font-size:15px;color:var(--ink2);max-width:640px}
+.pnote p b{color:var(--ink)}
+@media (min-width:1000px){.pgrid{display:grid;grid-template-columns:1fr 1fr;gap:0 48px}}
 
-/* GALLERY */
-.gallery{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:16px}
-.gallery figure{border-radius:var(--radius);overflow:hidden;background:var(--bg-2);aspect-ratio:4/3}
-.gallery figure:first-child{grid-row:span 2;aspect-ratio:auto}
-.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.8,.2,1)}
-.gallery figure:hover img{transform:scale(1.05)}
-.gallery .g-note{border-radius:var(--radius);background:var(--teal);color:#fff;padding:34px 26px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;grid-column:span 2;text-align:center}
-.g-logo{width:min(320px,80%);aspect-ratio:275/87;fill:#fff}
-.gallery .g-note b{font-family:Jost,sans-serif;font-size:26px;line-height:1.1}
-.gallery .g-note span{font-size:14px;opacity:.85;margin-top:6px}
-@media(max-width:800px){.gallery{grid-template-columns:1fr 1fr}.gallery figure:first-child{grid-column:span 2;grid-row:auto;aspect-ratio:16/10}}
+/* ---------- VISIT ---------- */
+.steps{display:grid;gap:12px;counter-reset:s;margin-top:6px}
+.step{position:relative;padding:20px 18px 20px 72px;border-radius:22px;background:var(--panel);border:1px solid var(--line)}
+.step::before{counter-increment:s;content:counter(s);position:absolute;left:18px;top:18px;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--acc);color:var(--acc-ink);font:800 20px var(--fd)}
+.step h3{margin-bottom:6px}
+.step p{font-size:15.5px;color:var(--ink2)}
+.step p b{color:var(--ink)}
+.wide-ph{margin:30px 0 0}
+.wide-ph img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:24px}
+.wide-ph figcaption{font-size:14px;color:var(--ink2);margin-top:8px}
+.faq{margin-top:12px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:60px;padding:12px 0;font:700 18px/1.25 var(--fd);cursor:pointer}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";flex:none;width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--panel);border:1px solid var(--line);font:700 22px/1 var(--fd);color:var(--acc);transition:transform .25s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .a{padding:0 0 18px;color:var(--ink2);font-size:16px;max-width:720px}
+.faq .a ul{margin:6px 0 0;padding-left:20px}
+.cols2{display:grid;gap:34px}
+@media (min-width:1000px){.steps{grid-template-columns:repeat(4,1fr)}.step{padding:76px 20px 22px}.cols2{grid-template-columns:1fr 1fr;gap:56px}}
 
-/* LOCATIONS */
-.loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.loc{background:var(--card);border:1px solid var(--line);border-radius:30px;overflow:hidden;display:flex;flex-direction:column}
-.loc iframe{width:100%;height:260px;border:0;filter:saturate(.75)}
-.loc-body{padding:28px;display:flex;flex-direction:column;gap:6px;flex:1}
-.loc-body .tag{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--coral)}
-.loc-body h3{font-size:28px}
-.loc-body p{color:var(--muted)}
-.loc-body .row{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
-@media(max-width:800px){.loc-grid{grid-template-columns:1fr}}
+/* ---------- TEAM ---------- */
+.owner{display:grid;gap:18px;align-items:center;padding:20px;border-radius:28px;background:var(--acc-soft);margin-bottom:30px}
+.owner img{width:120px;height:120px;border-radius:50%;object-fit:cover;object-position:50% 25%;border:3px solid var(--acc)}
+.owner blockquote{margin:0;font:700 22px/1.25 var(--fd);letter-spacing:-.01em;color:var(--ink)}
+.owner .nm{margin-top:10px;font-size:15px;color:#c9d6ea}
+.owner .nm b{color:var(--ink);font-weight:600}
+.story{display:grid;gap:14px;margin-bottom:30px}
+.story p{font-size:17px;color:var(--ink2);max-width:720px}
+.story p b{color:var(--ink)}
+.tfilter{margin-bottom:18px}
+.team{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.mem{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:14px 14px 16px}
+.mem img{width:100%;aspect-ratio:1;object-fit:cover;object-position:50% 22%;border-radius:16px}
+.mem h3{font-size:17px;margin-top:12px}
+.mem .rl{font-size:13.5px;color:var(--ink2);margin-top:3px}
+.mem .qq{font-size:14px;margin-top:8px;color:var(--ink)}
+.mem .at{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px}
+.mem .at span{font:700 13px var(--fb);padding:3px 8px;border-radius:7px;background:var(--surface);color:var(--acc)}
+.mem[hidden]{display:none}
+.kit{display:grid;gap:12px;grid-template-columns:1fr 1fr}
+.kit figure{margin:0}
+.kit img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:20px}
+.kit figcaption{font-size:14px;color:var(--ink2);margin-top:6px}
+.kit .k3{grid-column:1/-1}
+.kit .k3 img{aspect-ratio:16/10}
+.eq{list-style:none;margin:20px 0 0;padding:0;display:grid;gap:8px}
+.eq li{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:14px;background:var(--panel);border:1px solid var(--line);font-weight:600}
+.eq li svg{width:22px;height:22px;flex:none;color:var(--acc)}
+@media (min-width:760px){.team{grid-template-columns:repeat(3,1fr)}.owner{grid-template-columns:auto 1fr;padding:26px 30px}}
+@media (min-width:1000px){.team{grid-template-columns:repeat(4,1fr);gap:16px}.owner img{width:150px;height:150px}.kit{grid-template-columns:repeat(3,1fr)}.kit .k3{grid-column:auto}.kit .k3 img{aspect-ratio:4/5}}
 
-/* FAQ */
-.faq{max-width:820px}
-details{border-bottom:1px solid var(--line);padding:22px 0}
-summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;font-weight:700;font-size:18px}
-summary::-webkit-details-marker{display:none}
-summary i{width:34px;height:34px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;flex:none;transition:transform .3s,background .3s}
-summary i::before{content:"+";font-style:normal;font-size:20px;line-height:1}
-details[open] summary i{transform:rotate(45deg);background:var(--teal-soft);border-color:transparent}
-details p{color:var(--muted);margin-top:12px;max-width:680px;animation:fadeUp .4s ease}
+/* ---------- REVIEWS ---------- */
+.rtop{display:grid;gap:14px;margin-bottom:24px}
+.rbox{border-radius:24px;padding:20px;background:var(--panel);border:1px solid var(--line)}
+.rbox .big{font:800 56px/0.9 var(--fd);letter-spacing:-.03em}
+.rbox p{font-size:15px;color:var(--ink2);margin-top:8px}
+.rbox p b{color:var(--ink)}
+.rbox .lnk{margin-top:6px}
+.rbox.acc{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.rbox.acc .big,.rbox.acc p,.rbox.acc p b,.rbox.acc .lnk{color:var(--acc-ink)}
+.rev{display:grid;gap:12px}
+.rev .q .stars{margin-bottom:10px}
+@media (min-width:760px){.rtop{grid-template-columns:1.4fr 1fr}.rev{grid-template-columns:1fr 1fr}}
+@media (min-width:1000px){.rev{grid-template-columns:repeat(3,1fr)}}
 
-/* REVIEWS (bottom) */
-.reviews{display:grid;grid-template-columns:.9fr 1.1fr;gap:20px;align-items:stretch}
-.rev-big{position:relative;background:var(--card);border:1px solid var(--line);border-radius:30px;padding:36px;display:flex;flex-direction:column;justify-content:space-between;gap:26px;overflow:hidden}
-.rev-big .score{display:flex;align-items:flex-end;gap:14px}
-.rev-big .score b{font-family:Jost,sans-serif;font-size:72px;line-height:.85}
-.stars{color:#E9A93A;letter-spacing:2px;font-size:20px}
-.rev-big small{display:block;color:var(--muted);font-weight:600;font-size:14px}
-.rev-big blockquote{font-family:Jost,sans-serif;font-size:clamp(22px,2.4vw,30px);line-height:1.25}
-.rev-big cite{font-style:normal;color:var(--muted);font-weight:600;font-size:14px}
-.rev-themes{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.theme{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
-.theme b{font-family:Jost,sans-serif;font-size:21px;display:block;margin-bottom:6px}
-.theme p{font-size:15px;color:var(--muted)}
-.theme.accent{background:var(--teal-soft);border-color:transparent}
-@media(max-width:900px){.reviews{grid-template-columns:1fr}}
-@media(max-width:520px){.rev-themes{grid-template-columns:1fr}}
+/* ---------- CONTACT ---------- */
+.locs{display:grid;gap:16px}
+.lcard{border-radius:26px;padding:22px 20px;border:1px solid var(--line);background:var(--panel);transition:border-color .35s,box-shadow .35s}
+.lcard.cur{border-color:var(--acc);box-shadow:0 0 0 3px var(--acc-soft)}
+.lcard h3{font-size:28px}
+.lcard .ad{margin-top:8px;font-size:16px}
+.lcard .ad span{display:block;color:var(--ink2);font-size:15px}
+.feat{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.feat span{display:inline-flex;align-items:center;gap:6px;font:600 14px var(--fb);padding:6px 10px;border-radius:9px;background:var(--surface);color:var(--ink)}
+.feat svg{width:16px;height:16px;color:var(--acc)}
+.hrs{width:100%;border-collapse:collapse;margin-top:14px;font-size:15px}
+.hrs td{padding:7px 10px;border-bottom:1px solid var(--line)}
+.hrs td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+.hrs tr.td{background:var(--acc-soft);font-weight:700}
+.hrs tr.td td:first-child{border-radius:9px 0 0 9px}.hrs tr.td td:last-child{border-radius:0 9px 9px 0}
+.lacts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:16px}
+.lacts .btn{padding:0 12px}
+.lacts .full{grid-column:1/-1}
+.map{margin-top:14px;border-radius:18px;overflow:hidden;background:var(--surface);border:1px solid var(--line);min-height:220px;display:grid;place-items:center;position:relative}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.map .mph{padding:18px;text-align:center;font-size:15px;color:var(--ink2)}
+.firm{margin-top:24px;font-size:14px;color:var(--ink2)}
+@media (min-width:1000px){.locs{grid-template-columns:1fr 1fr;gap:22px}.lcard{padding:28px}}
 
-/* CTA + FOOTER */
-.cta-band{background:var(--ink);color:#fff;border-radius:36px;padding:64px 56px;display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap;position:relative;overflow:hidden}
-.cta-band::after{content:"";position:absolute;right:-60px;top:-60px;width:260px;height:260px;border-radius:50%;background-image:radial-gradient(rgba(255,255,255,.22) 2px,transparent 2px);background-size:18px 18px}
-.cta-band h2{max-width:560px}
-.cta-band .btn-primary{background:#fff;color:var(--ink);box-shadow:none;position:relative;z-index:1}
-.cta-band .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.4);position:relative;z-index:1}
-@media(max-width:600px){.cta-band{padding:44px 26px;border-radius:28px}}
-footer{padding:60px 0 40px;color:var(--muted);font-size:14px}
-.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;padding-bottom:36px;border-bottom:1px solid var(--line)}
-.foot-grid h4{color:var(--ink);font-size:14px;margin-bottom:12px}
-.foot-grid ul{list-style:none;display:grid;gap:8px}
-.foot-grid a{text-decoration:none}
-.foot-grid a:hover{color:var(--ink)}
-.foot-bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:22px;font-size:13px}
-@media(max-width:800px){.foot-grid{grid-template-columns:1fr 1fr}}
+/* ---------- footer & bottom bar ---------- */
+.foot{background:var(--deep);border-top:1px solid var(--line);color:var(--ink2);padding:34px 0 calc(26px + var(--mb) + env(safe-area-inset-bottom));margin-top:40px}
+.foot-g{display:grid;gap:22px}
+.foot img{width:150px}
+.foot h4{margin:0 0 6px;font:700 17px var(--fd);color:var(--ink)}
+.foot p,.foot a{font-size:15px}
+.foot a{display:inline-flex;align-items:center;min-height:44px;color:var(--ink);text-decoration:none}
+.foot a:hover{color:var(--acc)}
+.foot small{display:block;margin-top:22px;font-size:13px;color:#8796ad}
+@media (min-width:760px){.foot-g{grid-template-columns:1.2fr 1fr 1fr}}
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:55;display:grid;grid-template-columns:auto 1fr 1.25fr;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--bg);border-top:1px solid var(--line)}
+.mbar .btn{min-height:48px;padding:0 12px;font-size:15px;gap:8px}
+.mbar .tg{display:inline-flex;align-items:center;gap:7px;min-height:48px;padding:0 12px;border-radius:14px;border:1.5px solid var(--acc);background:var(--acc-soft);font:800 15px var(--fd);color:var(--ink);cursor:pointer}
+.mbar .tg svg{width:18px;height:18px;color:var(--acc)}
+@media (min-width:1180px){.mbar{display:none}}
+@media (max-width:1179px){:root{--mb:69px}}
 
-.callbar{position:fixed;left:12px;right:12px;bottom:12px;z-index:60;display:none;gap:8px}
-.callbar a{flex:1}
-.callbar .btn-ghost{background:#fff}
-@media(max-width:700px){.callbar{display:flex}body{padding-bottom:76px}}
-
-.reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1)}
-.reveal.in{opacity:1;transform:none}
-@media(prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;animation-iteration-count:1!important;transition:none!important}
-  .reveal,.fade-up{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
 }
 </style>
 </head>
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="logo-citimedic" viewBox="0 0 275 87"><path fill-rule="evenodd" d="M180.25 69.00 L179.62 69.00 L179.12 69.38 L179.12 69.62 L179.00 69.75 L179.00 71.00 L178.88 71.12 L178.88 71.88 L178.75 72.00 L178.75 72.62 L178.62 72.75 L178.62 73.38 L178.50 73.50 L178.50 74.25 L178.38 74.38 L178.38 74.88 L178.25 75.00 L178.25 75.88 L178.12 76.00 L178.12 77.25 L178.00 77.38 L178.00 78.50 L177.88 78.62 L177.75 80.75 L177.62 80.88 L177.62 81.38 L177.38 82.00 L177.38 82.25 L177.62 82.75 L177.88 82.88 L178.50 82.88 L178.88 82.62 L179.00 82.38 L179.00 81.50 L179.12 81.38 L179.12 80.88 L179.25 80.75 L179.25 80.38 L179.50 79.75 L179.50 79.25 L179.62 79.12 L179.62 78.38 L179.75 78.25 L179.75 76.75 L179.88 76.62 L179.88 75.25 L180.00 75.12 L180.00 74.50 L180.12 74.38 L180.25 72.62 L180.38 72.50 L180.38 72.00 L180.50 71.88 L180.62 70.75 L180.75 70.62 L180.75 69.38ZM114.88 69.00 L114.25 69.00 L113.75 69.50 L113.75 70.25 L113.62 70.38 L113.62 70.88 L113.38 71.38 L113.38 72.00 L113.25 72.12 L113.25 72.75 L113.12 72.88 L113.00 75.38 L112.88 75.50 L112.88 76.25 L112.75 76.38 L112.75 76.88 L112.62 77.00 L112.50 78.00 L112.38 78.12 L112.38 78.62 L112.25 78.75 L112.25 79.62 L112.12 79.75 L112.12 81.38 L112.00 81.50 L112.00 82.50 L112.38 82.88 L112.62 82.88 L112.75 83.00 L112.88 82.88 L113.25 82.88 L113.62 82.50 L113.62 82.25 L113.75 82.12 L113.88 79.75 L114.00 79.62 L114.00 79.00 L114.12 78.88 L114.12 78.38 L114.25 78.25 L114.38 76.38 L114.50 76.25 L114.62 74.50 L114.75 74.38 L114.75 73.38 L114.88 73.25 L114.88 72.62 L115.00 72.50 L115.00 70.88 L115.25 70.25 L115.25 69.38ZM100.50 69.00 L99.88 69.00 L99.62 69.12 L99.25 69.62 L99.25 70.62 L99.12 70.75 L99.00 72.62 L98.88 72.75 L98.88 73.62 L98.75 73.75 L98.75 74.88 L98.62 75.00 L98.62 75.50 L98.50 75.62 L98.50 76.12 L98.38 76.25 L98.25 77.38 L98.12 77.50 L98.00 80.25 L97.88 80.38 L97.88 81.12 L97.75 81.25 L97.75 81.75 L97.62 81.88 L97.62 82.38 L98.00 82.88 L98.25 82.88 L98.38 83.00 L98.50 82.88 L98.75 82.88 L99.12 82.50 L99.38 82.00 L99.38 81.38 L99.50 81.25 L99.50 80.75 L99.62 80.62 L99.75 78.50 L99.88 78.38 L100.00 75.62 L100.12 75.50 L100.38 73.38 L100.62 72.75 L100.75 71.38 L100.88 71.25 L100.88 69.50ZM189.88 68.75 L189.75 68.88 L189.38 68.88 L189.25 69.00 L188.88 69.00 L188.75 69.12 L188.12 69.25 L187.62 69.62 L186.50 70.12 L184.38 72.38 L184.00 73.12 L184.00 73.38 L183.25 75.38 L183.25 76.00 L183.12 76.12 L183.25 77.88 L183.38 78.00 L183.38 78.38 L183.75 79.12 L183.88 79.75 L184.12 80.12 L184.12 80.38 L185.62 82.00 L186.00 82.12 L186.25 82.38 L187.62 83.00 L189.12 83.12 L189.25 83.25 L191.38 83.25 L191.50 83.12 L192.38 83.12 L192.50 83.00 L193.50 82.88 L194.25 82.50 L194.62 82.12 L196.12 81.38 L196.62 80.75 L196.62 80.12 L196.25 79.88 L195.25 79.88 L194.12 80.75 L193.38 81.12 L193.12 81.12 L192.25 81.50 L191.88 81.50 L191.75 81.62 L190.62 81.75 L190.50 81.88 L189.50 81.88 L189.38 81.75 L189.00 81.75 L187.88 81.12 L187.00 80.88 L186.12 80.12 L185.12 78.38 L185.12 78.00 L185.00 77.88 L185.00 76.75 L184.88 76.62 L184.88 75.75 L185.00 75.62 L185.00 75.00 L185.12 74.88 L185.12 74.62 L185.75 73.38 L187.38 71.62 L188.25 71.00 L188.75 70.75 L189.00 70.75 L189.38 70.50 L189.62 70.50 L190.00 70.25 L191.00 70.12 L191.12 70.00 L191.88 70.00 L192.00 70.12 L193.25 70.25 L194.38 70.88 L194.88 71.00 L195.25 71.25 L196.12 72.25 L196.62 72.50 L197.12 72.38 L197.50 72.00 L197.50 71.25 L197.38 71.00 L196.25 70.00 L195.88 69.88 L195.25 69.38 L194.12 68.88 L193.75 68.88 L193.62 68.75ZM153.25 69.12 L152.25 69.00 L152.12 68.88 L151.62 68.88 L151.50 68.75 L151.00 68.75 L150.88 68.62 L150.38 68.62 L150.25 68.75 L149.25 68.75 L149.12 68.88 L148.12 68.88 L148.00 69.00 L147.25 69.12 L146.12 69.88 L145.50 70.12 L144.12 71.62 L144.00 72.00 L143.12 73.12 L142.88 73.62 L142.88 74.00 L142.75 74.12 L142.62 74.75 L142.25 75.38 L142.25 75.88 L142.12 76.00 L142.25 78.00 L142.88 79.25 L142.88 79.50 L143.38 80.75 L144.12 81.62 L145.75 82.75 L146.75 83.12 L148.12 83.12 L148.25 83.25 L151.12 83.12 L151.25 83.00 L151.88 82.88 L153.00 82.25 L153.25 82.00 L153.88 81.75 L154.62 81.00 L154.62 80.25 L154.25 80.00 L153.75 79.88 L153.12 80.12 L152.25 80.88 L151.75 81.00 L150.38 81.75 L150.00 81.75 L149.88 81.88 L147.88 81.88 L147.75 81.75 L147.38 81.75 L146.50 81.12 L145.88 80.88 L145.12 80.25 L143.88 78.00 L143.88 77.25 L144.00 77.12 L144.00 76.88 L144.75 76.25 L152.88 76.25 L153.00 76.38 L154.62 76.38 L154.75 76.25 L155.62 76.25 L156.25 76.00 L156.62 75.62 L156.75 74.75 L156.62 74.62 L156.62 73.88 L156.50 73.75 L156.50 73.38 L156.38 73.25 L156.38 72.88 L156.12 72.50 L156.12 72.25 L155.62 71.38 L154.75 70.38 L154.75 70.25ZM155.00 73.62 L155.00 74.00 L154.75 74.50 L154.25 74.88 L151.00 74.88 L150.88 74.75 L150.62 74.75 L150.50 74.88 L145.25 74.88 L145.00 74.75 L144.62 74.25 L144.62 73.62 L144.88 73.12 L146.75 71.25 L148.25 70.50 L149.25 70.38 L149.38 70.25 L149.88 70.25 L150.00 70.12 L151.38 70.12 L152.88 70.88 L154.62 72.75ZM122.50 64.75 L122.25 65.00 L122.00 65.62 L121.88 66.50 L121.75 66.62 L121.62 67.38 L121.00 69.00 L121.00 69.38 L120.62 70.38 L120.50 71.25 L120.25 71.62 L120.25 71.88 L120.00 72.38 L119.75 73.88 L119.38 74.62 L119.38 74.88 L119.12 75.38 L119.12 75.75 L119.00 75.88 L119.00 76.25 L118.88 76.38 L118.88 76.75 L118.25 78.25 L118.12 79.25 L118.00 79.38 L118.00 80.00 L117.88 80.12 L117.75 80.75 L117.25 81.62 L117.25 82.38 L117.38 82.62 L117.75 82.88 L118.25 83.00 L118.38 82.88 L118.62 82.88 L119.00 82.50 L119.12 81.50 L119.75 80.38 L119.88 79.00 L120.75 76.62 L121.12 74.75 L121.62 73.50 L122.00 71.12 L122.38 70.62 L122.88 70.50 L123.12 70.62 L123.75 71.38 L124.38 73.88 L124.88 74.88 L124.88 75.12 L125.12 75.62 L125.12 76.00 L125.88 77.38 L126.12 78.62 L126.25 78.75 L126.38 79.38 L126.62 79.75 L126.62 80.00 L126.88 80.38 L127.25 81.75 L127.62 82.38 L127.88 82.50 L128.50 82.50 L128.88 82.00 L128.88 81.75 L129.12 81.25 L129.75 80.62 L130.38 79.38 L131.38 78.00 L131.62 77.38 L132.50 76.25 L132.88 75.50 L133.88 74.12 L133.88 73.88 L134.88 72.25 L134.88 72.00 L135.50 71.25 L136.25 70.88 L136.75 71.50 L136.75 73.25 L136.62 73.38 L136.62 80.25 L136.50 80.38 L136.50 81.25 L136.62 81.38 L136.62 82.12 L136.88 82.62 L137.38 83.00 L137.88 82.88 L138.25 82.38 L138.25 76.12 L138.12 76.00 L138.12 75.25 L138.25 75.12 L138.25 65.38 L138.12 65.12 L137.75 64.88 L137.50 64.88 L137.12 65.25 L136.75 66.25 L136.00 67.25 L135.75 67.88 L135.00 68.88 L134.88 69.25 L134.00 70.38 L133.75 71.00 L133.38 71.38 L132.88 72.50 L132.50 72.88 L131.88 74.00 L131.25 74.75 L131.00 75.38 L130.25 76.38 L130.00 77.00 L129.12 78.25 L128.62 78.75 L128.38 78.75 L128.00 78.50 L127.38 77.12 L127.38 76.88 L127.12 76.50 L126.62 74.62 L126.38 74.25 L126.25 73.62 L126.00 73.25 L126.00 73.00 L125.75 72.50 L125.62 71.62 L125.00 70.50 L124.75 69.38 L124.00 68.00 L123.50 65.62 L122.75 64.75ZM108.38 63.62 L108.00 63.62 L107.50 63.88 L107.12 64.50 L107.12 65.00 L107.00 65.12 L107.00 67.00 L106.88 67.12 L106.88 67.50 L106.75 67.62 L106.62 68.25 L105.88 68.88 L105.62 68.88 L105.50 69.00 L104.50 69.00 L104.25 69.12 L104.00 69.50 L104.12 70.12 L104.38 70.38 L105.25 70.38 L105.50 70.50 L106.00 71.00 L106.00 71.25 L106.12 71.38 L106.12 72.50 L106.00 72.62 L105.88 74.62 L105.75 74.75 L105.75 75.25 L105.62 75.38 L105.50 77.00 L105.38 77.12 L105.25 78.62 L105.12 78.75 L105.12 80.00 L105.00 80.12 L105.00 80.88 L104.88 81.00 L104.88 82.50 L105.25 82.88 L106.00 82.88 L106.25 82.75 L106.62 82.00 L106.62 81.38 L106.75 81.25 L106.75 80.62 L106.88 80.50 L106.88 78.75 L107.00 78.62 L107.00 77.62 L107.12 77.50 L107.12 76.75 L107.25 76.62 L107.25 76.12 L107.38 76.00 L107.50 74.88 L107.62 74.75 L107.88 71.38 L108.50 70.62 L108.75 70.50 L109.88 70.50 L110.00 70.38 L110.25 70.38 L110.50 70.25 L111.00 69.62 L111.00 69.38 L110.62 69.00 L109.38 69.00 L109.25 68.88 L109.00 68.88 L108.50 68.38 L108.50 68.12 L108.38 68.00 L108.38 67.38 L108.50 67.25 L108.62 66.25 L108.75 66.12 L108.88 64.12ZM175.38 63.50 L174.88 63.50 L174.62 63.62 L174.12 64.25 L174.12 64.50 L174.00 64.62 L174.00 66.00 L173.88 66.12 L173.88 67.88 L173.50 68.75 L173.38 70.00 L172.88 70.62 L172.62 70.75 L172.25 70.62 L171.12 69.50 L170.50 69.12 L170.25 69.12 L169.38 68.75 L168.75 68.75 L168.62 68.62 L167.12 68.62 L167.00 68.75 L166.38 68.75 L166.25 68.88 L165.00 69.00 L164.12 69.38 L163.50 69.88 L162.75 70.25 L161.00 72.25 L160.88 72.62 L160.38 73.25 L160.00 74.12 L159.88 75.50 L159.75 75.62 L159.75 76.25 L159.62 76.38 L159.62 77.38 L159.75 77.50 L159.75 78.12 L159.88 78.25 L160.00 79.12 L160.50 80.25 L161.00 81.00 L162.62 82.50 L163.62 82.88 L164.12 82.88 L164.25 83.00 L164.62 83.00 L165.25 83.25 L167.00 83.25 L167.12 83.12 L167.75 83.12 L167.88 83.00 L169.00 82.88 L169.62 82.50 L170.12 82.00 L170.88 81.62 L171.25 81.62 L171.75 82.12 L172.00 82.75 L172.25 82.88 L173.00 82.88 L173.50 82.38 L173.62 82.12 L173.62 80.75 L173.75 80.62 L173.88 78.25 L174.00 78.12 L174.00 77.50 L174.12 77.38 L174.12 76.75 L174.25 76.62 L174.38 75.00 L174.50 74.88 L174.50 74.38 L174.62 74.25 L174.62 73.75 L174.75 73.62 L174.75 71.88 L174.88 71.75 L174.88 71.12 L175.00 71.00 L175.12 69.25 L175.25 69.12 L175.25 68.62 L175.38 68.50 L175.38 67.00 L175.50 66.88 L175.50 66.38 L175.75 65.75 L175.75 65.00 L175.88 64.88 L175.88 64.25 L175.75 64.12 L175.75 63.88ZM168.50 70.12 L169.50 70.62 L169.88 70.62 L170.50 70.88 L170.88 71.12 L172.12 72.50 L172.25 73.00 L172.62 73.62 L172.62 74.12 L172.75 74.25 L172.75 76.25 L172.62 76.38 L172.62 76.75 L172.38 77.12 L171.88 78.88 L171.62 79.25 L170.25 80.50 L167.75 81.75 L167.12 81.75 L167.00 81.88 L165.62 81.88 L165.50 81.75 L165.12 81.75 L163.25 80.75 L162.38 79.88 L161.88 79.12 L161.88 78.88 L161.50 78.00 L161.50 77.38 L161.38 77.25 L161.38 76.88 L161.50 76.75 L161.50 75.88 L161.62 75.75 L161.62 75.00 L161.75 74.88 L161.75 74.25 L162.00 73.62 L162.62 72.75 L163.50 71.88 L163.62 71.88 L164.75 70.88 L165.38 70.75 L166.25 70.25 L167.00 70.12 L167.12 70.00ZM91.88 64.00 L91.38 64.00 L91.25 63.88 L90.88 63.88 L90.25 63.62 L89.75 63.62 L89.62 63.50 L86.38 63.50 L86.25 63.62 L85.88 63.62 L85.75 63.75 L85.38 63.75 L84.75 64.00 L83.75 64.12 L82.75 64.62 L82.50 64.88 L81.62 65.25 L81.12 65.75 L80.38 66.25 L78.25 68.75 L77.88 69.62 L77.62 69.88 L77.25 70.62 L77.12 71.50 L77.00 71.62 L77.00 72.12 L76.75 72.75 L76.75 75.88 L76.88 76.00 L76.88 76.62 L77.00 76.75 L77.25 78.00 L78.00 79.38 L79.38 81.00 L79.50 81.00 L81.25 82.50 L81.88 82.75 L82.50 82.75 L82.62 82.88 L83.00 82.88 L83.62 83.12 L84.12 83.12 L84.25 83.25 L84.75 83.25 L84.88 83.38 L86.88 83.50 L87.00 83.38 L88.12 83.38 L88.25 83.25 L89.00 83.25 L89.12 83.12 L90.12 83.00 L90.25 82.88 L90.88 82.75 L91.75 82.25 L92.00 82.25 L93.50 81.38 L93.75 80.88 L93.62 80.25 L93.25 80.00 L92.38 80.00 L91.00 80.88 L90.75 80.88 L89.88 81.25 L89.50 81.25 L89.12 81.50 L88.88 81.50 L88.38 81.75 L86.62 81.75 L86.50 81.88 L85.25 81.88 L85.12 81.75 L84.62 81.75 L84.50 81.62 L83.88 81.50 L83.50 81.25 L82.50 81.00 L81.38 80.38 L80.12 79.12 L79.38 78.00 L79.25 77.62 L79.00 77.38 L78.88 76.62 L78.75 76.50 L78.62 73.38 L78.75 73.25 L78.75 72.25 L78.88 72.12 L78.88 71.50 L79.00 71.38 L79.00 71.12 L79.75 70.00 L80.00 69.38 L80.88 68.38 L80.88 68.25 L83.38 66.38 L84.75 65.75 L85.25 65.75 L85.38 65.62 L85.75 65.62 L86.38 65.38 L86.88 65.38 L87.00 65.25 L89.12 65.25 L90.12 65.62 L91.25 65.75 L91.38 65.88 L92.00 66.00 L94.38 67.62 L94.62 67.62 L94.75 67.75 L95.38 67.62 L95.62 67.25 L95.62 66.50 L95.50 66.25 L94.38 65.25ZM114.75 63.25 L114.00 63.88 L113.88 64.75 L114.12 65.38 L114.50 65.75 L115.38 65.88 L115.50 65.75 L115.75 65.75 L116.25 65.25 L116.50 64.38 L116.38 64.25 L116.38 64.00 L115.88 63.50 L115.38 63.25ZM101.38 63.38 L101.12 63.38 L101.00 63.25 L100.12 63.50 L99.62 64.12 L99.62 65.12 L99.75 65.38 L100.25 65.75 L101.25 65.75 L101.75 65.38 L102.00 64.88 L102.00 64.12ZM180.38 63.12 L180.25 63.25 L180.00 63.25 L179.50 63.62 L179.25 64.00 L179.25 64.88 L180.00 65.75 L180.75 65.88 L180.88 65.75 L181.12 65.75 L181.62 65.38 L181.88 64.75 L181.88 64.25 L181.50 63.50 L180.75 63.12ZM171.75 22.38 L171.38 22.88 L171.38 23.50 L171.25 23.62 L171.25 25.50 L171.38 25.62 L171.38 41.00 L171.25 41.12 L171.25 42.25 L171.38 42.38 L171.38 47.50 L171.25 47.62 L171.25 48.50 L171.38 48.62 L171.38 49.62 L171.25 49.75 L171.38 52.00 L171.25 52.12 L171.25 53.38 L171.38 53.62 L172.00 54.00 L191.75 54.00 L192.00 53.88 L192.50 53.38 L192.50 51.62 L192.12 51.12 L191.88 51.12 L191.75 51.00 L175.25 51.00 L174.50 50.38 L174.38 50.12 L174.38 22.88 L174.00 22.38 L173.38 22.25 L173.25 22.12 L172.50 22.12 L172.38 22.25ZM73.88 22.38 L73.50 23.12 L73.50 23.75 L73.62 23.88 L73.62 29.12 L73.50 29.25 L73.50 29.62 L73.62 29.75 L73.62 31.00 L73.50 31.12 L73.50 31.88 L73.62 32.00 L73.62 35.88 L73.50 36.00 L73.50 41.88 L73.62 42.00 L73.62 49.88 L73.50 50.00 L73.50 50.75 L73.62 50.88 L73.62 52.38 L73.50 52.50 L73.50 53.12 L73.62 53.25 L73.62 53.50 L74.12 54.00 L74.50 54.00 L74.62 54.12 L74.75 54.00 L80.75 54.00 L80.88 53.88 L81.62 53.88 L81.75 54.00 L85.50 54.00 L85.62 53.88 L86.62 53.88 L86.75 53.75 L88.50 53.62 L89.88 52.88 L90.25 52.88 L90.62 52.62 L90.88 52.62 L91.75 52.00 L92.38 51.75 L93.12 51.12 L94.00 50.62 L94.50 50.12 L95.00 49.88 L96.00 48.88 L96.00 48.75 L97.12 47.50 L98.75 44.62 L99.00 43.62 L99.25 43.25 L99.25 43.00 L99.50 42.62 L99.62 41.88 L99.75 41.75 L99.75 41.12 L99.88 41.00 L99.88 38.88 L100.00 38.75 L100.00 36.12 L99.88 36.00 L99.88 35.25 L99.62 34.62 L99.50 33.62 L99.38 33.50 L99.25 32.88 L99.00 32.50 L98.88 31.88 L98.50 31.12 L98.25 30.88 L97.62 29.50 L96.50 28.00 L93.75 25.38 L92.62 24.75 L92.00 24.25 L91.25 23.88 L91.00 23.88 L90.00 23.25 L89.75 23.25 L88.50 22.75 L87.38 22.62 L87.25 22.50 L86.75 22.50 L86.62 22.38 L85.88 22.38 L85.75 22.25 L78.25 22.25 L78.12 22.12 L75.12 22.25 L75.00 22.12 L74.50 22.12ZM77.25 25.25 L77.50 25.25 L77.62 25.12 L77.88 25.12 L78.00 25.25 L78.62 25.25 L78.75 25.38 L80.25 25.38 L80.38 25.25 L85.50 25.25 L85.62 25.38 L86.12 25.38 L86.25 25.50 L86.62 25.50 L87.25 25.75 L88.00 25.75 L88.12 25.88 L89.12 26.00 L90.38 26.88 L91.00 27.12 L92.00 27.88 L94.50 30.38 L95.75 32.25 L96.00 32.75 L96.25 34.00 L96.75 35.25 L96.88 36.38 L97.00 36.50 L97.00 40.12 L96.88 40.25 L96.88 40.75 L96.38 42.00 L96.25 42.75 L95.50 44.38 L94.75 45.50 L94.00 46.25 L93.38 47.12 L91.50 48.88 L91.00 49.12 L90.75 49.12 L88.75 50.25 L88.50 50.25 L88.00 50.50 L87.50 50.50 L87.38 50.62 L86.50 50.75 L86.38 50.88 L85.25 50.88 L85.12 51.00 L78.88 51.00 L78.75 50.88 L78.38 50.88 L78.25 51.00 L77.50 51.00 L76.75 50.50 L76.62 50.25 L76.62 26.12 L76.88 25.62ZM18.50 23.00 L17.62 22.88 L16.62 22.38 L16.25 22.38 L16.12 22.25 L4.12 22.25 L3.88 22.12 L3.75 22.25 L3.38 22.25 L3.00 22.75 L3.00 24.38 L2.88 24.50 L2.88 28.75 L3.00 28.88 L3.00 31.25 L2.88 31.38 L2.88 32.00 L3.00 32.12 L3.00 32.62 L2.88 32.75 L2.88 35.12 L3.00 35.25 L3.00 39.50 L2.88 39.62 L2.88 42.38 L3.00 42.50 L3.00 46.50 L2.88 46.62 L2.88 48.00 L3.00 48.12 L3.00 49.25 L2.88 49.38 L2.88 53.38 L3.25 53.88 L3.50 53.88 L3.62 54.00 L5.38 54.00 L5.62 53.88 L5.88 53.50 L5.88 49.88 L6.00 49.75 L6.00 48.75 L5.88 48.62 L5.88 42.75 L6.00 42.62 L6.12 42.00 L6.50 41.62 L14.62 41.62 L14.75 41.50 L16.38 41.38 L16.88 41.12 L18.38 40.88 L20.62 39.50 L21.38 38.75 L21.50 38.75 L22.62 37.50 L23.38 36.00 L23.38 35.75 L23.62 35.38 L23.62 35.00 L23.75 34.88 L23.75 33.75 L23.88 33.62 L23.88 30.12 L23.75 30.00 L23.75 29.12 L23.62 29.00 L23.62 28.75 L23.12 27.88 L23.12 27.62 L22.62 26.38 L22.25 26.00 L21.75 25.12 L20.50 24.12ZM6.12 25.62 L6.50 25.25 L14.50 25.25 L14.62 25.38 L15.38 25.38 L15.50 25.50 L16.62 25.62 L18.25 26.25 L20.00 28.00 L20.75 29.88 L20.75 30.50 L20.88 30.62 L20.75 33.75 L20.25 34.62 L19.88 35.88 L18.50 37.25 L17.75 37.75 L16.25 38.38 L14.88 38.38 L14.75 38.50 L12.50 38.50 L12.38 38.38 L10.75 38.38 L10.62 38.50 L6.88 38.50 L6.75 38.38 L6.50 38.38 L6.12 38.00 L5.88 37.38 L5.88 26.25ZM252.88 21.25 L252.75 21.38 L252.25 21.38 L252.12 21.50 L251.75 21.50 L251.62 21.62 L251.25 21.62 L250.62 21.88 L250.00 21.88 L249.88 22.00 L248.88 22.12 L246.50 23.25 L245.75 23.88 L245.12 24.12 L244.38 24.62 L243.38 25.62 L243.25 25.62 L241.25 27.75 L241.12 28.12 L240.25 29.25 L240.00 29.75 L240.00 30.00 L239.00 31.88 L239.00 32.12 L238.25 33.75 L238.25 34.50 L238.12 34.62 L238.12 35.25 L238.00 35.38 L238.00 36.00 L237.88 36.12 L237.88 40.00 L238.00 40.12 L238.00 41.25 L238.12 41.38 L238.25 42.38 L238.88 43.75 L239.12 44.75 L240.00 46.50 L240.88 47.75 L241.00 48.12 L242.25 49.50 L242.25 49.62 L244.50 51.62 L245.62 52.25 L246.12 52.75 L247.75 53.50 L248.00 53.75 L248.25 53.75 L248.62 54.00 L249.00 54.00 L249.50 54.25 L250.00 54.25 L250.88 54.62 L251.75 54.75 L251.88 54.88 L253.75 54.88 L253.88 55.00 L256.50 55.00 L256.62 54.88 L257.62 54.88 L257.75 54.75 L258.75 54.62 L260.00 54.12 L260.38 54.12 L260.50 54.00 L261.50 53.75 L263.38 52.75 L264.88 51.75 L265.62 51.00 L265.75 51.00 L268.12 48.62 L268.88 47.50 L269.00 47.12 L269.62 46.38 L269.88 45.88 L270.00 45.25 L270.75 43.88 L270.88 42.62 L271.62 40.75 L271.62 39.25 L271.38 38.75 L270.75 38.38 L269.50 38.38 L269.38 38.50 L265.50 38.50 L265.38 38.38 L263.00 38.38 L262.88 38.50 L255.62 38.50 L255.00 39.00 L254.75 39.50 L254.75 40.50 L254.88 40.62 L254.88 40.88 L255.38 41.38 L256.00 41.50 L256.12 41.62 L256.88 41.62 L257.00 41.50 L258.50 41.50 L258.62 41.62 L262.88 41.62 L263.00 41.50 L263.88 41.50 L264.00 41.62 L266.75 41.62 L266.88 41.50 L267.12 41.50 L267.25 41.62 L267.50 41.62 L267.88 42.12 L267.88 43.00 L267.38 43.75 L266.88 45.00 L266.38 45.50 L265.62 46.75 L263.25 49.12 L261.88 50.12 L260.12 51.00 L259.75 51.00 L258.12 51.62 L257.75 51.62 L257.12 51.88 L256.50 51.88 L256.38 52.00 L253.25 52.00 L253.12 51.88 L252.38 51.88 L250.38 51.12 L249.75 51.12 L249.62 51.00 L248.88 50.88 L247.88 50.12 L247.25 49.88 L245.75 48.62 L245.62 48.62 L243.38 46.12 L242.75 44.88 L242.00 43.88 L241.75 42.88 L241.25 41.88 L241.12 40.88 L241.00 40.75 L240.88 36.88 L241.00 36.75 L241.00 35.75 L241.12 35.62 L241.12 35.25 L241.38 34.75 L241.38 34.38 L241.75 33.38 L241.75 33.00 L242.12 32.12 L242.62 31.62 L243.00 30.75 L243.75 29.88 L244.25 29.00 L246.38 27.00 L247.12 26.62 L247.75 26.12 L250.00 25.00 L250.38 25.00 L250.50 24.88 L250.88 24.88 L251.00 24.75 L251.38 24.75 L251.50 24.62 L251.88 24.62 L252.50 24.38 L253.00 24.38 L253.12 24.25 L256.25 24.25 L256.38 24.38 L256.88 24.38 L257.50 24.62 L258.00 24.62 L258.12 24.75 L259.12 24.88 L259.25 25.00 L259.88 25.12 L261.00 25.75 L261.25 25.75 L263.12 27.00 L266.12 29.88 L266.38 30.00 L268.62 30.00 L269.25 29.75 L269.25 29.25 L269.12 29.00 L268.62 28.50 L268.12 27.62 L267.12 26.62 L267.12 26.50 L266.00 25.38 L265.38 25.00 L264.62 24.25 L263.62 23.75 L263.00 23.25 L262.50 23.00 L262.25 23.00 L261.88 22.75 L261.62 22.75 L261.38 22.50 L260.62 22.12 L259.62 22.00 L259.50 21.88 L259.12 21.88 L259.00 21.75 L258.62 21.75 L258.50 21.62 L258.12 21.62 L258.00 21.50 L257.62 21.50 L257.00 21.25 L256.25 21.25 L256.12 21.12ZM211.75 21.12 L211.62 21.25 L210.88 21.25 L210.75 21.38 L210.25 21.38 L209.62 21.62 L209.12 21.62 L209.00 21.75 L208.00 21.88 L207.88 22.00 L206.88 22.25 L205.88 22.88 L205.62 22.88 L205.25 23.12 L204.75 23.25 L204.00 23.88 L202.88 24.38 L202.38 24.75 L201.38 25.88 L201.25 25.88 L199.25 28.00 L198.00 30.00 L198.00 30.25 L197.25 31.50 L197.12 32.25 L196.75 33.25 L196.75 33.62 L196.62 33.75 L196.62 34.12 L196.50 34.25 L196.25 35.50 L196.12 35.62 L196.12 36.75 L196.00 36.88 L196.12 40.62 L196.25 40.75 L196.38 42.00 L197.00 43.62 L197.12 44.50 L197.50 45.25 L197.75 45.50 L198.38 46.88 L198.75 47.25 L199.38 48.38 L200.62 49.62 L201.25 50.50 L202.25 51.12 L203.88 52.50 L205.25 53.12 L205.88 53.62 L207.50 54.00 L208.38 54.50 L209.12 54.62 L209.25 54.75 L209.88 54.75 L210.00 54.88 L211.00 54.88 L211.12 55.00 L214.62 55.00 L214.75 54.88 L215.75 54.88 L215.88 54.75 L217.25 54.62 L218.50 54.00 L219.25 53.88 L220.25 53.50 L220.88 53.00 L221.88 52.62 L224.38 50.75 L226.25 48.75 L227.50 47.00 L228.00 45.75 L228.62 44.88 L228.62 44.62 L228.88 44.12 L229.00 43.12 L229.62 41.62 L229.62 41.25 L229.75 41.12 L229.75 40.12 L229.88 40.00 L229.88 36.12 L229.75 36.00 L229.75 35.25 L229.62 35.12 L229.38 33.75 L229.12 33.25 L229.12 32.88 L229.00 32.75 L228.62 31.38 L228.12 30.62 L227.75 29.62 L227.12 28.88 L226.75 28.12 L225.38 26.62 L225.38 26.50 L223.38 24.62 L222.62 24.12 L221.75 23.75 L221.12 23.25 L218.00 21.88 L217.00 21.75 L216.88 21.62 L216.38 21.62 L216.25 21.50 L215.75 21.50 L215.12 21.25 L214.38 21.25 L214.25 21.12ZM212.50 24.12 L214.38 24.25 L214.50 24.38 L215.00 24.38 L215.62 24.62 L216.25 24.62 L216.38 24.75 L218.25 25.12 L218.75 25.50 L220.12 26.12 L221.62 27.38 L221.75 27.38 L223.88 29.50 L224.25 30.12 L224.75 30.62 L225.38 32.00 L225.88 32.62 L226.12 33.88 L226.25 34.00 L226.25 34.38 L226.38 34.50 L226.38 34.88 L226.75 35.88 L226.75 36.62 L226.88 36.75 L226.88 39.25 L226.75 39.38 L226.75 40.38 L226.25 41.62 L226.00 43.00 L225.62 43.88 L225.38 44.12 L225.00 44.88 L225.00 45.12 L224.75 45.62 L224.12 46.25 L223.75 47.00 L221.88 48.88 L221.00 49.38 L220.25 50.00 L219.38 50.38 L219.12 50.62 L217.62 51.25 L217.25 51.25 L217.12 51.38 L216.75 51.38 L216.62 51.50 L216.25 51.50 L216.12 51.62 L215.75 51.62 L215.12 51.88 L214.50 51.88 L214.38 52.00 L211.38 52.00 L211.25 51.88 L210.62 51.88 L210.50 51.75 L210.12 51.75 L208.75 51.25 L208.38 51.25 L208.25 51.12 L207.62 51.00 L206.88 50.62 L206.62 50.38 L205.75 50.00 L205.00 49.38 L204.12 48.88 L202.12 46.88 L201.62 46.00 L201.00 45.25 L200.88 44.75 L199.88 42.88 L199.62 41.50 L199.25 40.50 L199.25 39.62 L199.12 39.50 L199.12 36.38 L199.25 36.25 L199.25 35.75 L199.38 35.62 L199.38 35.25 L199.75 34.25 L199.88 33.12 L200.12 32.50 L200.62 31.88 L201.25 30.50 L201.75 30.00 L202.12 29.38 L202.88 28.62 L203.00 28.62 L203.88 27.62 L204.00 27.62 L205.75 26.12 L206.50 25.75 L206.75 25.75 L208.00 25.00 L208.38 25.00 L208.50 24.88 L208.88 24.88 L209.50 24.62 L210.00 24.62 L210.12 24.50 L210.62 24.50 L210.75 24.38 L211.25 24.38 L211.38 24.25 L212.38 24.25ZM50.00 21.12 L46.62 21.25 L46.50 21.38 L46.00 21.38 L45.88 21.50 L45.38 21.50 L45.25 21.62 L43.38 22.00 L40.50 23.25 L38.25 24.75 L36.12 26.75 L34.25 29.25 L33.88 30.12 L33.25 31.00 L33.25 31.25 L33.00 31.75 L33.00 32.12 L32.88 32.25 L32.75 32.88 L32.50 33.25 L32.50 33.50 L32.25 34.00 L32.25 34.38 L32.12 34.50 L32.12 35.00 L32.00 35.12 L32.00 36.38 L31.88 36.50 L31.88 39.62 L32.00 39.75 L32.12 41.62 L32.25 41.75 L32.25 42.12 L33.00 44.12 L33.12 44.88 L33.50 45.62 L33.75 45.88 L34.38 47.38 L34.88 47.88 L35.38 48.75 L36.38 49.75 L36.50 49.75 L37.38 50.75 L37.88 51.00 L39.25 52.25 L40.25 52.75 L41.00 53.38 L41.88 53.75 L42.25 53.75 L42.38 53.88 L43.75 54.25 L44.50 54.62 L45.50 54.75 L45.62 54.88 L46.50 54.88 L46.62 55.00 L50.38 55.00 L50.50 54.88 L51.62 54.88 L51.75 54.75 L52.88 54.62 L53.25 54.38 L53.50 54.38 L55.12 53.75 L55.88 53.62 L56.62 53.25 L57.00 52.88 L59.38 51.38 L61.75 49.00 L61.88 48.62 L63.50 46.62 L64.12 45.25 L64.12 45.00 L64.50 44.50 L64.88 43.50 L65.00 42.50 L65.12 42.38 L65.12 42.00 L65.25 41.88 L65.25 41.50 L65.38 41.38 L65.38 41.00 L65.62 40.38 L65.62 39.62 L65.75 39.50 L65.75 36.75 L65.62 36.62 L65.62 35.88 L65.50 35.75 L65.50 35.38 L65.38 35.25 L65.38 34.88 L65.12 34.25 L65.00 33.25 L64.88 33.12 L64.50 31.75 L63.62 30.00 L63.38 29.75 L62.50 28.12 L61.38 27.00 L60.88 26.25 L59.38 24.88 L56.75 23.12 L56.25 22.88 L55.62 22.75 L54.12 22.00 L53.00 21.88 L52.88 21.75 L52.50 21.75 L52.38 21.62 L52.00 21.62 L51.88 21.50 L51.50 21.50 L50.88 21.25 L50.12 21.25ZM48.12 24.12 L49.50 24.12 L49.62 24.25 L50.38 24.25 L51.00 24.50 L51.50 24.50 L51.62 24.62 L53.00 24.88 L53.12 25.00 L53.75 25.12 L54.62 25.62 L54.88 25.62 L56.12 26.50 L57.12 27.00 L59.88 29.75 L60.00 30.12 L60.88 31.12 L61.00 31.62 L62.00 33.62 L62.00 34.25 L62.12 34.38 L62.12 34.88 L62.50 35.88 L62.50 36.38 L62.62 36.50 L62.62 37.62 L62.75 37.75 L62.75 38.00 L62.62 38.12 L62.62 39.75 L62.50 39.88 L62.50 40.50 L62.12 41.38 L62.12 42.12 L62.00 42.25 L61.88 43.00 L61.50 43.50 L60.75 45.25 L59.62 46.75 L59.00 47.38 L59.00 47.50 L56.62 49.62 L55.38 50.25 L54.75 50.75 L54.12 51.00 L53.25 51.12 L51.62 51.75 L51.25 51.75 L51.12 51.88 L50.12 51.88 L50.00 52.00 L47.00 52.00 L46.88 51.88 L46.12 51.88 L44.12 51.12 L43.25 51.00 L42.12 50.25 L41.62 50.12 L40.25 49.00 L39.75 48.75 L37.88 46.88 L36.88 45.38 L36.75 44.88 L36.00 43.88 L36.00 43.62 L35.75 43.12 L35.75 42.75 L35.12 41.12 L35.12 40.75 L35.00 40.62 L35.00 39.62 L34.88 39.50 L34.88 36.50 L35.00 36.38 L35.00 35.75 L35.38 34.75 L35.50 33.75 L35.75 33.25 L35.88 32.50 L36.38 31.50 L37.12 30.38 L38.00 29.50 L38.00 29.38 L38.88 28.50 L38.88 28.38 L41.38 26.12 L41.88 25.88 L42.25 25.88 L44.25 24.88 L45.38 24.75 L45.50 24.62 L46.00 24.62 L46.12 24.50 L46.62 24.50 L46.75 24.38 L47.25 24.38 L47.38 24.25 L48.00 24.25ZM135.12 20.25 L133.88 20.25 L133.75 20.38 L133.25 20.38 L131.50 21.25 L130.88 22.00 L130.88 22.25 L130.62 22.62 L130.62 22.88 L130.38 23.38 L130.38 23.88 L130.25 24.00 L130.25 25.25 L130.75 26.25 L130.75 26.50 L131.00 26.88 L131.12 27.38 L131.88 28.25 L132.12 28.75 L133.62 30.50 L134.12 31.38 L134.25 31.88 L134.62 32.38 L134.75 33.25 L134.88 33.38 L134.88 35.50 L133.88 37.88 L132.12 39.62 L131.62 39.88 L129.50 42.00 L129.00 42.88 L128.88 43.50 L128.62 43.88 L128.62 44.12 L128.25 45.00 L128.25 46.50 L128.38 46.62 L128.50 47.25 L128.75 47.62 L128.88 48.25 L129.38 49.12 L130.25 49.88 L131.75 50.75 L132.12 50.75 L132.25 50.88 L133.62 50.88 L133.75 51.00 L135.00 50.88 L136.62 50.00 L138.00 48.50 L138.75 46.88 L139.00 44.88 L139.62 43.62 L139.88 42.62 L141.00 40.62 L141.75 39.62 L141.88 39.25 L143.38 37.38 L143.88 36.38 L144.62 35.38 L145.00 34.62 L145.25 33.62 L145.75 32.62 L145.88 31.38 L146.00 31.25 L146.00 30.62 L146.12 30.50 L146.12 29.50 L146.00 29.38 L145.88 27.75 L145.75 27.62 L145.62 26.88 L145.00 26.00 L144.88 25.50 L143.12 23.62 L142.25 23.00 L141.88 22.88 L141.50 22.50 L141.00 22.25 L140.75 22.25 L140.38 22.00 L139.75 21.88 L138.38 21.12 L136.50 20.88ZM142.00 15.50 L141.50 16.00 L141.38 16.00 L141.00 16.50 L141.00 16.75 L140.88 16.88 L140.88 18.12 L141.00 18.25 L141.12 19.00 L141.50 19.38 L141.88 19.38 L142.88 19.00 L143.25 19.00 L143.50 19.25 L143.50 20.00 L143.75 20.62 L144.38 21.00 L144.62 21.00 L145.12 21.25 L145.38 21.88 L145.38 22.38 L145.75 23.00 L146.25 23.25 L146.62 23.12 L147.00 22.62 L147.12 21.75 L147.00 21.62 L147.00 21.38 L146.50 20.88 L146.12 20.75 L145.75 20.38 L145.75 19.25 L145.88 19.12 L145.75 18.50 L145.50 18.25 L143.75 18.25 L143.50 17.88 L143.50 16.38 L143.38 16.12 L142.75 15.50ZM138.00 13.25 L137.50 13.50 L137.00 14.12 L136.50 15.12 L136.50 16.25 L136.62 16.38 L136.62 16.75 L136.75 16.88 L136.88 17.50 L137.50 18.12 L138.38 18.25 L139.38 17.50 L139.88 16.75 L139.88 15.12 L139.75 15.00 L139.75 14.38 L139.62 14.12 L138.75 13.38 L138.50 13.25ZM132.38 10.75 L131.25 11.50 L130.38 13.38 L130.38 14.62 L130.75 15.62 L130.75 16.25 L131.25 17.12 L131.75 17.62 L132.25 17.88 L133.25 18.00 L133.38 17.88 L133.62 17.88 L134.75 16.62 L134.75 16.38 L134.88 16.25 L134.88 15.62 L135.00 15.50 L135.00 15.00 L135.25 14.38 L135.25 13.62 L135.12 13.50 L135.12 13.00 L135.00 12.88 L134.88 12.12 L134.62 11.50 L134.25 11.12 L133.50 10.75ZM128.25 4.12 L128.12 4.25 L127.75 4.25 L126.88 4.75 L125.38 5.12 L121.88 7.00 L121.00 7.25 L119.88 8.00 L118.88 9.00 L118.38 9.25 L117.50 10.12 L116.50 10.88 L114.50 13.00 L111.38 17.38 L111.12 18.25 L110.25 19.88 L109.88 21.38 L109.25 22.75 L109.12 23.75 L109.00 23.88 L109.00 24.50 L108.88 24.62 L108.88 25.62 L108.75 25.75 L108.62 27.38 L108.50 27.50 L108.50 28.62 L108.38 28.75 L108.38 32.12 L108.50 32.25 L108.50 33.38 L108.62 33.50 L108.62 34.38 L108.75 34.50 L108.88 36.38 L109.00 36.50 L109.00 37.12 L109.12 37.25 L109.25 38.25 L109.75 39.25 L109.75 39.50 L109.88 39.62 L110.00 40.25 L110.38 40.88 L110.38 41.12 L111.00 42.38 L111.38 42.88 L111.38 43.12 L111.62 43.50 L111.62 43.75 L111.88 44.25 L115.25 48.88 L115.50 49.00 L117.38 50.88 L117.50 50.88 L119.38 52.50 L120.12 52.88 L120.75 53.38 L122.38 54.12 L123.00 54.62 L124.38 55.25 L125.12 55.75 L126.12 56.00 L126.50 56.25 L126.75 56.25 L127.12 56.50 L127.38 56.50 L127.88 56.75 L128.25 56.75 L128.38 56.88 L128.75 56.88 L129.38 57.12 L129.88 57.12 L130.00 57.25 L130.75 57.25 L130.88 57.38 L131.88 57.50 L132.00 57.62 L132.62 57.62 L132.75 57.75 L134.25 57.75 L134.38 57.88 L135.75 57.88 L135.88 57.75 L138.88 57.75 L139.00 57.62 L139.88 57.62 L140.00 57.50 L141.00 57.38 L141.50 57.12 L142.00 57.12 L142.12 57.00 L143.12 56.88 L143.25 56.75 L143.88 56.62 L144.50 56.25 L146.38 55.75 L148.62 54.62 L149.38 54.00 L150.25 53.50 L152.12 51.88 L152.88 51.38 L153.25 50.75 L154.25 49.75 L154.50 49.25 L155.00 48.75 L155.00 48.50 L155.12 48.38 L155.00 48.00 L154.50 48.00 L154.25 48.12 L152.50 49.75 L151.62 50.25 L151.12 50.75 L150.12 51.25 L149.38 51.88 L148.62 52.25 L148.00 52.75 L146.00 53.75 L145.75 53.75 L145.38 54.00 L145.12 54.00 L144.62 54.25 L143.88 54.38 L143.50 54.62 L143.25 54.62 L142.75 54.88 L141.62 55.00 L141.50 55.12 L139.88 55.25 L139.75 55.38 L139.38 55.38 L138.75 55.62 L138.25 55.62 L138.12 55.75 L135.00 55.75 L133.62 55.25 L133.00 55.25 L132.88 55.12 L131.88 55.00 L131.50 54.75 L130.12 54.38 L129.75 54.12 L128.38 53.88 L127.88 53.62 L127.50 53.25 L126.25 52.88 L125.62 52.38 L124.50 51.88 L123.50 51.12 L122.75 50.75 L122.25 50.25 L121.38 49.75 L118.88 47.25 L118.88 47.12 L118.75 47.12 L118.12 46.50 L117.38 45.38 L116.38 44.25 L115.50 42.50 L115.12 42.12 L114.75 41.38 L114.75 41.12 L114.12 40.00 L113.75 38.62 L113.12 37.38 L112.88 36.12 L112.75 36.00 L112.75 35.50 L112.62 35.38 L112.62 34.88 L112.50 34.75 L112.50 34.25 L112.38 34.12 L112.38 33.50 L112.25 33.38 L112.25 32.75 L112.12 32.62 L112.12 31.50 L112.00 31.38 L112.12 27.62 L112.25 27.50 L112.38 25.88 L112.50 25.75 L112.50 25.38 L112.75 24.75 L112.75 24.12 L112.88 24.00 L112.88 23.38 L113.00 23.25 L113.12 22.50 L113.62 21.62 L114.12 19.88 L115.38 17.38 L115.88 16.75 L116.00 16.38 L116.75 15.25 L118.38 13.38 L119.12 12.25 L119.88 11.75 L121.50 10.12 L122.25 9.75 L123.00 9.12 L123.75 8.75 L124.00 8.75 L124.25 8.50 L125.38 7.88 L125.75 7.88 L125.88 7.75 L126.50 7.62 L127.62 7.00 L128.38 6.88 L128.50 6.75 L129.12 6.62 L129.50 6.38 L130.62 6.25 L130.75 6.12 L131.38 6.12 L131.50 6.00 L132.25 6.00 L132.38 5.88 L133.88 5.88 L134.00 5.75 L137.25 5.75 L137.38 5.88 L138.38 5.88 L138.50 6.00 L140.00 6.12 L140.12 6.25 L140.62 6.25 L140.75 6.38 L141.12 6.38 L141.25 6.50 L143.12 6.88 L143.25 7.00 L144.25 7.25 L145.12 7.75 L145.75 7.88 L146.88 8.62 L147.38 8.75 L147.75 9.00 L148.00 9.00 L150.00 10.50 L151.25 11.12 L151.75 11.62 L152.25 11.88 L154.88 14.62 L155.25 15.25 L157.00 17.00 L157.38 17.75 L157.62 18.00 L157.75 18.00 L157.88 17.75 L157.75 17.12 L157.62 17.00 L157.62 16.75 L156.00 14.62 L155.75 14.12 L154.12 12.25 L154.12 12.12 L153.38 11.38 L153.38 11.25 L150.88 9.00 L149.38 8.12 L148.00 6.88 L146.88 6.25 L145.62 5.88 L144.62 5.38 L144.00 5.25 L143.75 5.00 L143.00 4.62 L142.38 4.62 L142.25 4.50 L141.62 4.62 L141.50 4.50 L141.00 4.50 L140.25 3.88 L140.00 3.88 L139.88 3.75 L138.38 3.75 L138.25 3.62 L137.62 3.62 L137.50 3.50 L132.12 3.50 L132.00 3.62 L131.00 3.62 L130.88 3.75 L130.38 3.75 L130.25 3.88 L129.75 3.88 L129.62 4.00 L129.12 4.00 L129.00 4.12Z"/></symbol></svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="fglow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5"/></filter>
+  <symbol id="i-tel" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M6.6 3.5h2.6l1.4 4.1-2 1.5a12 12 0 0 0 6.3 6.3l1.5-2 4.1 1.4v2.6a2 2 0 0 1-2.1 2A16.5 16.5 0 0 1 4.6 5.6a2 2 0 0 1 2-2.1z"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4M8.5 14.5l2.2 2.2 4.6-4.6"/></g></symbol>
+  <symbol id="i-arr" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12h13M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-swap" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M4 8h14l-4-4M20 16H6l4 4"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+  <symbol id="i-route" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.5 11.5 20.5 4l-7.5 17-2.2-7.3z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><path d="M9.5 16.5v-9h3.5a2.8 2.8 0 0 1 0 5.6H9.5"/></g></symbol>
+  <symbol id="i-wheel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="4.5" r="1.6"/><path d="M11 7.5v6h5.5l2 5M11 10.5h5"/><path d="M8 11.3a5.2 5.2 0 1 0 7.2 6.4"/></g></symbol>
+  <symbol id="i-stairs" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3.5 20.5h4v-4h4v-4h4v-4h5"/></symbol>
+  <symbol id="i-kid" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="2.6"/><path d="M7 11.5l5 1.5 5-1.5M12 13v3.5l-2.5 4M12 16.5l2.5 4"/></g></symbol>
+  <symbol id="i-lang" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5h16v10H11l-4.5 4v-4H4z"/><path d="M8.5 10.5h7"/></g></symbol>
+  <symbol id="i-drill" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h10.5l4-2v9l-4-2H4z"/><path d="M8 14.5v5M18.5 12h2"/></g></symbol>
+  <symbol id="i-auto" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="14" rx="3"/><circle cx="12" cy="12" r="3.5"/><path d="M6.5 8h.01"/></g></symbol>
+  <symbol id="i-wave" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M3.5 9c2.5-2 4-2 6.5 0s4 2 6.5 0 3-2 4 0M3.5 15c2.5-2 4-2 6.5 0s4 2 6.5 0 3-2 4 0"/></symbol>
+  <symbol id="i-lamp" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 20.5h9M9.5 20.5V12l6-6"/><circle cx="17" cy="5" r="2.6"/><path d="M19.5 9.5l1.5 1.5M15 10.5l.5 2"/></g></symbol>
+</svg>
+<a class="skip" href="#main">Przejdź do treści</a>
 
-<header id="top">
-  <div class="wrap nav">
-    <a class="logo" href="#top" aria-label="CitiMedic Podologia">
-      <svg class="logo-svg" role="img" aria-label="Podolog CitiMedic"><use href="#logo-citimedic"/></svg>
-    </a>
-    <ul class="nav-links">
-      <li><a href="#problem">Jaki masz problem?</a></li>
-      <li><a href="#zabiegi">Zabiegi</a></li>
-      <li><a href="#o-nas">O nas</a></li>
-      <li><a href="#gabinet">Gabinet</a></li>
-      <li><a href="#kontakt">Kontakt</a></li>
-      <li><a href="#opinie">Opinie</a></li>
-    </ul>
-    <div class="nav-right">
-    <a class="icon-btn zl" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener" title="Umów wizytę na ZnanyLekarz" aria-label="Umów wizytę na ZnanyLekarz"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="16" rx="3"/><path d="M8 2.5v4M16 2.5v4M3 10h18"/><path d="M12 13v5M9.5 15.5h5"/></svg><span>ZnanyLekarz</span></a>
-    <a class="icon-btn" href="https://www.instagram.com/podologcitimedic/" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/></svg></a>
-    <a class="btn btn-primary" href="tel:+48695082381"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg><span>695 082 381</span></a>
+<header class="hdr">
+  <div class="hdr-in">
+    <a class="brand" href="#start" data-tab="start" aria-label="Podolog CitiMedic, start"><img src="img/logo-acc.svg" alt="Podolog CitiMedic" width="150" height="45"></a>
+    <nav class="tabs" aria-label="Zakładki">
+      <button type="button" data-tab="start">Start</button>
+      <button type="button" data-tab="dolegliwosci">Gdzie boli?</button>
+      <button type="button" data-tab="cennik">Cennik</button>
+      <button type="button" data-tab="wizyta">Wizyta</button>
+      <button type="button" data-tab="zespol">Zespół</button>
+      <button type="button" data-tab="opinie">Opinie</button>
+      <button type="button" data-tab="kontakt">Kontakt</button>
+      <span class="tab-ind" aria-hidden="true"></span>
+    </nav>
+    <div class="hdr-act">
+      <div class="sw" role="radiogroup" aria-label="Wybierz gabinet">
+        <span class="th" aria-hidden="true"></span>
+        <button type="button" role="radio" data-loc="gd" aria-checked="true">Gdańsk</button>
+        <button type="button" role="radio" data-loc="st" aria-checked="false">Straszyn</button>
+      </div>
+      <a class="btn btn-loc btn-sm js-book" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-cal"/></svg>Umów w&nbsp;Booksy</a>
     </div>
+    <button class="burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
   </div>
 </header>
-
-<main>
-<!-- HERO: INTERACTIVE FOOT -->
-<section class="hero" id="problem">
-  <div class="wrap hero-grid">
-
-    <div class="hero-intro">
-      <div>
-        <span class="eyebrow fade-up">Podolog CitiMedic</span>
-        <h1 class="fade-up" style="animation-delay:.1s">Gabinet podologiczny w Gdańsku i Straszynie</h1>
-        <p class="fade-up" style="animation-delay:.2s">Wrastające paznokcie, grzybica, odciski, modzele, kurzajki i pękające pięty. Wskaż na stopie, gdzie masz problem, a pokażemy, jakie zabiegi pomagają właśnie na to.</p>
-        <div class="hero-ctas fade-up" style="animation-delay:.3s">
-          <a class="btn btn-primary" href="tel:+48695082381">Zadzwoń: 695 082 381</a>
-          <a class="btn btn-ghost" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">Termin online</a>
-        </div>
-      </div>
-      <div class="chips-wrap fade-up" style="animation-delay:.4s">
-        <p class="chips-title">Albo wybierz z listy</p>
-        <div class="chips" id="chips" aria-label="Lista problemów"></div>
-        <div class="hero-meta">
-          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Biegańskiego 10/7, Gdańsk</span>
-          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Starogardzka 42, Straszyn (C.H. Kremer)</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="foot-box fade-up" id="footBox" style="animation-delay:.2s">
-      <div class="view-toggle" role="tablist" aria-label="Widok stopy">
-        <span class="pill" id="pill"></span>
-        <button class="on" data-view="top" role="tab" aria-selected="true">Paznokcie</button>
-        <button data-view="sole" role="tab" aria-selected="false">Podeszwa</button>
-      </div>
-      <p class="foot-label">Jaki masz problem? <span>Kliknij kropkę</span></p>
-      <div class="foot-stage">
-                <svg class="foot-svg" viewBox="70 22 283 598" aria-label="Rysunek stopy z zaznaczonymi miejscami problemów">
-          <defs>
-            <path id="footPath" pathLength="1" d="M104 210 C94 168 94 118 106 84 C117 52 140 38 156 44 C172 52 176 86 173 122 C171 146 171 160 173 168 Q177 182 183 168 C180 140 178 104 182 82 C186 60 207 56 213 76 C219 94 218 130 216 160 Q219 176 225 162 C223 138 222 112 226 98 C231 82 248 82 252 98 C256 116 254 140 252 168 Q255 182 261 170 C260 152 260 134 265 122 C270 110 286 112 288 126 C290 142 288 160 286 178 Q290 190 296 182 C296 168 298 156 304 150 C311 144 322 150 323 164 C324 180 321 196 317 210 C318 250 306 300 290 350 C276 395 264 440 258 490 C252 545 232 600 184 604 C138 607 116 570 114 515 C112 460 120 400 116 340 C112 290 102 248 104 210 Z"/>
-            <clipPath id="footClip"><use href="#footPath"/></clipPath>
-            <linearGradient id="skin" x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0" stop-color="#EFCBB6"/>
-              <stop offset=".45" stop-color="#F7E0D1"/>
-              <stop offset="1" stop-color="#EBC2AB"/>
-            </linearGradient>
-            <linearGradient id="skinSole" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0" stop-color="#F3D2C0"/>
-              <stop offset=".5" stop-color="#F7E2D5"/>
-              <stop offset="1" stop-color="#EFC9B4"/>
-            </linearGradient>
-            <linearGradient id="nail" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0" stop-color="#FFF6F2"/>
-              <stop offset=".7" stop-color="#F6D9D0"/>
-              <stop offset="1" stop-color="#EFC4B6"/>
-            </linearGradient>
-            <filter id="blur8" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
-            <filter id="blur4" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
-            <filter id="blur14" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
-            <filter id="drop" x="-30%" y="-20%" width="160%" height="150%"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#5a3626" flood-opacity=".18"/></filter>
-          </defs>
-
-          <!-- ===== TOP VIEW ===== -->
-          <g class="foot-view" id="view-top">
-            <g class="skin-in" filter="url(#drop)"><use href="#footPath" fill="url(#skin)"/></g>
-            <g class="skin-in" clip-path="url(#footClip)">
-              <!-- edge darkening for volume -->
-              <use href="#footPath" fill="none" stroke="#B87657" stroke-opacity=".38" stroke-width="30" filter="url(#blur8)"/>
-              <!-- dorsal highlight -->
-              <ellipse cx="190" cy="330" rx="48" ry="190" fill="#fff" opacity=".35" filter="url(#blur14)"/>
-              <ellipse cx="138" cy="95" rx="18" ry="40" fill="#fff" opacity=".35" filter="url(#blur8)"/>
-              <!-- toe cleft shadows -->
-              <g stroke="#9E5E43" stroke-opacity=".35" stroke-width="6" stroke-linecap="round" filter="url(#blur4)">
-                <path d="M178 172 L176 196"/><path d="M220 168 L218 190"/><path d="M256 176 L254 196"/><path d="M291 186 L289 204"/>
-              </g>
-              <!-- tendons -->
-              <g fill="none" stroke="#C58C72" stroke-width="2.4" stroke-linecap="round" opacity=".28" filter="url(#blur4)">
-                <path d="M140 190 Q160 330 178 470"/>
-                <path d="M200 182 Q204 300 196 420"/>
-                <path d="M240 186 Q236 290 218 400"/>
-                <path d="M276 196 Q264 290 238 390"/>
-              </g>
-            </g>
-            <!-- knuckle & base creases -->
-            <g class="skin-in" fill="none" stroke="#C88E74" stroke-width="1.3" stroke-linecap="round" opacity=".55">
-              <path d="M120 128 Q138 134 158 128"/><path d="M124 134 Q140 139 156 134"/>
-              <path d="M188 116 Q198 120 209 116"/>
-              <path d="M231 130 Q239 133 248 130"/>
-              <path d="M268 152 Q276 155 284 152"/>
-              <path d="M304 180 Q311 183 318 180"/>
-              <path d="M112 196 Q140 206 170 198" opacity=".6"/>
-            </g>
-            <!-- nails -->
-            <g class="skin-in">
-              <g fill="url(#nail)" stroke="#D9A592" stroke-width="1.2">
-                <path d="M116 100 C112 80 114 62 124 56 C134 50 150 50 158 58 C166 66 166 84 162 102 C150 108 128 108 116 100 Z"/>
-                <path d="M189 94 C187 80 190 70 198 67 C204 65 210 70 210 80 C210 88 209 94 208 96 C202 99 194 99 189 94 Z"/>
-                <path d="M231 113 C229 102 232 93 239 91 C245 89 250 95 249 104 C249 110 248 113 247 114 C242 117 236 117 231 113 Z"/>
-                <path d="M269 141 C268 131 271 123 277 121 C282 120 286 125 285 133 C285 138 284 141 283 142 C279 145 273 145 269 141 Z"/>
-                <path d="M306 172 C305 164 308 157 312 156 C317 155 319 160 318 166 C318 170 317 172 316 173 C313 175 309 175 306 172 Z"/>
-              </g>
-              <!-- lunula & cuticle -->
-              <g fill="#FFFFFF" opacity=".55">
-                <path d="M124 101 Q139 90 155 101 Q139 105 124 101 Z"/>
-                <path d="M192 95 Q199 90 206 95 Q199 97 192 95 Z"/>
-              </g>
-              <!-- gloss -->
-              <g fill="none" stroke="#fff" stroke-linecap="round" opacity=".9">
-                <path d="M126 64 Q132 58 142 57" stroke-width="3"/>
-                <path d="M193 73 Q196 70 200 69" stroke-width="2"/>
-                <path d="M234 96 Q236 94 239 93" stroke-width="1.8"/>
-                <path d="M272 126 Q274 124 276 124" stroke-width="1.5"/>
-              </g>
-              <!-- free edge -->
-              <g fill="none" stroke="#F3E6E0" stroke-width="2" stroke-linecap="round">
-                <path d="M126 57 Q140 50 156 57"/>
-              </g>
-            </g>
-            <use href="#footPath" class="outline-draw"/>
-                        <g class="hotspots" data-view="top"></g>
-          </g>
-
-          <!-- ===== SOLE VIEW (mirrored: big toe on the right) ===== -->
-          <g class="foot-view hidden" id="view-sole">
-            <g transform="translate(423 0) scale(-1 1)">
-              <g filter="url(#drop)"><use href="#footPath" fill="url(#skinSole)"/></g>
-              <g clip-path="url(#footClip)">
-                <use href="#footPath" fill="none" stroke="#B87657" stroke-opacity=".32" stroke-width="26" filter="url(#blur8)"/>
-                <!-- pressure pads -->
-                <g fill="#D48E72" opacity=".33" filter="url(#blur14)">
-                  <ellipse cx="208" cy="226" rx="96" ry="34"/>
-                  <ellipse cx="186" cy="550" rx="58" ry="46"/>
-                  <ellipse cx="292" cy="380" rx="20" ry="95"/>
-                </g>
-                <g fill="#D48E72" opacity=".32" filter="url(#blur4)">
-                  <ellipse cx="139" cy="92" rx="24" ry="30"/>
-                  <ellipse cx="199" cy="88" rx="11" ry="15"/>
-                  <ellipse cx="239" cy="108" rx="10" ry="13"/>
-                  <ellipse cx="277" cy="136" rx="9" ry="11"/>
-                  <ellipse cx="313" cy="167" rx="7" ry="9"/>
-                </g>
-                <!-- arch (no contact) -->
-                <ellipse cx="128" cy="370" rx="26" ry="90" fill="#fff" opacity=".45" filter="url(#blur14)"/>
-                <!-- toe cleft shadows -->
-                <g stroke="#9E5E43" stroke-opacity=".3" stroke-width="5" stroke-linecap="round" filter="url(#blur4)">
-                  <path d="M178 172 L177 188"/><path d="M220 168 L219 184"/><path d="M256 176 L255 190"/><path d="M291 186 L290 198"/>
-                </g>
-              </g>
-              <!-- creases -->
-              <g fill="none" stroke="#C88E74" stroke-width="1.3" stroke-linecap="round" opacity=".55">
-                <path d="M112 186 Q140 196 172 188"/>
-                <path d="M184 180 Q200 186 214 180"/>
-                <path d="M226 184 Q238 189 250 184"/>
-                <path d="M262 190 Q274 194 285 190"/>
-                <path d="M297 198 Q307 201 316 198"/>
-                <path d="M130 130 Q140 134 152 130" opacity=".6"/>
-                <path d="M150 515 Q186 505 222 515" opacity=".35"/>
-                <path d="M146 532 Q186 522 226 532" opacity=".3"/>
-              </g>
-              <use href="#footPath" fill="none" stroke="#C48A70" stroke-width="1.6"/>
-            </g>
-            <g class="hotspots" data-view="sole"></g>
-          </g>
-        </svg>
-      </div>
-      <p class="foot-hint" id="foot-hint">Stopa prawa, widok z góry</p>
-    </div>
-
-    <div class="panel fade-up" id="panel" aria-live="polite" style="animation-delay:.35s">
-      <div class="panel-empty">
-        <div class="big-dot"><i></i></div>
-        <h3>Nie wiesz, jak to się nazywa? Nie szkodzi.</h3>
-        <p>Wystarczy, że wskażesz miejsce. Podpowiemy, co to może być i od czego zacząć leczenie.</p>
-        <ol>
-          <li><b>1</b>Kliknij kropkę na stopie</li>
-          <li><b>2</b>Zobacz objawy i dobrane zabiegi</li>
-          <li><b>3</b>Zadzwoń albo zarezerwuj termin online</li>
-        </ol>
-      </div>
-    </div>
-
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="sw" role="radiogroup" aria-label="Wybierz gabinet">
+    <span class="th" aria-hidden="true"></span>
+    <button type="button" role="radio" data-loc="gd" aria-checked="true">Gdańsk</button>
+    <button type="button" role="radio" data-loc="st" aria-checked="false">Straszyn</button>
   </div>
-</section>
-
-
-<!-- PRICE LIST -->
-<section id="zabiegi">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div>
-        <span class="eyebrow">Zabiegi i cennik</span>
-        <h2>Zabiegi w CitiMedic</h2>
-      </div>
-      <p>Każda wizyta zaczyna się od oceny stopy. Dokładną cenę podolog podaje po obejrzeniu problemu.</p>
-    </div>
-    <div class="prices">
-      <div class="price-row reveal"><div><h3>Konsultacja podologiczna</h3><p>Ocena stóp i paznokci, nazwanie problemu i plan leczenia.</p></div><span class="price">od 50 zł</span><a class="btn btn-primary" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">Umów</a></div>
-      <div class="price-row reveal"><div><h3>Zabieg podologiczny</h3><p>Opracowanie paznokci i skóry stóp: zrogowacenia, odciski, modzele.</p></div><span class="price">od 150 zł</span><a class="btn btn-primary" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">Umów</a></div>
-      <div class="price-row reveal"><div><h3>Leczenie wrastających paznokci</h3><p>Odbarczenie bolesnego brzegu paznokcia. Cena zależy od zaawansowania.</p></div><span class="price">70–230 zł</span><a class="btn btn-primary" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">Umów</a></div>
-      <div class="price-row reveal"><div><h3>Leczenie chorób paznokci</h3><p>Grzybica, zgrubienia, przebarwienia i inne zmiany płytki.</p></div><span class="price">130–180 zł</span><a class="btn btn-primary" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">Umów</a></div>
-      <div class="price-row reveal"><div><h3>Rekonstrukcja paznokci</h3><p>Odbudowa uszkodzonej lub usuniętej płytki paznokcia.</p></div><span class="price">od 20 zł</span><a class="btn btn-primary" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">Umów</a></div>
-      <div class="price-row reveal"><div><h3>Usuwanie brodawek (kurzajek)</h3><p>Kurzajki i brodawki wirusowe na stopach.</p></div><span class="price">od 130 zł</span><a class="btn btn-primary" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">Umów</a></div>
-      <div class="price-row reveal"><div><h3>Pękające pięty</h3><p>Usunięcie zgrubiałej skóry i opracowanie pęknięć.</p></div><span class="price">130–170 zł</span><a class="btn btn-primary" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">Umów</a></div>
-    </div>
-  </div>
-</section>
-
-<!-- O NAS -->
-<section id="o-nas">
-  <div class="wrap about">
-    <div class="about-text reveal">
-      <span class="eyebrow">O nas</span>
-      <h2>Podolog CitiMedic</h2>
-      <p>Podolog CitiMedic w Gdańsku to miejsce oferujące kompleksową opiekę podologiczną na najwyższym poziomie. Specjalizujemy się w leczeniu problemów z paznokciami i stopami, takich jak modzele, odciski, wrastające paznokcie, grzybica oraz zmiany chorobowe paznokci. Nasza praca opiera się na profesjonalnym podejściu, indywidualnej diagnozie i dobraniu skutecznych metod terapii dostosowanych do potrzeb każdego pacjenta.</p>
-      <p>Wykonujemy podstawowe i rozszerzone zabiegi podologiczne, a także pedicure leczniczy, rekonstrukcje paznokci, usuwanie zrogowaceń czy brodawek. Zespół pracuje z wykorzystaniem nowoczesnych narzędzi i metodyk, które gwarantują komfort i bezpieczeństwo zabiegów. Dbamy o przyjazną atmosferę oraz merytoryczną wiedzę, co potwierdzają liczne pozytywne opinie naszych pacjentów.</p>
-      <p>Zapraszamy również na refleksologię stóp, czyli terapię polegającą na masażu oraz ucisku punktów refleksologicznych znajdujących się na stopach, oraz na manicure kosmetyczny.</p>
-      <p>Nasz gabinet znajduje się w Gdańsku przy ul. dr. Władysława Biegańskiego 10/7 oraz w Straszynie przy ul. Starogardzkiej 42, w C.H. Kremer. Dziękujemy za zaufanie i zapraszamy na wizytę!</p>
-    </div>
-    <div class="about-spec reveal">
-      <h3>Specjalizujemy się w</h3>
-      <ul><li>Grzybica stóp i paznokci</li><li>Zielona bakteria (Pseudomonas aeruginosa)</li><li>Zanokcica</li><li>Klamry ortonyksyjne</li><li>Wrastające paznokcie</li><li>Wysięk ropny</li><li>Ziarnina (dzikie mięso)</li><li>Modzele</li><li>Odciski</li><li>Nagniotek</li><li>Brodawki wirusowe, HPV</li><li>Kurzajki</li><li>Brodawka mozaikowata</li><li>Pękające pięty</li><li>Keratoliza dziobata</li><li>Krwiak podpaznokciowy</li><li>Onycholiza</li><li>Nadpotliwość stóp</li><li>Deformacje paznokci</li><li>Ból stóp i palców</li><li>Rogowiec</li><li>Zrogowacenia na stopach</li><li>Uraz paznokcia, czarny paznokieć</li><li>Hiperkeratoza (zgrubiałe paznokcie)</li><li>Szponowatość paznokci</li><li>Profilaktyka stopy cukrzycowej</li></ul>
-    </div>
-  </div>
-</section>
-
-<!-- WHY -->
-<div class="why" id="gabinet">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div>
-        <span class="eyebrow">Dlaczego CitiMedic</span>
-        <h2>Bezpiecznie, spokojnie i bez zgadywania</h2>
-      </div>
-      <p>Pracujemy na sprzęcie medycznym i sterylnych narzędziach. Każdy krok zabiegu tłumaczymy, zanim go zrobimy.</p>
-    </div>
-    <div class="why-grid">
-      <div class="why-item reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Autoklaw</h3><p>Narzędzia sterylizujemy po każdym pacjencie. Przed sterylizacją myjka ultradźwiękowa.</p></div>
-      <div class="why-item reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg></div><h3>Frezarka z pochłaniaczem</h3><p>Opracowanie paznokci bez pyłu w powietrzu. Ważne zwłaszcza przy grzybicy.</p></div>
-      <div class="why-item reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v3M4.9 4.9l2.1 2.1M2 12h3M19.1 4.9 17 7M22 12h-3"/><circle cx="12" cy="13" r="5"/></svg></div><h3>Lampa i fotel podologiczny</h3><p>Dobre światło i wygodna pozycja to dokładność zabiegu i Twój komfort.</p></div>
-      <div class="why-item reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.2-4.5A9 9 0 1 1 21 12Z"/></svg></div><h3>Polski, angielski, ukraiński</h3><p>Wytłumaczymy wszystko w języku, w którym czujesz się najpewniej.</p></div>
-    </div>
-    <div class="team">
-      <div class="person reveal"><div class="avatar">NB</div><div><b>Natalia Belecka</b><span>Podolog</span></div></div>
-      <div class="person reveal"><div class="avatar">ER</div><div><b>lic. Ewelina Rykaczewska</b><span>Podolog</span></div></div>
-      <div class="person reveal"><div class="avatar">MA</div><div><b>mgr Monika Anhalt-Szawłowska</b><span>Podolog</span></div></div>
-    </div>
-  </div>
+  <ul class="menu-list">
+    <li style="--i:0"><button type="button" data-tab="start">Start</button></li>
+    <li style="--i:1"><button type="button" data-tab="dolegliwosci">Gdzie boli?</button></li>
+    <li style="--i:2"><button type="button" data-tab="cennik">Cennik</button></li>
+    <li style="--i:3"><button type="button" data-tab="wizyta">Wizyta</button></li>
+    <li style="--i:4"><button type="button" data-tab="zespol">Zespół</button></li>
+    <li style="--i:5"><button type="button" data-tab="opinie">Opinie</button></li>
+    <li style="--i:6"><button type="button" data-tab="kontakt">Kontakt</button></li>
+  </ul>
 </div>
+<div class="menu-dim" aria-hidden="true"></div>
 
-<!-- GALLERY -->
-<section>
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div><span class="eyebrow">Gabinet</span><h2>Zajrzyj do nas, zanim przyjdziesz</h2></div>
-      <p>Pawilon handlowo-usługowy przy Biegańskiego 10/7 w Gdańsku.</p>
-    </div>
-    <div class="gallery reveal">
-      <figure><img src="https://pixel-p2.s3.eu-central-1.amazonaws.com/facility/photos/db8e8fc9/db8e8fc9-ac7d-4404-a086-5922db90f210_large.jpg" alt="Gabinet podologiczny CitiMedic" loading="lazy" onerror="this.parentNode.style.background='var(--teal-soft)';this.remove()"></figure>
-      <figure><img src="https://pixel-p2.s3.eu-central-1.amazonaws.com/facility/photos/3d8c6dae/3d8c6dae-bdc1-4124-ba1d-7a522986ade8_large.jpg" alt="Wnętrze gabinetu CitiMedic" loading="lazy" onerror="this.parentNode.style.background='var(--teal-soft)';this.remove()"></figure>
-      <figure><img src="https://pixel-p2.s3.eu-central-1.amazonaws.com/facility/photos/397bf94c/397bf94c-48a0-433a-bc00-01a366eb48f0_large.jpg" alt="Stanowisko podologiczne CitiMedic" loading="lazy" onerror="this.parentNode.style.background='var(--teal-soft)';this.remove()"></figure>
-      <div class="g-note"><svg class="g-logo" role="img" aria-label="Podolog CitiMedic"><use href="#logo-citimedic"/></svg><span>Gdańsk, Biegańskiego 10/7 · Straszyn, Starogardzka 42</span></div>
-    </div>
-  </div>
-</section>
+<main id="main">
+<div class="trail" aria-hidden="true"></div>
 
-<!-- LOCATIONS -->
-<section id="kontakt" style="padding-top:20px">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div><span class="eyebrow">Kontakt</span><h2>Wybierz bliższy gabinet</h2></div>
-      <p>Zadzwoń albo zarezerwuj termin online. Przypomnienie o wizycie przyjdzie SMS-em.</p>
+<!-- ================= START ================= -->
+<section class="panel" id="p-start" data-panel="start" aria-labelledby="h-start">
+  <div class="hero"><div class="wrap hero-g">
+    <div>
+      <div class="sw sw-lg" role="radiogroup" aria-label="Wybierz gabinet">
+        <span class="th" aria-hidden="true"></span>
+        <button type="button" role="radio" data-loc="gd" aria-checked="true">Gdańsk Chełm</button>
+        <button type="button" role="radio" data-loc="st" aria-checked="false">Straszyn</button>
+      </div>
+      <h1 id="h-start">Gabinety podologiczne w&nbsp;Gdańsku i&nbsp;Straszynie</h1>
+      <p class="lead">Wrastające paznokcie i&nbsp;klamry, paznokcie zmienione chorobowo, odciski, pękające pięty i&nbsp;kurzajki. Przyjmujemy na Chełmie przy Biegańskiego i&nbsp;w C.H. Kremer w&nbsp;Straszynie.</p>
+      <div class="cta">
+        <a class="btn btn-loc js-book" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-cal"/></svg><span class="js-book-l">Umów w&nbsp;Gdańsku</span></a>
+        <a class="btn btn-line js-tel" href="tel:+48695082381"><svg aria-hidden="true"><use href="#i-tel"/></svg><span class="js-tel-l">695&nbsp;082&nbsp;381</span></a>
+      </div>
+      <p class="today" aria-live="polite"><span class="dot js-dot"></span><span class="js-today">Dziś w&nbsp;Gdańsku 9:00–21:00</span></p>
     </div>
-    <div class="loc-grid">
-      <div class="loc reveal">
-        <iframe title="Mapa: CitiMedic Gdańsk" loading="lazy" src="https://www.google.com/maps?q=54.344738,18.623274&z=16&output=embed"></iframe>
-        <div class="loc-body">
-          <span class="tag">Gdańsk</span>
-          <h3>ul. dr. Władysława Biegańskiego 10/7</h3>
-          <p>Pawilon handlowo-usługowy, 80-807 Gdańsk</p>
-          <div class="row">
-            <a class="btn btn-primary" href="tel:+48695082381">Zadzwoń: 695 082 381</a>
-            <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=54.344738,18.623274" target="_blank" rel="noopener">Wyznacz trasę</a>
-          </div>
+    <figure class="photo">
+      <div class="ph-img"><img src="img/zespol.jpg" alt="Zespół podologów CitiMedic w czarnych uniformach" width="1600" height="882" fetchpriority="high"></div>
+      <figcaption>Część naszego zespołu z&nbsp;Gdańska i&nbsp;Straszyna</figcaption>
+    </figure>
+  </div></div>
+
+  <div class="wrap">
+    <div class="doors">
+      <button type="button" class="door d1" data-go="dolegliwosci"><i><svg aria-hidden="true"><use href="#i-arr"/></svg></i><b>Gdzie boli?</b><span>Wskaż miejsce na stopie albo dłoni, zobacz zabieg i&nbsp;cenę.</span></button>
+      <button type="button" class="door d2" data-go="cennik"><i><svg aria-hidden="true"><use href="#i-arr"/></svg></i><b>Cennik</b><span>Wszystkie zabiegi z&nbsp;cenami i&nbsp;czasem trwania.</span></button>
+      <button type="button" class="door d3" data-go="zespol"><i><svg aria-hidden="true"><use href="#i-arr"/></svg></i><b>Zespół</b><span>Kto przyjmuje w&nbsp;Gdańsku, a&nbsp;kto w&nbsp;Straszynie.</span></button>
+      <button type="button" class="door d4" data-go="wizyta"><i><svg aria-hidden="true"><use href="#i-arr"/></svg></i><b>Pierwsza wizyta</b><span>Jak się umówić i&nbsp;jak się przygotować.</span></button>
+    </div>
+
+    <div class="proof">
+      <div class="score">
+        <div class="big">5,0</div>
+        <div>
+          <div class="stars" aria-label="5 na 5 gwiazdek"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+          <p><b>2&nbsp;207 opinii na Booksy</b><br>Gdańsk 1&nbsp;192, Straszyn 1&nbsp;015</p>
         </div>
       </div>
-      <div class="loc reveal">
-        <iframe title="Mapa: CitiMedic Straszyn" loading="lazy" src="https://www.google.com/maps?q=54.276085,18.585205&z=16&output=embed"></iframe>
-        <div class="loc-body">
-          <span class="tag">Straszyn</span>
-          <h3>ul. Starogardzka 42</h3>
-          <p>C.H. Kremer, 83-010 Straszyn</p>
-          <div class="row">
-            <a class="btn btn-primary" href="tel:+48727169899">Zadzwoń: 727 169 899</a>
-            <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=54.276085,18.585205" target="_blank" rel="noopener">Wyznacz trasę</a>
-          </div>
+      <div class="quotes">
+        <figure class="q" style="margin:0"><p>„Profesjonalizm i&nbsp;ogromna życzliwość w&nbsp;jednym. Wszystko wyjaśnione spokojnie, rzeczowo i&nbsp;bez pośpiechu.”</p><figcaption class="who"><b>Marcelina</b> · brodawki, Straszyn</figcaption></figure>
+        <figure class="q" style="margin:0"><p>„Miła obsługa, salon czysty i&nbsp;zadbany. Jestem bardzo zadowolona z&nbsp;wykonanej usługi.”</p><figcaption class="who"><b>Agnieszka</b> · rozszerzony zabieg podologiczny, Gdańsk</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINDER ================= -->
+<section class="panel" id="p-dolegliwosci" data-panel="dolegliwosci" aria-labelledby="h-fd">
+  <div class="sec"><div class="wrap">
+    <div class="sec-h">
+      <h2 id="h-fd">Gdzie boli?</h2>
+      <p>Kliknij miejsce na rysunku albo wybierz z&nbsp;listy. Pokażemy, co robimy przy takim problemie, ile to kosztuje i&nbsp;gdzie się umówić.</p>
+    </div>
+    <div class="fd">
+      <div class="fd-map">
+        <div class="views" role="tablist" aria-label="Widok">
+          <button type="button" role="tab" data-view="top" aria-selected="true">Stopa z&nbsp;góry</button>
+          <button type="button" role="tab" data-view="sole" aria-selected="false">Podeszwa</button>
+          <button type="button" role="tab" data-view="hand" aria-selected="false">Dłoń</button>
+        </div>
+        <div class="fig"><svg class="ft" data-fig="top" viewBox="14 6 256 516" role="group" aria-label="Stopa widziana z góry"><defs><linearGradient id="gtop" gradientUnits="userSpaceOnUse" x1="0" y1="20" x2="0" y2="510"><stop offset="0" class="fa"/><stop offset="1" class="fb"/></linearGradient></defs><g class="ft-glow" filter="url(#fglow)"><rect x="71.0" y="22.0" width="62.0" height="140.0" rx="31.0" transform="rotate(-3 102.0 162.0)"/><rect x="133.0" y="38.0" width="36.0" height="116.0" rx="18.0" transform="rotate(1 151.0 154.0)"/><rect x="168.0" y="55.0" width="32.0" height="104.0" rx="16.0" transform="rotate(4 184.0 159.0)"/><rect x="197.5" y="77.0" width="29.0" height="92.0" rx="14.5" transform="rotate(8 212.0 169.0)"/><rect x="223.0" y="102.0" width="26.0" height="80.0" rx="13.0" transform="rotate(13 236.0 182.0)"/><path d="M76 146 C 90 128 120 128 140 132 C 162 136 188 142 208 150 C 226 156 242 164 250 174 C 260 190 258 218 252 250 C 246 290 236 332 226 374 C 218 414 208 452 196 478 C 184 500 168 506 150 506 C 114 506 96 482 92 448 C 88 410 90 372 88 334 C 86 296 80 262 72 236 C 66 216 62 196 64 180 C 65 166 70 154 76 146 Z"/></g><g class="ft-st"><rect x="71.0" y="22.0" width="62.0" height="140.0" rx="31.0" transform="rotate(-3 102.0 162.0)"/><rect x="133.0" y="38.0" width="36.0" height="116.0" rx="18.0" transform="rotate(1 151.0 154.0)"/><rect x="168.0" y="55.0" width="32.0" height="104.0" rx="16.0" transform="rotate(4 184.0 159.0)"/><rect x="197.5" y="77.0" width="29.0" height="92.0" rx="14.5" transform="rotate(8 212.0 169.0)"/><rect x="223.0" y="102.0" width="26.0" height="80.0" rx="13.0" transform="rotate(13 236.0 182.0)"/><path d="M76 146 C 90 128 120 128 140 132 C 162 136 188 142 208 150 C 226 156 242 164 250 174 C 260 190 258 218 252 250 C 246 290 236 332 226 374 C 218 414 208 452 196 478 C 184 500 168 506 150 506 C 114 506 96 482 92 448 C 88 410 90 372 88 334 C 86 296 80 262 72 236 C 66 216 62 196 64 180 C 65 166 70 154 76 146 Z"/></g><g class="ft-fl" fill="url(#gtop)"><rect x="71.0" y="22.0" width="62.0" height="140.0" rx="31.0" transform="rotate(-3 102.0 162.0)"/><rect x="133.0" y="38.0" width="36.0" height="116.0" rx="18.0" transform="rotate(1 151.0 154.0)"/><rect x="168.0" y="55.0" width="32.0" height="104.0" rx="16.0" transform="rotate(4 184.0 159.0)"/><rect x="197.5" y="77.0" width="29.0" height="92.0" rx="14.5" transform="rotate(8 212.0 169.0)"/><rect x="223.0" y="102.0" width="26.0" height="80.0" rx="13.0" transform="rotate(13 236.0 182.0)"/><path d="M76 146 C 90 128 120 128 140 132 C 162 136 188 142 208 150 C 226 156 242 164 250 174 C 260 190 258 218 252 250 C 246 290 236 332 226 374 C 218 414 208 452 196 478 C 184 500 168 506 150 506 C 114 506 96 482 92 448 C 88 410 90 372 88 334 C 86 296 80 262 72 236 C 66 216 62 196 64 180 C 65 166 70 154 76 146 Z"/></g><rect class="nl" x="80.0" y="31.0" width="42" height="46" rx="17.6" transform="rotate(-3 101 54)"/><rect class="nl" x="140.0" y="48.5" width="24" height="27" rx="10.1" transform="rotate(1 152 62)"/><rect class="nl" x="174.5" y="65.0" width="21" height="24" rx="8.8" transform="rotate(4 185 77)"/><rect class="nl" x="204.5" y="86.5" width="19" height="21" rx="8.0" transform="rotate(8 214 97)"/><rect class="nl" x="230.5" y="110.0" width="17" height="18" rx="7.1" transform="rotate(13 239 119)"/><g class="hits"><circle class="mk-hit" data-pb="wrast" cx="122" cy="72" r="24"/><circle class="mk-hit" data-pb="klamra" cx="80" cy="72" r="24"/><circle class="mk-hit" data-pb="zmien" cx="152" cy="64" r="24"/><circle class="mk-hit" data-pb="krwiak" cx="185" cy="79" r="24"/><circle class="mk-hit" data-pb="rekon" cx="214" cy="99" r="24"/><circle class="mk-hit" data-pb="odcisk" cx="252" cy="152" r="24"/><circle class="mk-hit" data-pb="zabieg" cx="150" cy="300" r="24"/></g><g class="mk" data-pb="wrast" tabindex="0" role="button"><circle class="mk-ring" cx="122" cy="72" r="19"/><circle class="mk-b" cx="122" cy="72" r="13"/><text x="122" y="72">1</text></g><g class="mk" data-pb="klamra" tabindex="0" role="button"><circle class="mk-ring" cx="80" cy="72" r="19"/><circle class="mk-b" cx="80" cy="72" r="13"/><text x="80" y="72">2</text></g><g class="mk" data-pb="zmien" tabindex="0" role="button"><circle class="mk-ring" cx="152" cy="64" r="19"/><circle class="mk-b" cx="152" cy="64" r="13"/><text x="152" y="64">3</text></g><g class="mk" data-pb="krwiak" tabindex="0" role="button"><circle class="mk-ring" cx="185" cy="79" r="19"/><circle class="mk-b" cx="185" cy="79" r="13"/><text x="185" y="79">4</text></g><g class="mk" data-pb="rekon" tabindex="0" role="button"><circle class="mk-ring" cx="214" cy="99" r="19"/><circle class="mk-b" cx="214" cy="99" r="13"/><text x="214" y="99">5</text></g><g class="mk" data-pb="odcisk" tabindex="0" role="button"><circle class="mk-ring" cx="252" cy="152" r="19"/><circle class="mk-b" cx="252" cy="152" r="13"/><text x="252" y="152">6</text></g><g class="mk" data-pb="zabieg" tabindex="0" role="button"><circle class="mk-ring" cx="150" cy="300" r="19"/><circle class="mk-b" cx="150" cy="300" r="13"/><text x="150" y="300">7</text></g></svg><svg class="ft" data-fig="sole" viewBox="14 6 256 516" role="group" aria-label="Podeszwa stopy" hidden><defs><linearGradient id="gsole" gradientUnits="userSpaceOnUse" x1="0" y1="20" x2="0" y2="510"><stop offset="0" class="fa"/><stop offset="1" class="fb"/></linearGradient><clipPath id="csole" transform="matrix(-1 0 0 1 284 0)"><rect x="71.0" y="22.0" width="62.0" height="140.0" rx="31.0" transform="rotate(-3 102.0 162.0)"/><rect x="133.0" y="38.0" width="36.0" height="116.0" rx="18.0" transform="rotate(1 151.0 154.0)"/><rect x="168.0" y="55.0" width="32.0" height="104.0" rx="16.0" transform="rotate(4 184.0 159.0)"/><rect x="197.5" y="77.0" width="29.0" height="92.0" rx="14.5" transform="rotate(8 212.0 169.0)"/><rect x="223.0" y="102.0" width="26.0" height="80.0" rx="13.0" transform="rotate(13 236.0 182.0)"/><path d="M76 146 C 90 128 120 128 140 132 C 162 136 188 142 208 150 C 226 156 242 164 250 174 C 260 190 258 218 252 250 C 246 290 236 332 226 374 C 218 414 208 452 196 478 C 184 500 168 506 150 506 C 114 506 96 482 92 448 C 88 410 90 372 88 334 C 86 296 80 262 72 236 C 66 216 62 196 64 180 C 65 166 70 154 76 146 Z"/></clipPath></defs><g transform="matrix(-1 0 0 1 284 0)"><g class="ft-glow" filter="url(#fglow)"><rect x="71.0" y="22.0" width="62.0" height="140.0" rx="31.0" transform="rotate(-3 102.0 162.0)"/><rect x="133.0" y="38.0" width="36.0" height="116.0" rx="18.0" transform="rotate(1 151.0 154.0)"/><rect x="168.0" y="55.0" width="32.0" height="104.0" rx="16.0" transform="rotate(4 184.0 159.0)"/><rect x="197.5" y="77.0" width="29.0" height="92.0" rx="14.5" transform="rotate(8 212.0 169.0)"/><rect x="223.0" y="102.0" width="26.0" height="80.0" rx="13.0" transform="rotate(13 236.0 182.0)"/><path d="M76 146 C 90 128 120 128 140 132 C 162 136 188 142 208 150 C 226 156 242 164 250 174 C 260 190 258 218 252 250 C 246 290 236 332 226 374 C 218 414 208 452 196 478 C 184 500 168 506 150 506 C 114 506 96 482 92 448 C 88 410 90 372 88 334 C 86 296 80 262 72 236 C 66 216 62 196 64 180 C 65 166 70 154 76 146 Z"/></g><g class="ft-st"><rect x="71.0" y="22.0" width="62.0" height="140.0" rx="31.0" transform="rotate(-3 102.0 162.0)"/><rect x="133.0" y="38.0" width="36.0" height="116.0" rx="18.0" transform="rotate(1 151.0 154.0)"/><rect x="168.0" y="55.0" width="32.0" height="104.0" rx="16.0" transform="rotate(4 184.0 159.0)"/><rect x="197.5" y="77.0" width="29.0" height="92.0" rx="14.5" transform="rotate(8 212.0 169.0)"/><rect x="223.0" y="102.0" width="26.0" height="80.0" rx="13.0" transform="rotate(13 236.0 182.0)"/><path d="M76 146 C 90 128 120 128 140 132 C 162 136 188 142 208 150 C 226 156 242 164 250 174 C 260 190 258 218 252 250 C 246 290 236 332 226 374 C 218 414 208 452 196 478 C 184 500 168 506 150 506 C 114 506 96 482 92 448 C 88 410 90 372 88 334 C 86 296 80 262 72 236 C 66 216 62 196 64 180 C 65 166 70 154 76 146 Z"/></g><g class="ft-fl" fill="url(#gsole)"><rect x="71.0" y="22.0" width="62.0" height="140.0" rx="31.0" transform="rotate(-3 102.0 162.0)"/><rect x="133.0" y="38.0" width="36.0" height="116.0" rx="18.0" transform="rotate(1 151.0 154.0)"/><rect x="168.0" y="55.0" width="32.0" height="104.0" rx="16.0" transform="rotate(4 184.0 159.0)"/><rect x="197.5" y="77.0" width="29.0" height="92.0" rx="14.5" transform="rotate(8 212.0 169.0)"/><rect x="223.0" y="102.0" width="26.0" height="80.0" rx="13.0" transform="rotate(13 236.0 182.0)"/><path d="M76 146 C 90 128 120 128 140 132 C 162 136 188 142 208 150 C 226 156 242 164 250 174 C 260 190 258 218 252 250 C 246 290 236 332 226 374 C 218 414 208 452 196 478 C 184 500 168 506 150 506 C 114 506 96 482 92 448 C 88 410 90 372 88 334 C 86 296 80 262 72 236 C 66 216 62 196 64 180 C 65 166 70 154 76 146 Z"/></g></g><g clip-path="url(#csole)"><ellipse class="pad" cx="182.0" cy="60.4" rx="22.3" ry="28.5"/><ellipse class="pad" cx="133.0" cy="60.3" rx="13.0" ry="16.6"/><ellipse class="pad" cx="100.0" cy="74.8" rx="11.5" ry="14.7"/><ellipse class="pad" cx="72.0" cy="95.0" rx="10.4" ry="13.3"/><ellipse class="pad" cx="48.0" cy="118.1" rx="9.4" ry="12.0"/><path class="pad" d="M232 196 C 204 168 114 166 48 194 C 34 214 44 238 64 244 C 114 252 174 248 214 240 C 236 232 240 212 232 196 Z"/><ellipse class="pad" cx="136" cy="452" rx="44" ry="40"/></g><path class="arch" d="M214 262 C 192 300 186 350 188 398"/><g class="hits"><circle class="mk-hit" data-pb="zrog" cx="126" cy="204" r="24"/><circle class="mk-hit" data-pb="odcisk" cx="196" cy="206" r="24"/><circle class="mk-hit" data-pb="kurzajki" cx="90" cy="268" r="24"/><circle class="mk-hit" data-pb="piety" cx="136" cy="452" r="24"/></g><g class="mk" data-pb="zrog" tabindex="0" role="button"><circle class="mk-ring" cx="126" cy="204" r="19"/><circle class="mk-b" cx="126" cy="204" r="13"/><text x="126" y="204">1</text></g><g class="mk" data-pb="odcisk" tabindex="0" role="button"><circle class="mk-ring" cx="196" cy="206" r="19"/><circle class="mk-b" cx="196" cy="206" r="13"/><text x="196" y="206">2</text></g><g class="mk" data-pb="kurzajki" tabindex="0" role="button"><circle class="mk-ring" cx="90" cy="268" r="19"/><circle class="mk-b" cx="90" cy="268" r="13"/><text x="90" y="268">3</text></g><g class="mk" data-pb="piety" tabindex="0" role="button"><circle class="mk-ring" cx="136" cy="452" r="19"/><circle class="mk-b" cx="136" cy="452" r="13"/><text x="136" y="452">4</text></g></svg><svg class="ft" data-fig="hand" viewBox="14 6 256 516" role="group" aria-label="Dłoń" hidden><defs><linearGradient id="ghand" gradientUnits="userSpaceOnUse" x1="0" y1="20" x2="0" y2="510"><stop offset="0" class="fa"/><stop offset="1" class="fb"/></linearGradient></defs><g class="ft-glow" filter="url(#fglow)"><rect x="60.0" y="192.0" width="48.0" height="140.0" rx="24.0" transform="rotate(-36 84.0 332.0)"/><rect x="62.0" y="74.0" width="40.0" height="196.0" rx="20.0" transform="rotate(-6 82.0 270.0)"/><rect x="101.0" y="40.0" width="40.0" height="222.0" rx="20.0" transform="rotate(-1 121.0 262.0)"/><rect x="140.0" y="52.0" width="38.0" height="212.0" rx="19.0" transform="rotate(3 159.0 264.0)"/><rect x="177.5" y="96.0" width="33.0" height="176.0" rx="16.5" transform="rotate(8 194.0 272.0)"/><path d="M66 246 C 64 224 78 212 98 210 L 196 214 C 214 206 222 220 220 240 C 218 280 214 318 206 352 C 198 386 194 420 192 456 L 190 512 L 98 512 L 96 456 C 94 420 84 388 76 356 C 68 324 66 280 66 236 Z"/></g><g class="ft-st"><rect x="60.0" y="192.0" width="48.0" height="140.0" rx="24.0" transform="rotate(-36 84.0 332.0)"/><rect x="62.0" y="74.0" width="40.0" height="196.0" rx="20.0" transform="rotate(-6 82.0 270.0)"/><rect x="101.0" y="40.0" width="40.0" height="222.0" rx="20.0" transform="rotate(-1 121.0 262.0)"/><rect x="140.0" y="52.0" width="38.0" height="212.0" rx="19.0" transform="rotate(3 159.0 264.0)"/><rect x="177.5" y="96.0" width="33.0" height="176.0" rx="16.5" transform="rotate(8 194.0 272.0)"/><path d="M66 246 C 64 224 78 212 98 210 L 196 214 C 214 206 222 220 220 240 C 218 280 214 318 206 352 C 198 386 194 420 192 456 L 190 512 L 98 512 L 96 456 C 94 420 84 388 76 356 C 68 324 66 280 66 236 Z"/></g><g class="ft-fl" fill="url(#ghand)"><rect x="60.0" y="192.0" width="48.0" height="140.0" rx="24.0" transform="rotate(-36 84.0 332.0)"/><rect x="62.0" y="74.0" width="40.0" height="196.0" rx="20.0" transform="rotate(-6 82.0 270.0)"/><rect x="101.0" y="40.0" width="40.0" height="222.0" rx="20.0" transform="rotate(-1 121.0 262.0)"/><rect x="140.0" y="52.0" width="38.0" height="212.0" rx="19.0" transform="rotate(3 159.0 264.0)"/><rect x="177.5" y="96.0" width="33.0" height="176.0" rx="16.5" transform="rotate(8 194.0 272.0)"/><path d="M66 246 C 64 224 78 212 98 210 L 196 214 C 214 206 222 220 220 240 C 218 280 214 318 206 352 C 198 386 194 420 192 456 L 190 512 L 98 512 L 96 456 C 94 420 84 388 76 356 C 68 324 66 280 66 236 Z"/></g><rect class="nl" x="69.0" y="80.0" width="22" height="26" rx="9.2" transform="rotate(-6 80 93)"/><rect class="nl" x="109.5" y="45.5" width="23" height="27" rx="9.7" transform="rotate(-1 121 59)"/><rect class="nl" x="149.0" y="58.0" width="22" height="26" rx="9.2" transform="rotate(3 160 71)"/><rect class="nl" x="187.5" y="102.0" width="19" height="22" rx="8.0" transform="rotate(8 197 113)"/><rect class="nl" x="7.7" y="229.8" width="23" height="26" rx="9.7" transform="rotate(-36 19.2 242.8)"/><g class="hits"><circle class="mk-hit" data-pb="hkrwiak" cx="121" cy="59" r="24"/><circle class="mk-hit" data-pb="hzmien" cx="80" cy="93" r="24"/><circle class="mk-hit" data-pb="hkurzajki" cx="148" cy="300" r="24"/><circle class="mk-hit" data-pb="manicure" cx="197" cy="113" r="24"/></g><g class="mk" data-pb="hkrwiak" tabindex="0" role="button"><circle class="mk-ring" cx="121" cy="59" r="19"/><circle class="mk-b" cx="121" cy="59" r="13"/><text x="121" y="59">1</text></g><g class="mk" data-pb="hzmien" tabindex="0" role="button"><circle class="mk-ring" cx="80" cy="93" r="19"/><circle class="mk-b" cx="80" cy="93" r="13"/><text x="80" y="93">2</text></g><g class="mk" data-pb="hkurzajki" tabindex="0" role="button"><circle class="mk-ring" cx="148" cy="300" r="19"/><circle class="mk-b" cx="148" cy="300" r="13"/><text x="148" y="300">3</text></g><g class="mk" data-pb="manicure" tabindex="0" role="button"><circle class="mk-ring" cx="197" cy="113" r="19"/><circle class="mk-b" cx="197" cy="113" r="13"/><text x="197" y="113">4</text></g></svg></div>
+        <p class="fig-tip">Kliknij numer na rysunku.</p>
+      </div>
+      <div>
+        <p class="pick-l">Albo wybierz z&nbsp;listy:</p>
+        <div class="chips js-chips" role="group" aria-label="Problemy"></div>
+        <div class="res js-res" aria-live="polite"></div>
+      </div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ================= PRICE LIST ================= -->
+<section class="panel" id="p-cennik" data-panel="cennik" aria-labelledby="h-pr">
+  <div class="sec"><div class="wrap">
+    <div class="sec-h">
+      <h2 id="h-pr">Cennik</h2>
+      <p>Ceny regularne z&nbsp;Booksy. Przy cenie „od” koszt zależy od ilości pracy i&nbsp;zużytego materiału.</p>
+    </div>
+    <div class="pnote">
+      <p><b class="js-loc-name">Gdańsk</b>: aktualne promocje i&nbsp;wolne terminy sprawdzisz w&nbsp;Booksy. Zabiegi z&nbsp;dopiskiem „tylko Gdańsk” wykonujemy na Chełmie.</p>
+      <a class="btn btn-loc btn-sm js-book" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-cal"/></svg><span class="js-book-l">Umów w&nbsp;Gdańsku</span></a>
+    </div>
+    <div class="subnav" role="tablist" aria-label="Kategorie cennika">
+      <button type="button" role="tab" data-sub="podologia">Zabiegi</button>
+      <button type="button" role="tab" data-sub="paznokcie">Paznokcie</button>
+      <button type="button" role="tab" data-sub="podeszwa">Podeszwa i&nbsp;kurzajki</button>
+      <button type="button" role="tab" data-sub="dlonie">Dłonie</button>
+      <button type="button" role="tab" data-sub="refleksologia">Refleksologia</button>
+    </div>
+    <div class="js-prices"></div>
+  </div></div>
+</section>
+
+<!-- ================= VISIT ================= -->
+<section class="panel" id="p-wizyta" data-panel="wizyta" aria-labelledby="h-vi">
+  <div class="sec"><div class="wrap">
+    <div class="sec-h">
+      <h2 id="h-vi">Pierwsza wizyta</h2>
+      <p>Nie musisz wiedzieć, jak nazywa się Twój problem. Wystarczy, że umówisz się do jednego z&nbsp;gabinetów.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>Wybierasz gabinet i&nbsp;termin</h3><p>W&nbsp;Booksy widać wolne terminy w&nbsp;Gdańsku i&nbsp;w Straszynie. Możesz też zadzwonić: <b>695&nbsp;082&nbsp;381</b> (Gdańsk) albo <b>727&nbsp;169&nbsp;899</b> (Straszyn).</p></div>
+      <div class="step"><h3>Konsultacja albo od razu zabieg</h3><p>Gdy nie wiesz, co wybrać, umów konsultację: <b>100 zł, 30 min</b>. Jeśli skończy się zabiegiem, zmienimy usługę na zabieg.</p></div>
+      <div class="step"><h3>Jałowe narzędzia</h3><p>Narzędzia myjemy w&nbsp;myjce ultradźwiękowej i&nbsp;sterylizujemy w&nbsp;autoklawie. Pracujemy frezarką z&nbsp;pochłaniaczem pyłu.</p></div>
+      <div class="step"><h3>Kontrola po zabiegu</h3><p>Na kontrolę umawiasz się jak na zwykłą wizytę. Trwa 15 albo 30 minut.</p></div>
+    </div>
+    <figure class="wide-ph">
+      <img src="img/gabinet-fotel.jpg" alt="Gabinet podologiczny CitiMedic w Straszynie: fotel podologiczny przy oknie i stanowisko z frezarką" width="1400" height="933" loading="lazy">
+      <figcaption>Gabinet w&nbsp;Straszynie</figcaption>
+    </figure>
+    <div class="cols2" style="margin-top:40px">
+      <div>
+        <h3 style="font-size:28px">Przed wizytą</h3>
+        <div class="faq">
+          <details><summary>Mam hybrydę na paznokciach stóp</summary><div class="a">Usuniemy ją przed zabiegiem. Usunięcie hybrydy kosztuje 40 zł i&nbsp;trwa 30 minut, dodaj je przy rezerwacji.</div></details>
+          <details><summary>Idę na badanie mykologiczne</summary><div class="a">Badanie wymaga przygotowania, inaczej wynik może być zafałszowany:
+            <ul><li>2 tygodnie przed badaniem odstaw leki przeciwgrzybicze, doustne i&nbsp;miejscowe,</li><li>przez tydzień nie obcinaj paznokci,</li><li>paznokcie bez lakieru i&nbsp;odżywek, 2 dni przed badaniem bez lakieru i&nbsp;zmywacza,</li><li>2 tygodnie bez hybryd, żeli i&nbsp;akryli,</li><li>5 dni bez preparatów nawilżających i&nbsp;natłuszczających,</li><li>przy podejrzeniu grzybicy stóp: 24 godziny bez kosmetyków na stopach.</li></ul>
+            Wynik badania molekularnego jest po około tygodniu, posiewu po około 4 tygodniach.</div></details>
+          <details><summary>Gdzie zaparkować?</summary><div class="a">Przy gabinecie w&nbsp;Gdańsku jest bezpłatny parking. W&nbsp;Straszynie też jest parking.</div></details>
+          <details><summary>Czy dojadę na wózku?</summary><div class="a">Gabinet w&nbsp;Gdańsku jest dostępny dla osób z&nbsp;niepełnosprawnością. Gabinet w&nbsp;Straszynie jest na 1. piętrze, bez windy.</div></details>
+        </div>
+      </div>
+      <div>
+        <h3 style="font-size:28px">Pytania</h3>
+        <div class="faq">
+          <details><summary>Czy przyjmujecie dzieci?</summary><div class="a">Tak, przyjmujemy też dzieci i&nbsp;nastolatków.</div></details>
+          <details><summary>W&nbsp;jakich językach mogę się porozumieć?</summary><div class="a">Po polsku, ukraińsku i&nbsp;angielsku.</div></details>
+          <details><summary>Czy jest karta podarunkowa?</summary><div class="a">Tak, kartę podarunkową do gabinetu w&nbsp;Gdańsku kupisz w&nbsp;Booksy. W&nbsp;Booksy są też pakiety zabiegów.</div></details>
         </div>
       </div>
     </div>
-  </div>
+  </div></div>
 </section>
 
-<!-- FAQ -->
-<section style="padding-top:20px">
-  <div class="wrap">
-    <div class="section-head reveal"><div><span class="eyebrow">Pytania</span><h2>Zanim przyjdziesz</h2></div></div>
-    <div class="faq reveal">
-      <details><summary>Czy zabieg będzie bolał?<i></i></summary><p>Większość zabiegów podologicznych jest bezbolesna albo daje jedynie lekki dyskomfort. Przy stanach zapalnych mówimy, czego się spodziewać, i pracujemy w Twoim tempie.</p></details>
-      <details><summary>Jak przygotować się do wizyty?<i></i></summary><p>Nie obcinaj paznokci i nie usuwaj skóry samodzielnie kilka dni przed wizytą, bo utrudnia to ocenę. Jeśli masz lakier lub hybrydę na chorym paznokciu, zadzwoń, doradzimy.</p></details>
-      <details><summary>Czy przyjmujecie dzieci?<i></i></summary><p>Tak. Najczęściej pomagamy dzieciom i nastolatkom przy wrastających paznokciach i kurzajkach.</p></details>
-      <details><summary>Mam cukrzycę. Czy mogę przyjść?<i></i></summary><p>Tak, i warto przychodzić regularnie. Profilaktyka stopy cukrzycowej to jedna z naszych specjalizacji. Jeśli masz ranę lub owrzodzenie, skontaktuj się najpierw z lekarzem prowadzącym.</p></details>
-      <details><summary>Jak się umówić?<i></i></summary><p>Telefonicznie: Gdańsk 695 082 381, Straszyn 727 169 899, albo online przez ZnanyLekarz, gdzie widać wolne terminy w obu gabinetach.</p></details>
+<!-- ================= TEAM ================= -->
+<section class="panel" id="p-zespol" data-panel="zespol" aria-labelledby="h-te">
+  <div class="sec"><div class="wrap">
+    <div class="sec-h">
+      <h2 id="h-te">Zespół i&nbsp;gabinet</h2>
     </div>
-  </div>
-</section>
-
-<!-- REVIEWS (bottom) -->
-<section id="opinie" style="padding-top:20px">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div><span class="eyebrow">Opinie</span><h2>Co mówią pacjenci</h2></div>
-      <p>Najczęściej pacjenci piszą o tym samym: spokojnie, dokładnie i bez niepotrzebnego bólu.</p>
+    <div class="subnav" role="tablist" aria-label="Zespół i gabinet">
+      <button type="button" role="tab" data-sub="ludzie">Zespół</button>
+      <button type="button" role="tab" data-sub="gabinet">Gabinet i&nbsp;sterylizacja</button>
     </div>
-    <div class="reviews">
-      <div class="rev-big reveal">
-        <div class="score">
-          <b>5,0</b>
-          <div><div class="stars">★★★★★</div><small>86 opinii na ZnanyLekarz</small><a class="zl-link" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="16" rx="3"/><path d="M8 2.5v4M16 2.5v4M3 10h18"/><path d="M12 13v5M9.5 15.5h5"/></svg>Zobacz wszystkie opinie</a></div>
+    <div class="sub" data-subpanel="ludzie">
+      <div class="owner">
+        <img src="img/osoba-hanna.jpg" alt="Hanna Grębla, właścicielka gabinetów Podolog CitiMedic" width="560" height="560" loading="lazy">
+        <div>
+          <blockquote>„Od 12 lat podologia to moja pasja. Moje pierwsze kroki w&nbsp;tym zakresie podjęłam w&nbsp;2014 roku.”</blockquote>
+          <p class="nm"><b>mgr Hanna Grębla</b> · kosmetolog i&nbsp;podolog · właścicielka CitiMedic · Gdańsk i&nbsp;Straszyn</p>
         </div>
-        <blockquote>Wszystko zostało szczegółowo wytłumaczone, wizyta przebiegła bardzo dobrze.</blockquote>
-        <cite>Pacjent po usuwaniu kurzajek · ZnanyLekarz, październik 2026</cite>
       </div>
-      <div class="rev-themes">
-        <div class="theme reveal"><b>Krok po kroku</b><p>Pacjenci doceniają, że podolog mówi, co robi i dlaczego, jeszcze w trakcie zabiegu.</p></div>
-        <div class="theme accent reveal"><b>Szybka ulga</b><p>Wiele osób wychodzi z wizyty z mniejszym bólem, niż przyszło, zwłaszcza przy wrastających paznokciach.</p></div>
-        <div class="theme accent reveal"><b>Także z dziećmi</b><p>Rodzice przychodzą z synami i córkami, bo atmosfera jest spokojna i przyjazna.</p></div>
-        <div class="theme reveal"><b>Indywidualne podejście</b><p>Plan dopasowany do problemu, a nie jeden zabieg dla wszystkich.</p></div>
+      <div class="story">
+        <p>Zaczynaliśmy od <b>jednego stanowiska</b>. Dziś mamy <b>7 stanowisk na Chełmie w&nbsp;Gdańsku</b> i&nbsp;<b>3 w&nbsp;Straszynie</b>. Gabinet w&nbsp;Straszynie prowadzi Paulina Aftańska, współzałożycielka CitiMedic.</p>
+        <p>W&nbsp;obu gabinetach pracuje 9 podologów. Stale podnosimy kompetencje na szkoleniach i&nbsp;konferencjach.</p>
       </div>
+      <div class="tfilter"><div class="sw" role="radiogroup" aria-label="Pokaż zespół gabinetu">
+        <span class="th" aria-hidden="true"></span>
+        <button type="button" role="radio" data-loc="gd" aria-checked="true">Gdańsk</button>
+        <button type="button" role="radio" data-loc="st" aria-checked="false">Straszyn</button>
+      </div></div>
+      <div class="team js-team"></div>
     </div>
-  </div>
+    <div class="sub" data-subpanel="gabinet">
+      <p class="lead" style="margin-bottom:22px">Pracujemy na jałowych narzędziach. Zdjęcia pochodzą z&nbsp;gabinetu w&nbsp;Straszynie.</p>
+      <div class="kit">
+        <figure><img src="img/sterylizacja.jpg" alt="Narzędzia podologiczne zapakowane w pakiety sterylizacyjne" width="900" height="1125" loading="lazy"><figcaption>Narzędzia w&nbsp;pakietach sterylizacyjnych</figcaption></figure>
+        <figure><img src="img/frezarka.jpg" alt="Panel frezarki podologicznej z pochłaniaczem pyłu" width="900" height="1125" loading="lazy"><figcaption>Frezarka z&nbsp;pochłaniaczem pyłu</figcaption></figure>
+        <figure class="k3"><img src="img/gabinet-szafki.jpg" alt="Gabinet z fotelem podologicznym, lampą i szafkami" width="900" height="1125" loading="lazy"><figcaption>Stanowisko z&nbsp;fotelem i&nbsp;lampą</figcaption></figure>
+      </div>
+      <ul class="eq">
+        <li><svg aria-hidden="true"><use href="#i-auto"/></svg>Autoklaw do sterylizacji narzędzi</li>
+        <li><svg aria-hidden="true"><use href="#i-wave"/></svg>Myjka ultradźwiękowa</li>
+        <li><svg aria-hidden="true"><use href="#i-drill"/></svg>Frezarka z&nbsp;pochłaniaczem pyłu</li>
+        <li><svg aria-hidden="true"><use href="#i-lamp"/></svg>Lampa i&nbsp;fotel podologiczny</li>
+      </ul>
+    </div>
+  </div></div>
 </section>
 
-<!-- CTA -->
-<section style="padding-top:10px">
-  <div class="wrap">
-    <div class="cta-band reveal">
-      <h2>Nie czekaj, aż przestanie boleć samo.</h2>
-      <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <a class="btn btn-primary" href="tel:+48695082381">Zadzwoń: 695 082 381</a>
-        <a class="btn btn-ghost" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">Umów online</a>
+<!-- ================= REVIEWS ================= -->
+<section class="panel" id="p-opinie" data-panel="opinie" aria-labelledby="h-op">
+  <div class="sec"><div class="wrap">
+    <div class="sec-h"><h2 id="h-op">Opinie pacjentów</h2></div>
+    <div class="rtop">
+      <div class="rbox acc">
+        <div class="score"><div class="big">5,0</div><div><div class="stars" aria-label="5 na 5 gwiazdek"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <p><b>2&nbsp;207 opinii na Booksy</b>: Gdańsk 1&nbsp;192, Straszyn 1&nbsp;015</p></div></div>
+        <a class="lnk" href="https://booksy.com/pl-pl/134942_podolog-citimedic-hanna-grebla-gdansk_podologia_20383_gdansk" target="_blank" rel="noopener">Opinie w&nbsp;Booksy: Gdańsk <svg aria-hidden="true"><use href="#i-arr"/></svg></a><br>
+        <a class="lnk" href="https://booksy.com/pl-pl/286056_podolog-citimedic-straszyn_podologia_20102_pomorskie" target="_blank" rel="noopener">Opinie w&nbsp;Booksy: Straszyn <svg aria-hidden="true"><use href="#i-arr"/></svg></a>
+      </div>
+      <div class="rbox">
+        <div class="big" style="font-size:44px">5,0</div>
+        <p><b>87 opinii na ZnanyLekarz</b></p>
+        <a class="lnk" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">Zobacz w&nbsp;ZnanyLekarz <svg aria-hidden="true"><use href="#i-arr"/></svg></a>
       </div>
     </div>
-  </div>
+    <div class="rev js-rev"></div>
+  </div></div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="panel" id="p-kontakt" data-panel="kontakt" aria-labelledby="h-ko">
+  <div class="sec"><div class="wrap">
+    <div class="sec-h"><h2 id="h-ko">Kontakt i&nbsp;dojazd</h2><p>Zadzwoń albo umów się w&nbsp;Booksy. Poniżej godziny, telefony i&nbsp;dojazd do obu gabinetów.</p></div>
+    <div class="locs js-locs"></div>
+    <p class="firm">Podolog CitiMedic · TRYPOL Paweł Tryjankowski · NIP 5832687234 · <a class="lnk" style="display:inline-flex" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">ZnanyLekarz</a></p>
+  </div></div>
 </section>
 </main>
 
-<footer>
+<footer class="foot">
   <div class="wrap">
-    <div class="foot-grid">
-      <div>
-        <a class="logo" href="#top"><svg class="logo-svg" role="img" aria-label="Podolog CitiMedic"><use href="#logo-citimedic"/></svg></a>
-        <p style="margin-top:14px;max-width:280px">Kompleksowa opieka podologiczna w Gdańsku i Straszynie.</p>
-      </div>
-      <div><h4>Gdańsk</h4><ul><li>Biegańskiego 10/7</li><li>80-807 Gdańsk</li><li><a href="tel:+48695082381">695 082 381</a></li></ul></div>
-      <div><h4>Straszyn</h4><ul><li>Starogardzka 42, C.H. Kremer</li><li>83-010 Straszyn</li><li><a href="tel:+48727169899">727 169 899</a></li></ul></div>
-      <div><h4>Na skróty</h4><ul><li><a href="#problem">Jaki masz problem?</a></li><li><a href="#zabiegi">Zabiegi</a></li><li><a href="https://www.instagram.com/podologcitimedic/" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">ZnanyLekarz</a></li></ul></div>
+    <div class="foot-g">
+      <div><img src="img/logo-acc.svg" alt="Podolog CitiMedic" width="150" height="45" loading="lazy"><p style="margin-top:12px">Diagnostyka, terapia i&nbsp;profilaktyka chorób stóp i&nbsp;paznokci.</p></div>
+      <div><h4>Gdańsk Chełm</h4><p>ul. dr. Władysława Biegańskiego 10/7<br>80-807 Gdańsk</p><a href="tel:+48695082381">695&nbsp;082&nbsp;381</a></div>
+      <div><h4>Straszyn</h4><p>ul. Starogardzka 42, lok. 8, C.H. Kremer<br>83-010 Straszyn</p><a href="tel:+48727169899">727&nbsp;169&nbsp;899</a></div>
     </div>
-    <div class="foot-bottom">
-      <span>© 2026 Podologia CitiMedic · TRYPOL Paweł Tryjankowski · NIP 5832687234</span>
-      <span>Informacje na stronie nie zastępują konsultacji ze specjalistą.</span>
-    </div>
+    <small>© 2026 Podolog CitiMedic · TRYPOL Paweł Tryjankowski. Informacje na stronie nie zastępują konsultacji z&nbsp;podologiem.</small>
   </div>
 </footer>
 
-<div class="callbar">
-  <a class="btn btn-primary" href="tel:+48695082381">Zadzwoń</a>
-  <a class="btn btn-ghost" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">Umów online</a>
+<div class="mbar" role="region" aria-label="Szybki kontakt">
+  <button type="button" class="tg js-toggle" aria-label="Zmień gabinet"><svg aria-hidden="true"><use href="#i-swap"/></svg><span class="js-loc-name">Gdańsk</span></button>
+  <a class="btn btn-line js-tel" href="tel:+48695082381"><svg aria-hidden="true"><use href="#i-tel"/></svg>Zadzwoń</a>
+  <a class="btn btn-loc js-book" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-cal"/></svg>Umów</a>
 </div>
 
 <script>
-const SERVICES = {
-  "konsultacja":{name:"Konsultacja podologiczna",price:"od 50 zł"},
-  "zabieg":{name:"Zabieg podologiczny",price:"od 150 zł"},
-  "wrastajace":{name:"Leczenie wrastających paznokci",price:"70–230 zł"},
-  "choroby":{name:"Leczenie chorób paznokci",price:"130–180 zł"},
-  "rekonstrukcja":{name:"Rekonstrukcja paznokci",price:"od 20 zł"},
-  "brodawki":{name:"Usuwanie brodawek (kurzajek)",price:"od 130 zł"},
-  "piety":{name:"Pękające pięty",price:"130–170 zł"}
+(function(){
+'use strict';
+var d=document, root=d.documentElement;
+/* ---------------- data ---------------- */
+var LOC={
+  gd:{name:'Gdańsk',inName:'w Gdańsku',full:'Gdańsk Chełm',street:'ul. dr. Władysława Biegańskiego 10/7',extra:'pawilon handlowo-usługowy, 80-807 Gdańsk',
+      tel:'+48695082381',telH:'695\u00a0082\u00a0381',booksy:'https://booksy.com/pl-pl/134942_podolog-citimedic-hanna-grebla-gdansk_podologia_20383_gdansk',
+      q:'Podolog CitiMedic, Biegańskiego 10/7, 80-807 Gdańsk',seats:7,
+      hours:{1:[9,21],2:[9,21],3:[9,21],4:[9,21],5:[9,21],6:[10,16],0:null},closed:['2026-11-05','2026-11-11','2026-12-25'],
+      feats:[['i-car','Bezpłatny parking'],['i-wheel','Dostęp dla wózków'],['i-kid','Przyjazny dzieciom'],['i-lang','PL, UA, EN']]},
+  st:{name:'Straszyn',inName:'w Straszynie',full:'Straszyn, C.H. Kremer',street:'ul. Starogardzka 42, lok. 8',extra:'C.H. Kremer, 1. piętro, 83-010 Straszyn',
+      tel:'+48727169899',telH:'727\u00a0169\u00a0899',booksy:'https://booksy.com/pl-pl/286056_podolog-citimedic-straszyn_podologia_20102_pomorskie',
+      q:'Podolog CitiMedic, Starogardzka 42, 83-010 Straszyn',seats:3,
+      hours:{1:[8,20],2:[8,20],3:[8,20],4:[8,20],5:[8,20],6:[8,16],0:null},closed:[],
+      feats:[['i-car','Parking'],['i-stairs','1. piętro, bez windy'],['i-lang','PL, UA, EN']]}
 };
-const PROBLEMS = [
-  {id:"wrastajacy", view:"top", x:166, y:82, chip:"Wrastający paznokieć",
-   area:"Duży palec, brzeg paznokcia", title:"Wrastający paznokieć",
-   desc:"Brzeg płytki wbija się w skórę obok paznokcia. Nieleczony daje stan zapalny, zanokcicę, wysięk ropny, a nawet ziarninę, czyli tak zwane dzikie mięso.",
-   sym:"Ból przy chodzeniu i w bucie, zaczerwienienie, obrzęk lub ropa przy brzegu paznokcia.",
-   tx:[["wrastajace","Odbarczenie bolesnego brzegu i opracowanie wału. Cena zależy od tego, jak bardzo paznokieć wrósł."],
-       ["konsultacja","Jeśli nie wiesz, czy to wrastanie, czy infekcja, zacznij od oceny palca."]],
-   note:"Przy gorączce lub szybko rosnącym obrzęku palca skontaktuj się także z lekarzem."},
-  {id:"zgrubiale", view:"top", x:132, y:74, chip:"Zgrubiałe paznokcie",
-   area:"Płytka paznokcia", title:"Zgrubiałe lub zdeformowane paznokcie",
-   desc:"Płytka grubieje, twardnieje albo wygina się jak szpon. Często po urazach, przy grzybicy, w ciasnych butach albo z wiekiem.",
-   sym:"Paznokcia nie da się obciąć cążkami, uciska w bucie, jest żółty lub matowy.",
-   tx:[["choroby","Ścienienie i wyrównanie zgrubiałej płytki."],
-       ["rekonstrukcja","Odbudowa kształtu, żeby paznokieć dobrze wyglądał i nie uciskał."]]},
-  {id:"grzybica-p", view:"top", x:199, y:81, chip:"Grzybica paznokci",
-   area:"Paznokcie palców", title:"Grzybica paznokci",
-   desc:"Infekcja grzybicza płytki. Sama nie mija, a z czasem przechodzi na kolejne paznokcie i na skórę stóp.",
-   sym:"Żółte lub białe przebarwienia, kruszenie, rozwarstwianie i pogrubienie płytki.",
-   tx:[["konsultacja","Ocena zmian i plan terapii dopasowany do tego, jak bardzo infekcja się rozwinęła."],
-       ["choroby","Usunięcie zmienionej części płytki, żeby leczenie docierało tam, gdzie trzeba."],
-       ["rekonstrukcja","Gdy płytka zaczyna odrastać, odbudowujemy jej wygląd."]],
-   note:"Na czas leczenia lepiej zrezygnować z lakieru i hybrydy na chorym paznokciu."},
-  {id:"zielona", view:"top", x:240, y:103, chip:"Zielona bakteria",
-   area:"Płytka paznokcia", title:"Zielona bakteria (Pseudomonas)",
-   desc:"Zakażenie bakterią Pseudomonas aeruginosa. Lubi wilgoć, często pojawia się pod odklejoną płytką albo po hybrydzie.",
-   sym:"Zielone lub zielonoczarne przebarwienie pod paznokciem, czasem nieprzyjemny zapach.",
-   tx:[["konsultacja","Potwierdzenie, czy to bakteria, grzybica czy krwiak, bo każde leczy się inaczej."],
-       ["choroby","Opracowanie zmienionej płytki i oczyszczenie miejsca zakażenia."],
-       ["rekonstrukcja","Gdy zakażenie ustąpi, odbudowujemy wygląd paznokcia."]]},
-  {id:"uraz", view:"top", x:277, y:132, chip:"Czarny paznokieć, uraz",
-   area:"Paznokcie palców", title:"Czarny paznokieć, uraz, onycholiza",
-   desc:"Po uderzeniu albo w zbyt ciasnych butach (na przykład po bieganiu) pod płytką zbiera się krwiak, a paznokieć potrafi odkleić się od łożyska.",
-   sym:"Sine lub czarne przebarwienie, ból pod paznokciem, płytka odchodzi od palca.",
-   tx:[["konsultacja","Ocena, czy płytkę da się uratować i jak zabezpieczyć palec."],
-       ["choroby","Usunięcie odklejonej części płytki i zabezpieczenie palca."],
-       ["rekonstrukcja","Estetyczna odbudowa, zanim odrośnie zdrowa płytka."]],
-   note:"Jeśli ciemna zmiana pojawiła się bez urazu albo się powiększa, pokaż ją również dermatologowi."},
-  {id:"odcisk", view:"top", x:321, y:186, chip:"Odcisk, nagniotek",
-   area:"Mały palec i palce", title:"Odcisk lub nagniotek",
-   desc:"Bolesne zgrubienie z rdzeniem w miejscu stałego ucisku buta albo tarcia palców o siebie.",
-   sym:"Ostry, punktowy ból przy nacisku i twarda, żółtawa skóra.",
-   tx:[["zabieg","Usunięcie odcisku razem z rdzeniem oraz opracowanie skóry i paznokci całej stopy."],
-       ["konsultacja","Szukamy przyczyny ucisku, żeby odcisk nie wracał."]]},
-  {id:"cukrzyca", view:"top", x:204, y:340, chip:"Stopa cukrzycowa",
-   area:"Cała stopa", title:"Stopa cukrzycowa: profilaktyka",
-   desc:"Przy cukrzycy nawet drobne skaleczenie czy odcisk może się źle goić. Regularna opieka podologa to najprostsza ochrona stóp.",
-   sym:"Sucha, pękająca skóra, zrogowacenia, słabsze czucie w stopach.",
-   tx:[["konsultacja","Ocena skóry, paznokci i miejsc narażonych na ucisk."],
-       ["zabieg","Bezpieczne opracowanie paznokci i zrogowaceń sterylnymi narzędziami, regularnie."]],
-   note:"Rana, owrzodzenie albo nagły obrzęk stopy to sygnał, żeby od razu skontaktować się z lekarzem."},
+var DAYS=['niedziela','poniedziałek','wtorek','środa','czwartek','piątek','sobota'];
+var ACC=['w niedzielę','w poniedziałek','we wtorek','w środę','w czwartek','w piątek','w sobotę'];
 
-  {id:"modzele", view:"sole", x:208, y:226, chip:"Modzele",
-   area:"Śródstopie, pod palcami", title:"Modzele",
-   desc:"Płaskie, twarde zgrubienie skóry w miejscu największego nacisku. Nie ma rdzenia, ale przy chodzeniu potrafi piec i boleć.",
-   sym:"Żółtawa, twarda i mniej czuła skóra pod palcami.",
-   tx:[["zabieg","Złuszczenie twardej skóry aż do zdrowej warstwy, razem z opracowaniem całej stopy."],
-       ["konsultacja","Podpowiemy, co w obuwiu lub chodzie powoduje nacisk."]]},
-  {id:"kurzajki", view:"sole", x:282, y:250, chip:"Kurzajki",
-   area:"Podeszwa", title:"Kurzajki (brodawki wirusowe)",
-   desc:"Zmiany wywołane wirusem HPV. Bywają pojedyncze albo tworzą brodawkę mozaikowatą i łatwo się rozsiewają.",
-   sym:"Szorstka grudka z czarnymi kropkami w środku, ból przy ściskaniu z boków.",
-   tx:[["brodawki","Usunięcie zmiany. Metodę dobieramy do jej wielkości i rodzaju."],
-       ["konsultacja","Odróżniamy kurzajkę od odcisku, bo leczy się je zupełnie inaczej."]]},
-  {id:"piety", view:"sole", x:186, y:560, chip:"Pękające pięty",
-   area:"Pięta", title:"Pękające pięty",
-   desc:"Gruba, sucha warstwa naskórka pęka przy chodzeniu. Głębokie szczeliny bolą i mogą krwawić.",
-   sym:"Szorstkie, białe brzegi pięty, pęknięcia, ból przy staniu.",
-   tx:[["piety","Usunięcie zgrubiałej skóry i opracowanie pęknięć, żeby szybciej się zagoiły."],
-       ["zabieg","Jeśli poza piętami chcesz zadbać o paznokcie i skórę całej stopy."]]},
-  {id:"zrogowacenia", view:"sole", x:272, y:430, chip:"Zrogowacenia, rogowiec",
-   area:"Brzegi stopy", title:"Zrogowacenia i rogowiec",
-   desc:"Nadmiar twardej skóry na bokach stopy i na pięcie. Z czasem sztywnieje, pęka i uwiera.",
-   sym:"Twarda, łuszcząca się skóra i uczucie ściągnięcia.",
-   tx:[["zabieg","Bezpieczne zdjęcie twardej warstwy skóry oraz opracowanie paznokci."]]},
-  {id:"grzybica-s", view:"sole", x:256, y:176, chip:"Grzybica stóp",
-   area:"Między palcami", title:"Grzybica stóp",
-   desc:"Infekcja skóry, najczęściej między palcami. Łatwo ją złapać na basenie, w saunie czy w szatni.",
-   sym:"Swędzenie, pieczenie, białe rozmiękłe pęknięcia między palcami, łuszczenie.",
-   tx:[["konsultacja","Ocena zmian i plan pielęgnacji na czas leczenia."],
-       ["zabieg","Oczyszczenie skóry i paznokci, żeby infekcja nie przeszła na płytkę."]],
-   note:"Przy rozległych zmianach podolog może zalecić wizytę u dermatologa."},
-  {id:"bol", view:"sole", x:313, y:168, chip:"Ból, otarcia, pęcherze",
-   area:"Palce i pięta", title:"Ból, otarcia, pęcherze",
-   desc:"Ból stopy albo palca nie zawsze ma oczywistą przyczynę. Czasem to pęcherz po nowych butach, czasem ucisk paznokcia albo ukryty odcisk.",
-   sym:"Ból przy chodzeniu, zaczerwienienie, pęcherz lub otarcie.",
-   tx:[["konsultacja","Szukamy przyczyny i od razu pomagamy, jeśli się da."]],
-   note:"Silny ból po urazie, duży obrzęk lub problem z chodzeniem to sprawa dla ortopedy."}
+/* price list: [name, price, time, desc, variants, onlyGd] */
+var PRICES={
+ podologia:[
+  {t:'Konsultacje',items:[
+   ['Konsultacja podologiczna','100 zł','30 min','Jeśli konsultacja zakończy się zabiegiem, zmienimy usługę na zabieg.'],
+   ['Konsultacja podologiczna z zabiegiem','od 250 zł','45 min','Przy stanach zapalnych, najczęściej wałów okołopaznokciowych, przy wrastających paznokciach i krwiakach podpaznokciowych.'],
+   ['Kontrola po zabiegu podologicznym','cena zmienna','15 lub 30 min']]},
+  {t:'Zabiegi podologiczne',items:[
+   ['Podstawowy zabieg podologiczny','od 220 zł','1 h','Obcięcie paznokci i opracowanie wałów okołopaznokciowych. Przy modzelach lub odciskach opracowujemy podeszwę skalpelem lub dłutem i kapturkiem ściernym. Cena zależy od stopnia zrogowacenia i użytych środków.',[['z laminacją paznokci','od 250 zł'],['z malowaniem lakierem','250 zł'],['z hybrydą','270 zł'],['z laminacją i lakierem','od 280 zł']]],
+   ['Rozszerzony zabieg podologiczny','od 260 zł','1 h 30 min','Przy bardzo dużych zrogowaceniach, licznych odciskach i paznokciach zmienionych chorobowo.',[['z laminacją paznokci','od 290 zł'],['z malowaniem lakierem','od 290 zł'],['z hybrydą','od 310 zł'],['z laminacją i lakierem','od 320 zł']]],
+   ['Zabieg podologiczny VIP „Podologia Prestige”','370 zł','1 h 30 min','Zabieg podstawowy, odżywcza baza, peeling stóp, kąpiel w soli podologicznej i masaż stóp.',[['VIP z hybrydą','420 zł']]],
+   ['Obcięcie paznokci i opracowanie okolic paznokci','110 zł','30 min','Dla zdrowych paznokci: skracamy je, nadajemy kształt i oczyszczamy wały okalające paznokieć.'],
+   ['Malowanie lakierem i opracowanie paznokci stóp','150 zł','1 h'],
+   ['Hybryda i opracowanie paznokci przez podologa','180 zł','1 h','Opracowanie okolic paznokci i hybryda na zdrowe paznokcie.'],
+   ['Usunięcie hybrydy przed zabiegiem','40 zł','30 min']]}
+ ],
+ paznokcie:[
+  {t:'Wrastające paznokcie',items:[
+   ['Opracowanie wrastającego paznokcia','od 170 zł','30 min','Tamponada z lekiem jest wliczona w cenę.',[['jeden paznokieć, 30 min','od 170 zł'],['dwa paznokcie, 40 min','210 zł']]],
+   ['Klamra korygująca, pierwsza wizyta z nałożeniem','230 zł','30 min','Klamry ortonyksyjne unoszą wrastające lub wkręcające się brzegi paznokcia. Rodzaj klamry dobieramy indywidualnie, stosujemy klamry tytanowe i Frasera. Cena dotyczy jednego paznokcia.'],
+   ['Przełożenie klamry','150 zł','30 min'],
+   ['Zakończenie terapii klamrą','70 zł','30 min'],
+   ['Obcięcie reszty paznokci (do zabiegu)','50 zł','10 min'],
+   ['Tamponada','30 zł','10–15 min',null,[['z utwardzeniem','35 zł']]]]},
+  {t:'Paznokcie zmienione chorobowo',items:[
+   ['Oczyszczenie paznokci zmienionych chorobowo','od 130 zł','30–40 min','Paznokcie z grzybicą, zieloną bakterią (pseudomonas), przerośnięte i zgrubiałe oraz z onycholizą, czyli odklejaniem się płytki od łożyska.',[['onycholiza, 30 min','od 130 zł'],['grzybica lub zielona bakteria, 40 min','od 180 zł'],['paznokcie przerośnięte, mocno zgrubiałe, 40 min','od 180 zł']]],
+   ['Badanie mykologiczne molekularne','300 zł','30 min','Wynik po około tygodniu. Przygotowanie do badania opisujemy w zakładce Wizyta.'],
+   ['Badanie mykologiczne, posiew','200 zł','30 min','Wynik po około 4 tygodniach.',null,1],
+   ['Ozonowanie obuwia','15 zł','5 min',null,null,1]]},
+  {t:'Krwiak i rekonstrukcja',items:[
+   ['Krwiak podpaznokciowy','150 zł','30 min','Krwiak to wylew krwi pod paznokciem, najczęściej po urazie albo długotrwałym ucisku.',[['jeden krwiak, 30 min','150 zł'],['dwa krwiaki, 40 min','200 zł']]],
+   ['Rekonstrukcja paznokcia','od 150 zł','30 min','Odbudowujemy brakujący fragment płytki i nadajemy jej naturalny kształt. Rekonstrukcja dotyczy paznokci uszkodzonych trwale i czasowo.',[['jeden paznokieć, 30 min','od 150 zł'],['dwa paznokcie, 50 min','od 250 zł'],['oczyszczenie zdeformowanego paznokcia przed rekonstrukcją','od 20 zł']]],
+   ['Rekonstrukcja części paznokcia','80 zł','30 min'],
+   ['Ściągnięcie rekonstrukcji z innego gabinetu','50 zł','30 min']]}
+ ],
+ podeszwa:[
+  {t:'Odciski i zrogowacenia',items:[
+   ['Usunięcie odcisku','od 100 zł','30 min','Usuwamy odcisk dłutem, skalpelem i frezarką, potem zakładamy opatrunek. Pomagamy też znaleźć przyczynę, na przykład źle dopasowane buty albo wadę stopy, i dobrać wkładki lub pielęgnację.',[['każdy kolejny odcisk, 20 min','od 30 zł']]],
+   ['Usunięcie zrogowaceń: przodostopie','od 130 zł','30 min'],
+   ['Usunięcie zrogowaceń: pięty','od 130 zł','30 min'],
+   ['Pięty z rozpadlinami (pęknięciami)','od 170 zł','45 min'],
+   ['Przodostopie i pięty','od 170 zł','45 min']]},
+  {t:'Brodawki (kurzajki)',items:[
+   ['Brodawki, kurzajki','od 130 zł','30–45 min','Brodawka to zmiana skóry wywołana przez wirus HPV. Cena zależy od liczby brodawek i zużytego materiału.',[['1–2 brodawki, 30 min','od 130 zł'],['3–5 brodawek, 30 min','od 160 zł'],['6–8 brodawek, 40 min','od 180 zł'],['9 i więcej, 45 min','od 200 zł']]]]}
+ ],
+ dlonie:[
+  {t:'Paznokcie i skóra dłoni',items:[
+   ['Krwiak podpaznokciowy na dłoni','150 zł','30 min',null,[['jeden krwiak, 30 min','150 zł'],['dwa krwiaki, 40 min','200 zł']]],
+   ['Paznokcie dłoni zmienione chorobowo','od 130 zł','30–40 min',null,[['onycholiza, 30 min','od 130 zł'],['grzybica lub zielona bakteria, 40 min','od 180 zł'],['obcięcie reszty paznokci, 10 min','50 zł']]],
+   ['Brodawki na dłoniach','od 130 zł','30–45 min',null,[['1–2 brodawki','od 130 zł'],['3–5 brodawek','od 160 zł'],['6–8 brodawek','od 180 zł'],['9 i więcej','od 200 zł']]]]},
+  {t:'Manicure',items:[
+   ['Manicure hybrydowy','od 160 zł','1 h 20 min',null,null,1],
+   ['Manicure klasyczny z lakierem','od 130 zł','1 h 30 min',null,[['z laminacją, 1 h 45 min','od 160 zł']],1],
+   ['Manicure klasyczny bez malowania','od 100 zł','30 min',null,[['z laminacją, 45 min','od 130 zł']],1],
+   ['Usunięcie hybrydy z dłoni','od 50 zł','30 min',null,null,1]]}
+ ],
+ refleksologia:[
+  {t:'Refleksologia i inne zabiegi',items:[
+   ['Refleksologia stóp','od 200 zł','1 h 15 min','Masaż i ucisk punktów refleksologicznych na stopach.',[['refleksologia stóp z bańkami ogniowymi, 2 h','300 zł']],1],
+   ['Bańki ogniowe','150 zł','45 min',null,null,1],
+   ['Refleksologia twarzy','220 zł','50 min','Masaż i uciskanie punktów na twarzy.',null,1],
+   ['Konchowanie uszu','100 zł','45 min','Konchy z naturalnego wosku pszczelego.',null,1]]}
+ ]
+};
+
+var TEAM=[
+ {id:'monika',img:'img/osoba-monika.jpg',n:'Monika Anhalt-Szawłowska',r:'mgr, podolog',l:['gd'],q:'„Moim największym osiągnięciem zawodowym jest zdobycie tytułu Mistrza Polski w Podologii.”',t:['ponad 14 lat w zawodzie']},
+ {id:'anna',img:'img/osoba-anna.jpg',n:'Anna Skałecka',r:'podolog',l:['gd'],q:'„W dziedzinie podologii szczególnie upodobałam sobie ortonyksję.”',t:['klamry, wrastające paznokcie']},
+ {id:'natalia',img:'img/osoba-natalia.jpg',n:'Natalia Belecka',r:'dyplomowana podolożka',l:['gd'],q:'„Z zaangażowaniem dbam o zdrowie i komfort stóp moich pacjentów.”'},
+ {id:'ewelina',img:'img/osoba-ewelina.jpg',n:'Ewelina Rykaczewska',r:'lic., podolog',l:['gd'],q:'„Zapraszam na profesjonalne zabiegi podologiczne w miłej atmosferze.”',t:['modzele, odciski, wrastające paznokcie']},
+ {id:'lena',img:'img/osoba-lena.jpg',n:'Lena Kurchenko',r:'podolog z wykształceniem medycznym',l:['gd'],q:'„Nie pracuję według jednego schematu. Każde stopy są inne.”'},
+ {id:'beata',img:'img/osoba-beata.jpg',n:'Beata O.',r:'gabinet w Gdańsku',l:['gd']},
+ {id:'sofia',img:'img/osoba-sofia.jpg',n:'Sofia',r:'manicure i pedicure',l:['gd','st'],q:'„Jestem z wykształcenia starszą pielęgniarką.”',t:['rozwija się w podologii']},
+ {id:'aleksandra',img:'img/osoba-aleksandra.jpg',n:'Aleksandra',r:'dyplomowana podolog',l:['st'],q:'„Z pasją koryguję paznokcie klamrami.”',t:['ponad 6 lat w zawodzie']},
+ {id:'maria',img:'img/osoba-maria.jpg',n:'Maria Świeczkowska',r:'podolog',l:['st'],q:'„Szczególną uwagę poświęcam terapii wrastających paznokci oraz opiece nad pacjentami ze stopą cukrzycową.”',t:['w zawodzie od 2021 roku']}
 ];
 
-const NS = "http://www.w3.org/2000/svg";
-const MIRROR = 423;
-const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-let view = "top";
+var REV=[
+ ['Profesjonalizm i ogromna życzliwość w jednym. Wszystko wyjaśnione spokojnie, rzeczowo i bez pośpiechu.','Marcelina','brodawki, Straszyn'],
+ ['Pomimo mojego zaniedbania i „głupoty” pani Monika nie dała mi odczuć ani grama wstydu.','Daria S.','konsultacja podologiczna, ZnanyLekarz'],
+ ['Jak zawsze precyzyjnie wykonane, do tego Pani Marysia zawsze tłumaczy co robi i odpowiada na ewentualne pytania.','Lilianna','kontrola po zabiegu, Straszyn'],
+ ['Pani Monika wszystko dokładnie wyjaśnia: przebieg leczenia, jak dbać o stopy, ale również jakie dodatkowe kroki podjąć, np. wkładki, buty, mechanika ruchu itp.','A. K.','konsultacja podologiczna, ZnanyLekarz'],
+ ['Polecam Panią Olę z całego serca, pełen profesjonalizm, wizyta w przemiłej atmosferze.','Mariola','klamra korygująca, Straszyn'],
+ ['Byłam na wizycie z synem. Bardzo miła atmosfera i wszystko szczegółowo wyjaśnione.','B.G','konsultacja podologiczna, ZnanyLekarz'],
+ ['Miła obsługa, salon czysty i zadbany. Jestem bardzo zadowolona z wykonanej usługi.','Agnieszka','rozszerzony zabieg podologiczny, Gdańsk'],
+ ['Polecam Panią Sofia, super podejście do dzieci ;)','Małgorzata','brodawki, Straszyn'],
+ ['Wizyta odbyła się profesjonalnie i w przemiłej atmosferze.','Huguś','podstawowy zabieg podologiczny, Gdańsk']
+];
 
+/* finder: problems */
+var VIEWS={"top": [[1, "wrast"], [2, "klamra"], [3, "zmien"], [4, "krwiak"], [5, "rekon"], [6, "odcisk"], [7, "zabieg"]], "sole": [[1, "zrog"], [2, "odcisk"], [3, "kurzajki"], [4, "piety"]], "hand": [[1, "hkrwiak"], [2, "hzmien"], [3, "hkurzajki"], [4, "manicure"]]};
+var CHIP={wrast:"Wrastający paznokieć",klamra:"Paznokieć wrasta znowu",zmien:"Zmieniony paznokieć",krwiak:"Krwiak pod paznokciem",rekon:"Uszkodzony paznokieć",odcisk:"Odcisk",zabieg:"Pielęgnacja całych stóp",zrog:"Zrogowacenia i modzele",kurzajki:"Kurzajki",piety:"Pękające pięty",hkrwiak:"Krwiak pod paznokciem",hzmien:"Zmieniony paznokieć",hkurzajki:"Kurzajki na dłoni",manicure:"Manicure",niewiem:"Nie wiem, co to jest"};
+var PB={
+ wrast:{n:'Wrastający paznokieć',sym:'Paznokieć wbija się w boczny wał. Miejsce jest wrażliwe na dotyk, zaczerwienione, czasem pojawia się stan zapalny.',what:'Opracowujemy wrastający brzeg paznokcia. Tamponada z lekiem jest wliczona w cenę.',
+   opt:{l:'Ile paznokci?',o:[['Jeden','od 170 zł','30 min'],['Dwa','210 zł','40 min']]},
+   more:'Przy stanie zapalnym umów <b>konsultację z zabiegiem</b> (od 250 zł, 45 min). Gdy paznokieć wrasta znowu, możemy założyć klamrę korygującą.',who:{gd:'Anna Skałecka',st:'Aleksandra i Maria Świeczkowska'}},
+ klamra:{n:'Paznokieć wrasta znowu albo się wkręca',sym:'Brzegi paznokcia wrastają ponownie albo płytka zawija się do środka.',what:'Zakładamy klamrę ortonyksyjną, która unosi brzegi paznokcia. Rodzaj klamry dobieramy indywidualnie: tytanowa albo Frasera.',
+   list:[['Pierwsza wizyta z nałożeniem klamry','230 zł','30 min'],['Przełożenie klamry','150 zł','30 min'],['Zakończenie terapii klamrą','70 zł','30 min']],
+   more:'Ceny dotyczą jednego paznokcia.',who:{gd:'Anna Skałecka',st:'Aleksandra'}},
+ zmien:{n:'Zmieniony paznokieć',sym:'Grzybica, zielona bakteria (pseudomonas), paznokieć przerośnięty i zgrubiały albo odklejający się od łożyska (onycholiza).',what:'Oczyszczamy paznokcie zmienione chorobowo. Możemy też pobrać materiał do badania mykologicznego.',
+   opt:{l:'Co widzisz?',o:[['Odkleja się','od 130 zł','30 min'],['Grzybica lub zielona bakteria','od 180 zł','40 min'],['Gruby, przerośnięty','od 180 zł','40 min']]},
+   list:[['Badanie mykologiczne molekularne, wynik po ok. tygodniu','300 zł','30 min'],['Badanie mykologiczne, posiew, wynik po ok. 4 tygodniach','200 zł','30 min',1]],prep:1},
+ krwiak:{n:'Krwiak pod paznokciem',sym:'Ciemna plama pod paznokciem, zwykle po urazie albo po długim ucisku, na przykład w ciasnych butach.',what:'Usuwamy krwiak podpaznokciowy.',
+   opt:{l:'Ile paznokci?',o:[['Jeden','150 zł','30 min'],['Dwa','200 zł','40 min']]}},
+ rekon:{n:'Uszkodzony paznokieć',sym:'Brakuje fragmentu płytki albo paznokieć jest zniszczony po urazie lub po leczeniu.',what:'Odbudowujemy brakujący fragment płytki i nadajemy jej naturalny kształt.',
+   opt:{l:'Co odbudować?',o:[['Część paznokcia','80 zł','30 min'],['Jeden paznokieć','od 150 zł','30 min'],['Dwa paznokcie','od 250 zł','50 min']]},
+   more:'Ściągnięcie rekonstrukcji z innego gabinetu: 50 zł.'},
+ odcisk:{n:'Odcisk',sym:'Twardy, bolesny punkt na palcu albo podeszwie, często od ucisku butów.',what:'Usuwamy odcisk dłutem, skalpelem i frezarką, potem zakładamy opatrunek. Pomagamy też znaleźć przyczynę, na przykład źle dopasowane buty albo wadę stopy.',
+   cnt:{l:'Ile odcisków?',base:100,each:30,max:6,t0:30,te:20}},
+ zrog:{n:'Zrogowacenia i modzele',sym:'Twarda, zgrubiała skóra na podeszwie, najczęściej pod palcami albo na piętach.',what:'Usuwamy zrogowacenia. Cena zależy od ilości pracy i zużytego materiału.',
+   opt:{l:'Gdzie?',o:[['Przodostopie','od 130 zł','30 min'],['Pięty','od 130 zł','30 min'],['Przodostopie i pięty','od 170 zł','45 min']]},
+   more:'Przy bardzo dużych zrogowaceniach i licznych odciskach wybierz <b>rozszerzony zabieg podologiczny</b> (od 260 zł).'},
+ piety:{n:'Pękające pięty',sym:'Twarda skóra na piętach z pęknięciami (rozpadlinami).',what:'Usuwamy zrogowacenia z pięt i opracowujemy pęknięcia.',
+   list:[['Pięty z rozpadlinami (pęknięciami)','od 170 zł','45 min'],['Pięty bez pęknięć','od 130 zł','30 min']]},
+ kurzajki:{n:'Kurzajki (brodawki)',sym:'Brodawka to zmiana skóry wywołana przez wirus HPV. Przenosi się głównie przez kontakt ze skórą.',what:'Usuwamy brodawki. Cena zależy od ich liczby i zużytego materiału.',
+   opt:{l:'Ile brodawek?',o:[['1–2','od 130 zł','30 min'],['3–5','od 160 zł','30 min'],['6–8','od 180 zł','40 min'],['9 i więcej','od 200 zł','45 min']]}},
+ zabieg:{n:'Pielęgnacja całych stóp',sym:'Paznokcie do obcięcia i opracowania, modzele, odciski, zgrubiała skóra.',what:'Zabieg podologiczny: obcinamy i opracowujemy paznokcie i wały wokół nich, opracowujemy podeszwę.',
+   combo:{a:[['Podstawowy',[['bez wykończenia','od 220 zł','1 h'],['laminacja','od 250 zł','1 h 15 min'],['lakier','250 zł','1 h 30 min'],['hybryda','270 zł','1 h 30 min'],['laminacja i lakier','od 280 zł','1 h 45 min']]],
+              ['Rozszerzony',[['bez wykończenia','od 260 zł','1 h 30 min'],['laminacja','od 290 zł','1 h 45 min'],['lakier','od 290 zł','2 h'],['hybryda','od 310 zł','2 h'],['laminacja i lakier','od 320 zł','2 h 15 min']]],
+              ['VIP',[['bez wykończenia','370 zł','1 h 30 min'],['hybryda','420 zł','2 h']]]]},
+   more:'Rozszerzony zabieg jest dla osób z dużymi zrogowaceniami, licznymi odciskami i paznokciami zmienionymi chorobowo. VIP to zabieg podstawowy z odżywczą bazą, peelingiem, kąpielą w soli podologicznej i masażem stóp.'},
+ niewiem:{n:'Nie wiem, co to jest',sym:'Nie musisz znać nazwy problemu.',what:'Umów konsultację podologiczną. Jeśli skończy się zabiegiem, zmienimy usługę na zabieg.',
+   list:[['Konsultacja podologiczna','100 zł','30 min'],['Konsultacja z zabiegiem przy stanie zapalnym','od 250 zł','45 min']]},
+ hkrwiak:{n:'Krwiak pod paznokciem dłoni',sym:'Ciemna plama pod paznokciem, zwykle po urazie.',what:'Usuwamy krwiak podpaznokciowy na dłoni.',
+   opt:{l:'Ile paznokci?',o:[['Jeden','150 zł','30 min'],['Dwa','200 zł','40 min']]}},
+ hzmien:{n:'Zmieniony paznokieć dłoni',sym:'Grzybica, zielona bakteria, paznokieć odklejający się od łożyska. Często pojawia się pod stylizacją żelową albo hybrydową.',what:'Oczyszczamy paznokcie dłoni zmienione chorobowo.',
+   opt:{l:'Co widzisz?',o:[['Odkleja się','od 130 zł','30 min'],['Grzybica lub zielona bakteria','od 180 zł','40 min']]}},
+ hkurzajki:{n:'Kurzajki na dłoniach',sym:'Brodawki na palcach albo dłoni, wywołane przez wirus HPV.',what:'Usuwamy brodawki. Cena zależy od ich liczby i zużytego materiału.',
+   opt:{l:'Ile brodawek?',o:[['1–2','od 130 zł','30 min'],['3–5','od 160 zł','30 min'],['6–8','od 180 zł','40 min'],['9 i więcej','od 200 zł','40 min']]}},
+ manicure:{n:'Manicure',sym:'Zadbane dłonie: manicure klasyczny albo hybrydowy.',what:'Manicure robimy w gabinecie w Gdańsku.',only:1,
+   list:[['Manicure hybrydowy','od 160 zł','1 h 20 min'],['Manicure klasyczny z lakierem','od 130 zł','1 h 30 min'],['Manicure klasyczny bez malowania','od 100 zł','30 min']]}
+};
 
-/* hotspots */
-PROBLEMS.forEach((p,idx)=>{
-  const cx = p.view==="sole" ? MIRROR - p.x : p.x;
-  const layer = document.querySelector(`.hotspots[data-view="${p.view}"]`);
-  const g = document.createElementNS(NS,"g");
-  g.setAttribute("class","hs"); g.setAttribute("tabindex","0");
-  g.setAttribute("role","button"); g.setAttribute("aria-label",p.title);
-  g.dataset.id = p.id;
-  const pop = document.createElementNS(NS,"g"); pop.setAttribute("class","pop");
-  pop.style.animationDelay = (1.6 + (idx%7)*0.09)+"s";
-  const ring = document.createElementNS(NS,"circle");
-  ring.setAttribute("class","ring"); ring.setAttribute("cx",cx); ring.setAttribute("cy",p.y); ring.setAttribute("r",8);
-  ring.style.animationDelay = ((idx%7)*0.3)+"s";
-  const core = document.createElementNS(NS,"circle");
-  core.setAttribute("class","core"); core.setAttribute("cx",cx); core.setAttribute("cy",p.y); core.setAttribute("r",8);
-  const t = document.createElementNS(NS,"title"); t.textContent = p.title;
-  pop.append(ring, core); g.append(t, pop);
-  g.addEventListener("click",()=>select(p.id,true));
-  g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();select(p.id,true)}});
-  layer.appendChild(g);
-  p._cx = cx;
-});
-
-/* chips */
-const chips = document.getElementById("chips");
-PROBLEMS.forEach(p=>{
-  const b = document.createElement("button");
-  b.className="chip"; b.textContent=p.chip; b.dataset.id=p.id;
-  b.addEventListener("click",()=>select(p.id,true));
-  chips.appendChild(b);
-});
-
-/* view toggle with sliding pill */
-const toggles = [...document.querySelectorAll(".view-toggle button")];
-const pill = document.getElementById("pill");
-function placePill(){
-  const on = toggles.find(b=>b.classList.contains("on"));
-  pill.style.width = on.offsetWidth+"px";
-  pill.style.transform = `translateX(${on.offsetLeft-4}px)`;
+/* ---------------- helpers ---------------- */
+function $(s,c){return (c||d).querySelector(s)}
+function $$(s,c){return Array.prototype.slice.call((c||d).querySelectorAll(s))}
+function nb(s){return String(s).replace(/(^|[\s>(„])([aiouwzAIOUWZ]) /g,'$1$2\u00a0')}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function store(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
+function nowPL(){try{return new Date(new Date().toLocaleString('en-US',{timeZone:'Europe/Warsaw'}))}catch(e){return new Date()}}
+function hh(h){return h+':00'}
+function ymd(t){return t.getFullYear()+'-'+String(t.getMonth()+1).padStart(2,'0')+'-'+String(t.getDate()).padStart(2,'0')}
+function dayHours(L,t){if(L.closed.indexOf(ymd(t))>=0)return null;return L.hours[t.getDay()]}
+function status(L){
+  var t=nowPL(),h=dayHours(L,t),m=t.getHours()+t.getMinutes()/60;
+  if(h&&m>=h[0]&&m<h[1])return {open:1,html:'<b>Teraz otwarte</b> · dziś '+L.inName+' '+hh(h[0])+'–'+hh(h[1])};
+  if(h&&m<h[0])return {open:0,html:'<b>Dziś '+L.inName+' '+hh(h[0])+'–'+hh(h[1])+'</b>'};
+  for(var i=1;i<8;i++){var n=new Date(t);n.setDate(t.getDate()+i);var hn=dayHours(L,n);if(hn){return {open:0,html:'<b>Teraz zamknięte</b> · otwieramy '+L.inName+' '+(i===1?'jutro':ACC[n.getDay()])+' o '+hh(hn[0])}}}
+  return {open:0,html:''};
 }
-function setView(v){
-  view = v;
-  toggles.forEach(b=>{const on=b.dataset.view===v;b.classList.toggle("on",on);b.setAttribute("aria-selected",on)});
-  document.getElementById("view-top").classList.toggle("hidden",v!=="top");
-  document.getElementById("view-sole").classList.toggle("hidden",v!=="sole");
-  document.getElementById("foot-hint").textContent = v==="top" ? "Stopa prawa, widok z góry" : "Stopa prawa, widok od podeszwy";
-  placePill();
+function updateToday(){var st=status(LOC[cur]);var td=$('.js-today'),dt=$('.js-dot');if(td)td.innerHTML=st.html;if(dt)dt.classList.toggle('open',!!st.open)}
+
+/* ---------------- location ---------------- */
+var cur=store('cm-loc')==='st'?'st':'gd';
+function setLoc(k,save){
+  cur=k;root.setAttribute('data-loc',k);if(save)store('cm-loc',k);
+  var L=LOC[k];
+  $$('.sw [role=radio]').forEach(function(b){b.setAttribute('aria-checked',b.getAttribute('data-loc')===k?'true':'false')});
+  $$('.js-book').forEach(function(a){a.href=L.booksy});
+  $$('.js-book-l').forEach(function(s){s.textContent='Umów '+L.inName});
+  $$('.js-tel').forEach(function(a){a.href='tel:'+L.tel});
+  $$('.js-tel-l').forEach(function(s){s.textContent=L.telH});
+  $$('.js-loc-name').forEach(function(s){s.textContent=L.name});
+  $$('.js-loc-full').forEach(function(s){s.textContent=L.full});
+  updateToday();
+  renderTeam();renderPrices();renderLocs();if(curPb)renderRes();
 }
-toggles.forEach(b=>b.addEventListener("click",()=>setView(b.dataset.view)));
-addEventListener("resize",placePill);
-(document.fonts ? document.fonts.ready : Promise.resolve()).then(placePill); placePill();
+$$('.sw [role=radio]').forEach(function(b){b.addEventListener('click',function(){setLoc(b.getAttribute('data-loc'),true)})});
+$('.js-toggle').addEventListener('click',function(){setLoc(cur==='gd'?'st':'gd',true)});
 
-const ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>';
+/* ---------------- team ---------------- */
+function renderTeam(){
+  var box=$('.js-team');if(!box)return;
+  box.innerHTML=nb(TEAM.map(function(m){
+    var vis=m.l.indexOf(cur)>=0;
+    return '<article class="mem"'+(vis?'':' hidden')+'><img src="'+m.img+'" alt="'+esc(m.n.replace(/<[^>]+>/g,''))+'" width="560" height="560" loading="lazy"><h3>'+m.n+'</h3><p class="rl">'+m.r+'</p>'+(m.q?'<p class="qq">'+m.q+'</p>':'')+'<div class="at">'+(m.t||[]).map(function(x){return '<span>'+x+'</span>'}).join('')+(m.l.length>1?'<span>Gdańsk i Straszyn</span>':'')+'</div></article>';
+  }).join(''));
+  fixImgs(box);
+}
 
-function select(id, fromUser){
-  const p = PROBLEMS.find(x=>x.id===id); if(!p) return;
-  if(p.view!==view) setView(p.view);
-  document.querySelectorAll(".hs").forEach(h=>h.classList.toggle("active",h.dataset.id===id));
-  document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("on",c.dataset.id===id));
-  const panel = document.getElementById("panel");
-  panel.innerHTML = `
-    <div class="panel-body">
-      <span class="p-area">${p.area}</span>
-      <h3 class="p-title">${p.title}</h3>
-      <p class="p-desc">${p.desc}</p>
-      <div class="p-sym"><b>Po czym poznasz</b>${p.sym}</div>
-      <p class="p-sub">Zabiegi i ceny</p>
-      <div class="p-list">
-        ${p.tx.map((t,i)=>`<div class="p-item"><span class="n">${i+1}</span><div><b>${SERVICES[t[0]].name}<em class="p-price">${SERVICES[t[0]].price}</em></b><span>${t[1]}</span></div></div>`).join("")}
-      </div>
-      ${p.note?`<p class="p-note">${ICON}<span>${p.note}</span></p>`:""}
-      <p class="p-note">${ICON}<span>Ostateczny plan leczenia podolog ustala na wizycie, po obejrzeniu stopy.</span></p>
-      <div class="p-ctas">
-        <a class="btn btn-primary" href="tel:+48695082381">Zadzwoń i umów zabieg</a>
-        <a class="btn btn-ghost" href="https://www.znanylekarz.pl/placowki/podologia-citimedic" target="_blank" rel="noopener">Termin online</a>
-      </div>
-    </div>`;
-  if(fromUser && innerWidth<=760){
-    setTimeout(()=>panel.scrollIntoView({behavior:reduce?"auto":"smooth",block:"start"}),250);
+/* ---------------- prices ---------------- */
+var curSub={cennik:'podologia',zespol:'ludzie'};
+function renderPrices(){
+  var box=$('.js-prices');if(!box)return;
+  var cats=PRICES[curSub.cennik]||[];
+  box.innerHTML=nb('<div class="pgrid">'+cats.map(function(c){
+    return '<div class="pcat"><h3>'+c.t+'</h3>'+c.items.map(function(it){
+      var only=it[5]?'<span class="only">tylko Gdańsk</span>':'';
+      var dim=(it[5]&&cur==='st')?' dim':'';
+      var head='<span class="nm">'+it[0]+only+'</span><span class="tm">'+it[2]+'</span><span class="pr">'+it[1]+'</span>';
+      var body=(it[3]?'<p>'+it[3]+'</p>':'')+(it[4]?'<ul>'+it[4].map(function(v){return '<li><span>'+v[0]+'</span><span>'+v[1]+'</span></li>'}).join('')+'</ul>':'');
+      return body?'<details class="prow'+dim+'"><summary>'+head+'</summary><div class="bd">'+body+'</div></details>':'<div class="prow'+dim+'"><div class="ph">'+head+'</div></div>';
+    }).join('')+'</div>';
+  }).join('')+'</div>');
+}
+
+/* ---------------- locations ---------------- */
+function hoursTable(L){
+  var t=nowPL(),today=t.getDay(),order=[1,2,3,4,5,6,0];
+  return '<table class="hrs"><tbody>'+order.map(function(i){var h=L.hours[i];return '<tr'+(i===today?' class="td"':'')+'><td>'+DAYS[i].charAt(0).toUpperCase()+DAYS[i].slice(1)+(i===today?' (dziś)':'')+'</td><td>'+(h?hh(h[0])+'–'+hh(h[1]):'zamknięte')+'</td></tr>'}).join('')+'</tbody></table>';
+}
+function renderLocs(){
+  var box=$('.js-locs');if(!box)return;
+  var keys=cur==='st'?['st','gd']:['gd','st'];
+  box.innerHTML=nb(keys.map(function(k){var L=LOC[k];var q=encodeURIComponent(L.q);
+    var map=window.__PREVIEW?'<div class="map"><div class="mph"><svg aria-hidden="true" style="width:30px;height:30px;color:var(--loc)"><use href="#i-pin"/></svg><p><b style="color:var(--ink)">'+esc(L.street)+'</b><br>'+esc(L.extra)+'</p><a class="lnk" href="https://www.google.com/maps/search/?api=1&query='+q+'" target="_blank" rel="noopener">Otwórz w Mapach Google <svg aria-hidden="true"><use href="#i-arr"/></svg></a></div></div>':'<div class="map"><p class="mph">Wczytuję mapę…</p><iframe title="Mapa: '+esc(L.full)+'" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q='+q+'&z=16&output=embed"></iframe></div>';
+    return '<article class="lcard l-'+k+(k===cur?' cur':'')+'"><h3>'+L.full+'</h3><p class="ad">'+L.street+'<span>'+L.extra+'</span></p><div class="feat">'+L.feats.map(function(f){return '<span><svg aria-hidden="true"><use href="#'+f[0]+'"/></svg>'+f[1]+'</span>'}).join('')+'<span>'+L.seats+' stanowisk'+(L.seats<5?'a':'')+'</span></div>'+hoursTable(L)+
+      '<div class="lacts"><a class="btn btn-loc full" href="'+L.booksy+'" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-cal"/></svg>Umów '+L.inName+'</a><a class="btn btn-line" href="tel:'+L.tel+'"><svg aria-hidden="true"><use href="#i-tel"/></svg>'+L.telH+'</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&destination='+q+'" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-route"/></svg>Trasa</a></div>'+map+'</article>';
+  }).join(''));
+}
+
+/* ---------------- reviews ---------------- */
+(function(){var box=$('.js-rev');if(!box)return;var st='<div class="stars" aria-label="5 na 5 gwiazdek">'+'<svg><use href="#i-star"/></svg>'.repeat(5)+'</div>';
+  box.innerHTML=nb(REV.map(function(r){return '<figure class="q" style="margin:0">'+st+'<p>„'+r[0]+'”</p><figcaption class="who"><b>'+r[1]+'</b> · '+r[2]+'</figcaption></figure>'}).join(''));})();
+
+/* ---------------- finder ---------------- */
+var curView='top',curPb='wrast',optSel={},cntSel={},comboSel={a:0,b:0};
+function viewOf(pb){var v=null;Object.keys(VIEWS).some(function(k){if(VIEWS[k].some(function(x){return x[1]===pb})){v=k;return true}return false});return v}
+function setView(v,keep){
+  curView=v;
+  $$('.views [role=tab]').forEach(function(b){b.setAttribute('aria-selected',b.getAttribute('data-view')===v?'true':'false')});
+  $$('.fig svg.ft').forEach(function(s){if(s.getAttribute('data-fig')===v)s.removeAttribute('hidden');else s.setAttribute('hidden','')});
+  if(!keep&&curPb!=='niewiem'&&!VIEWS[v].some(function(x){return x[1]===curPb}))curPb=VIEWS[v][0][1];
+  renderChips();renderRes();
+}
+function setPb(pb){curPb=pb;renderChips();renderRes()}
+function renderChips(){
+  $('.js-chips').innerHTML=VIEWS[curView].map(function(x){return '<button type="button" class="chip" data-pb="'+x[1]+'" aria-pressed="'+(x[1]===curPb)+'"><span class="cn">'+x[0]+'</span>'+CHIP[x[1]]+'</button>'}).join('')+'<button type="button" class="chip" data-pb="niewiem" aria-pressed="'+(curPb==='niewiem')+'"><span class="cn">?</span>'+CHIP.niewiem+'</button>';
+  $$('.fig .mk').forEach(function(m){var on=m.getAttribute('data-pb')===curPb&&!m.closest('svg').hasAttribute('hidden');m.classList.toggle('on',on);m.setAttribute('aria-pressed',on?'true':'false')});
+}
+function money(p){return p}
+function renderRes(){
+  var P=PB[curPb],L=LOC[cur],h='';
+  h+='<h3>'+P.n+(P.only?'<span class="only">tylko Gdańsk</span>':'')+'</h3><p class="sym">'+P.sym+'</p><p class="what">'+P.what+'</p>';
+  if(P.opt){var s=optSel[curPb]||0;var o=P.opt.o[s];
+    h+='<p class="opt-l">'+P.opt.l+'</p><div class="opts" role="group" aria-label="'+P.opt.l+'">'+P.opt.o.map(function(x,i){return '<button type="button" data-opt="'+i+'" aria-pressed="'+(i===s)+'">'+x[0]+'</button>'}).join('')+'</div>';
+    h+='<div class="tot"><b>'+o[1]+'</b><span>'+o[2]+'</span></div>';
   }
+  if(P.cnt){var c=P.cnt,n=cntSel[curPb]||1,price=c.base+c.each*(n-1),tm=c.t0+c.te*(n-1);
+    h+='<p class="opt-l">'+c.l+'</p><div class="opts" role="group" aria-label="'+c.l+'">';for(var i=1;i<=c.max;i++)h+='<button type="button" data-cnt="'+i+'" aria-pressed="'+(i===n)+'">'+(i===c.max?i+'+':i)+'</button>';h+='</div>';
+    h+='<div class="tot"><b>od '+price+' zł</b><span>około '+(tm>=60?Math.floor(tm/60)+' h '+(tm%60?tm%60+' min':''):tm+' min')+'</span></div><p class="more">Pierwszy odcisk od 100 zł, każdy kolejny od 30 zł.</p>';
+  }
+  if(P.combo){var A=P.combo.a,a=comboSel.a,b=Math.min(comboSel.b,A[a][1].length-1),r=A[a][1][b];
+    h+='<p class="opt-l">Rodzaj zabiegu</p><div class="opts" role="group" aria-label="Rodzaj zabiegu">'+A.map(function(x,i){return '<button type="button" data-ca="'+i+'" aria-pressed="'+(i===a)+'">'+x[0]+'</button>'}).join('')+'</div>';
+    h+='<p class="opt-l">Wykończenie paznokci</p><div class="opts" role="group" aria-label="Wykończenie paznokci">'+A[a][1].map(function(x,i){return '<button type="button" data-cb="'+i+'" aria-pressed="'+(i===b)+'">'+x[0]+'</button>'}).join('')+'</div>';
+    h+='<div class="tot"><b>'+r[1]+'</b><span>'+r[2]+'</span></div>';
+  }
+  if(P.list){h+='<ul class="plist">'+P.list.map(function(x){return '<li><span class="pn">'+x[0]+(x[3]?'<span class="only">tylko Gdańsk</span>':'')+'</span><span class="pt">'+x[2]+'</span><span class="pp">'+x[1]+'</span></li>'}).join('')+'</ul>'}
+  if(P.more)h+='<p class="more">'+P.more+'</p>';
+  if(P.who)h+='<p class="more">'+(cur==='gd'?'W Gdańsku':'W Straszynie')+' szczególnie zajmuje się tym: <b>'+P.who[cur]+'</b>.</p>';
+  if(P.prep)h+='<div class="prep"><b>Idziesz na badanie mykologiczne?</b>Na 2 tygodnie przed badaniem odstaw leki przeciwgrzybicze. Przez tydzień nie obcinaj paznokci i nie maluj ich. </div><a class="lnk" href="#wizyta" data-go="wizyta">Całe przygotowanie do badania <svg aria-hidden="true"><use href="#i-arr"/></svg></a>';
+  var both=!P.only;
+  h+='<div class="acts"><a class="btn btn-loc" href="'+(P.only?LOC.gd.booksy:L.booksy)+'" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-cal"/></svg>Umów '+(P.only?LOC.gd.inName:L.inName)+'</a>'+(both?'<a class="btn btn-line" href="'+LOC[cur==='gd'?'st':'gd'].booksy+'" target="_blank" rel="noopener">Umów '+LOC[cur==='gd'?'st':'gd'].inName+'</a>':'')+'</div>';
+  if(P.only&&cur==='st')h+='<p class="more">Tej usługi nie ma w Straszynie, zapraszamy do Gdańska.</p>';
+  var box=$('.js-res');box.innerHTML=nb(h);
+  box.style.animation='none';void box.offsetWidth;box.style.animation='pin .3s cubic-bezier(.2,.8,.2,1)';
 }
+$('.views').addEventListener('click',function(e){var b=e.target.closest('[data-view]');if(b)setView(b.getAttribute('data-view'))});
+$('.fig').addEventListener('click',function(e){var m=e.target.closest('[data-pb]');if(!m)return;setPb(m.getAttribute('data-pb'));
+  if(window.innerWidth<1000){var r=$('.js-res').getBoundingClientRect();if(r.top>window.innerHeight*.75)window.scrollTo({top:window.scrollY+r.top-110,behavior:'smooth'})}});
+$('.js-chips').addEventListener('click',function(e){var b=e.target.closest('[data-pb]');if(!b)return;setPb(b.getAttribute('data-pb'));
+  if(window.innerWidth<1000){var r=$('.js-res').getBoundingClientRect();if(r.top>window.innerHeight*.7)window.scrollTo({top:window.scrollY+r.top-90,behavior:'smooth'})}});
+$('.js-res').addEventListener('click',function(e){
+  var b=e.target.closest('[data-opt],[data-cnt],[data-ca],[data-cb]');if(!b)return;
+  if(b.hasAttribute('data-opt'))optSel[curPb]=+b.getAttribute('data-opt');
+  if(b.hasAttribute('data-cnt'))cntSel[curPb]=+b.getAttribute('data-cnt');
+  if(b.hasAttribute('data-ca')){comboSel.a=+b.getAttribute('data-ca');comboSel.b=0}
+  if(b.hasAttribute('data-cb'))comboSel.b=+b.getAttribute('data-cb');
+  renderRes();
+});
+/* keyboard + labels for markers */
+$$('.fig .mk').forEach(function(m){var pb=m.getAttribute('data-pb');m.setAttribute('aria-label',m.querySelector('text').textContent+'. '+CHIP[pb]);
+  m.addEventListener('keydown',function(ev){if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();setPb(pb)}})});
 
-
-/* reveal + counters */
-if("IntersectionObserver" in window){
-  const io = new IntersectionObserver(es=>es.forEach(e=>{
-    if(!e.isIntersecting) return;
-    e.target.classList.add("in");
-    io.unobserve(e.target);
-  }),{threshold:.15});
-  document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
-} else {
-  document.querySelectorAll(".reveal").forEach(el=>{el.classList.add("in")});
+/* ---------------- router ---------------- */
+var TABS=['start','dolegliwosci','cennik','wizyta','zespol','opinie','kontakt'];
+var TITLES={start:'Podolog CitiMedic · podolog Gdańsk i Straszyn',dolegliwosci:'Gdzie boli? · Podolog CitiMedic',cennik:'Cennik · Podolog CitiMedic',wizyta:'Pierwsza wizyta · Podolog CitiMedic',zespol:'Zespół · Podolog CitiMedic',opinie:'Opinie · Podolog CitiMedic',kontakt:'Kontakt · Podolog CitiMedic'};
+var SUBS={cennik:['podologia','paznokcie','podeszwa','dlonie','refleksologia'],zespol:['ludzie','gabinet']};
+var curTab=null;
+try{history.scrollRestoration='manual'}catch(e){}
+function parse(){var h=(location.hash||'').replace(/^#/,'').split('/');var t=TABS.indexOf(h[0])>=0?h[0]:'start';return {t:t,s:h[1]||''}}
+function show(t,s,push){
+  if(SUBS[t]){if(SUBS[t].indexOf(s)<0)s=curSub[t]||SUBS[t][0];curSub[t]=s}
+  if(t==='dolegliwosci'&&s&&PB[s]){var vv=viewOf(s);curPb=s;setView(vv||curView,true)}
+  var changed=t!==curTab;curTab=t;
+  $$('.panel').forEach(function(p){p.classList.toggle('on',p.getAttribute('data-panel')===t)});
+  $$('[data-tab]').forEach(function(b){if(b.closest('.tabs')||b.closest('.menu-list')){if(b.getAttribute('data-tab')===t)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')}});
+  if(SUBS[t]){var pn=$('#p-'+t);$$('.subnav [data-sub]',pn).forEach(function(b){b.setAttribute('aria-selected',b.getAttribute('data-sub')===s?'true':'false')});$$('.sub',pn).forEach(function(x){x.classList.toggle('on',x.getAttribute('data-subpanel')===s)});if(t==='cennik')renderPrices()}
+  d.title=TITLES[t];
+  var hash='#'+t+(s&&(SUBS[t]||t==='dolegliwosci')?'/'+s:'');
+  if(push&&location.hash!==hash){try{history.pushState(null,'',hash)}catch(e){}}
+  moveInd();
+  if(changed||push){window.scrollTo(0,0);var tr=$('.trail');tr.classList.remove('go');void tr.offsetWidth;tr.classList.add('go')}
 }
+function go(t,s){closeMenu(true);show(t,s,true)}
+d.addEventListener('click',function(e){
+  var a=e.target.closest('[data-tab],[data-go]');
+  if(a&&!a.closest('.fig')){e.preventDefault();go(a.getAttribute('data-tab')||a.getAttribute('data-go'));return}
+  var sb=e.target.closest('.subnav [data-sub]');
+  if(sb){var t=sb.closest('.panel').getAttribute('data-panel');show(t,sb.getAttribute('data-sub'),true)}
+});
+window.addEventListener('popstate',function(){var r=parse();show(r.t,r.s,false)});
+window.addEventListener('hashchange',function(){var r=parse();show(r.t,r.s,false)});
+function moveInd(){var ind=$('.tab-ind'),a=$('.tabs [aria-current="page"]');if(!ind||!a||!a.offsetWidth)return;ind.style.width=a.offsetWidth-22+'px';ind.style.transform='translateX('+(a.offsetLeft+11)+'px)'}
+window.addEventListener('resize',function(){moveInd();if(window.innerWidth>=1180)closeMenu(false)});
 
-/* header */
-const header = document.querySelector("header");
-addEventListener("scroll",()=>{
-  header.classList.toggle("scrolled",scrollY>10);
-},{passive:true});
+/* ---------------- mobile menu ---------------- */
+var burger=$('.burger'),menu=$('#menu'),dim=$('.menu-dim'),scrollY0=0,isOpen=false;
+function openMenu(){if(isOpen)return;isOpen=true;scrollY0=window.scrollY;menu.classList.add('open');dim.classList.add('open');burger.setAttribute('aria-expanded','true');burger.setAttribute('aria-label','Zamknij menu');
+  d.body.style.position='fixed';d.body.style.top=-scrollY0+'px';d.body.style.left='0';d.body.style.right='0';
+  setTimeout(function(){var a=$('.menu-list [aria-current="page"]')||$('.menu-list button');if(a)a.focus({preventScroll:true})},60)}
+function closeMenu(skipRestore){if(!isOpen)return;isOpen=false;menu.classList.remove('open');dim.classList.remove('open');burger.setAttribute('aria-expanded','false');burger.setAttribute('aria-label','Otwórz menu');
+  d.body.style.position='';d.body.style.top='';d.body.style.left='';d.body.style.right='';if(!skipRestore)window.scrollTo(0,scrollY0);burger.focus({preventScroll:true})}
+burger.addEventListener('click',function(){isOpen?closeMenu():openMenu()});
+dim.addEventListener('click',function(){closeMenu()});
+d.addEventListener('keydown',function(e){
+  if(!isOpen)return;
+  if(e.key==='Escape'){closeMenu();return}
+  if(e.key==='Tab'){var f=[burger].concat($$('button,a',menu));var i=f.indexOf(d.activeElement);
+    if(e.shiftKey&&(i<=0)){e.preventDefault();f[f.length-1].focus()}else if(!e.shiftKey&&i===f.length-1){e.preventDefault();f[0].focus()}}
+});
+
+/* images: hide broken */
+function fixImgs(c){$$('img',c).forEach(function(i){i.addEventListener('error',function(){i.style.visibility='hidden'})})}
+
+/* ---------------- init ---------------- */
+setView('top');
+setLoc(cur,false);
+var r0=parse();show(r0.t,r0.s,false);
+setInterval(updateToday,60000);
+if(d.fonts&&d.fonts.ready)d.fonts.ready.then(moveInd);
+})();
 </script>
 </body>
 </html>
