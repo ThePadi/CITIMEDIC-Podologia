@@ -7,7 +7,7 @@ Podgląd: **https://thepadi.github.io/CITIMEDIC-Podologia/**
 ## Co jest na stronie
 
 - Przełącznik gabinetu Gdańsk / Straszyn. Telefon, adres, godziny i link do rezerwacji zmieniają się na całej stronie.
-- Rysunek stopy z góry, podeszwy i dłoni z numerami. Kliknięcie numeru albo pozycji z listy pokazuje opis problemu i pasujące zabiegi z cenami.
+- Rysunek stopy z góry i podeszwy z numerami. Kliknięcie numeru albo pozycji z listy pokazuje opis problemu i pasujące zabiegi z cenami.
 - Cennik według kategorii, zespół, gabinet i sterylizacja, opinie, pytania i odpowiedzi, kontakt z mapą.
 - Na telefonie dolny pasek „Zadzwoń” i „Umów”.
 
